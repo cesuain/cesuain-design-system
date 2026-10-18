@@ -2,13 +2,13 @@
 
 # Command
 
-Searchable command menu built on cmdk (role=combobox + listbox). CommandDialog opens it in a Dialog, as in the site's search; groups, separators, shortcuts and an empty state are included.
+Searchable command menu built on cmdk (role=combobox + listbox). CommandDialog opens it in a Dialog as a ⌘K palette; groups, separators, shortcuts and an empty state are included.
 
-|           |                                                                                                                                      |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Data Display/Command` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-command--docs)) |
-| Figma     | [Command component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-1007) (node `25:1007`)                        |
-| Source    | [`packages/ui/src/components/command`](./)                                                                                           |
+|           |                                                                                                                           |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Command`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-command--docs) |
+| Figma     | [Command component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-1007) (node `25:1007`)             |
+| Source    | [`packages/ui/src/components/command`](./)                                                                                |
 
 ## Import
 

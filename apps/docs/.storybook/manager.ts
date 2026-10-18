@@ -5,7 +5,8 @@ addons.setConfig({
   theme: create({
     base: "dark",
     brandTitle: "Cesuain Design System",
-    brandUrl: "https://github.com/cesuain",
+    brandUrl: "https://github.com/cesuain/cesuain-design-system",
+    brandTarget: "_blank",
     colorPrimary: "#38bdf8",
     colorSecondary: "#38bdf8",
     appBg: "#08080a",

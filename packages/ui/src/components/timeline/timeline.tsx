@@ -3,7 +3,7 @@ import type { ComponentProps, ReactNode } from "react";
 import { cn } from "../../lib/utils.js";
 
 /**
- * A vertical timeline, as in the site's experience section. Renders an ordered list along a
+ * A vertical timeline for career or project history. Renders an ordered list along a
  * gradient rail. On large screens the period and index sit in a column left of the rail.
  */
 export function Timeline({ className, children, ...props }: ComponentProps<"ol">) {

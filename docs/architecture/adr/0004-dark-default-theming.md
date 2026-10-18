@@ -5,7 +5,7 @@
 
 ## Context
 
-The source website is dark-first. Products also need a light theme, sometimes for one region of a page (a light card inside dark docs, for example).
+The visual language is dark-first. Products also need a light theme, sometimes for one region of a page (a light card inside dark docs, for example).
 
 ## Decision
 

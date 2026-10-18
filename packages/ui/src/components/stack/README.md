@@ -4,11 +4,11 @@
 
 Flex layout with token-based gaps (space.stack.xs → xl). direction column | row | responsive (column, then row from sm); align and justify map to flex alignment.
 
-|           |                                                                                                                      |
-| --------- | -------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Layout/Stack` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-layout-stack--docs)) |
-| Figma     | [Stack component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-616) (node `26:616`)            |
-| Source    | [`packages/ui/src/components/stack`](./)                                                                             |
+|           |                                                                                                           |
+| --------- | --------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Layout/Stack`](https://storybook.cesarfonseca.dev/?path=/docs/components-layout-stack--docs) |
+| Figma     | [Stack component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-616) (node `26:616`) |
+| Source    | [`packages/ui/src/components/stack`](./)                                                                  |
 
 ## Import
 

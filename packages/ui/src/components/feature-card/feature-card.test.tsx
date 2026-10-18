@@ -19,4 +19,10 @@ describe("FeatureCard", () => {
     expect(screen.getByRole("heading", { level: 3, name: "Performance" })).toBeInTheDocument();
     await expectNoA11yViolations();
   });
+
+  it("steps up the title for the lg size", () => {
+    render(<FeatureCard icon={<Zap />} title="Systems" description="Shared." featured size="lg" />);
+    expect(screen.getByRole("heading", { name: "Systems" })).toHaveClass("text-display-lg");
+    expect(screen.getByRole("article")).toHaveAttribute("data-size", "lg");
+  });
 });

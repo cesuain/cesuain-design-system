@@ -4,11 +4,11 @@
 
 Indeterminate loading indicator (Lucide LoaderCircle) with role=status and a default label “Loading”. Pass label={null} when a parent already announces progress.
 
-|           |                                                                                                                              |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Feedback/Spinner` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-feedback-spinner--docs)) |
-| Figma     | [Spinner component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-560) (node `20:560`)                  |
-| Source    | [`packages/ui/src/components/spinner`](./)                                                                                   |
+|           |                                                                                                                   |
+| --------- | ----------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Feedback/Spinner`](https://storybook.cesarfonseca.dev/?path=/docs/components-feedback-spinner--docs) |
+| Figma     | [Spinner component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-560) (node `20:560`)       |
+| Source    | [`packages/ui/src/components/spinner`](./)                                                                        |
 
 ## Import
 

@@ -18,7 +18,7 @@ export const avatarVariants = cva(
       },
       ring: {
         none: "",
-        /** Brand gradient ring from the site header. */
+        /** Brand gradient ring around the image. */
         brand:
           "bg-brand-gradient p-[1.5px] transition-shadow duration-(--cds-duration-moderate) *:rounded-full hover:shadow-glow-brand",
       },

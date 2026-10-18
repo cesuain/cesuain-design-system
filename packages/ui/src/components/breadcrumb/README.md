@@ -4,11 +4,11 @@
 
 Shows the location in a hierarchy (nav aria-label=breadcrumb). The current page is BreadcrumbPage with aria-current=page; long trails collapse into an ellipsis menu.
 
-|           |                                                                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Navigation/Breadcrumb` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-breadcrumb--docs)) |
-| Figma     | [Breadcrumb component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-390) (node `18:390`)                         |
-| Source    | [`packages/ui/src/components/breadcrumb`](./)                                                                                          |
+|           |                                                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Breadcrumb`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-breadcrumb--docs) |
+| Figma     | [Breadcrumb component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-390) (node `18:390`)              |
+| Source    | [`packages/ui/src/components/breadcrumb`](./)                                                                               |
 
 ## Import
 

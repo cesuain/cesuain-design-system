@@ -4,11 +4,11 @@
 
 Multi-line text field. Grows with content (field-sizing: content) up to its max height.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Textarea` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-textarea--docs)) |
-| Figma     | [Textarea component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-229) (node `15:229`)             |
-| Source    | [`packages/ui/src/components/textarea`](./)                                                                              |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Textarea`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-textarea--docs) |
+| Figma     | [Textarea component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-229) (node `15:229`)  |
+| Source    | [`packages/ui/src/components/textarea`](./)                                                                   |
 
 ## Import
 

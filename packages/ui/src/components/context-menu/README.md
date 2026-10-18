@@ -4,11 +4,11 @@
 
 Menu opened by right-click or long-press on an area (and Shift+F10 from the keyboard). Same item anatomy as Dropdown Menu.
 
-|           |                                                                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Overlays/Context Menu` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-context-menu--docs)) |
-| Figma     | [Context Menu component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-818) (node `23:818`)                       |
-| Source    | [`packages/ui/src/components/context-menu`](./)                                                                                        |
+|           |                                                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Context Menu`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-context-menu--docs) |
+| Figma     | [Context Menu component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-818) (node `23:818`)            |
+| Source    | [`packages/ui/src/components/context-menu`](./)                                                                             |
 
 ## Import
 

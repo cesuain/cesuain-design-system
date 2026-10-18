@@ -2,7 +2,7 @@
 
 Accessible React components for the [Cesuain Design System](https://github.com/cesuain/cesuain-design-system): 64 components built on shadcn/ui conventions, Radix UI and Tailwind CSS v4, styled only through [`@cesuain/tokens`](https://www.npmjs.com/package/@cesuain/tokens).
 
-> 0.x: the API may still change between minor versions. See the [changelog](https://github.com/cesuain/cesuain-design-system/blob/main/CHANGELOG.md).
+> Stable since 1.0.0 and covered by SemVer. In production on [cesarfonseca.dev](https://cesarfonseca.dev). See the [changelog](https://github.com/cesuain/cesuain-design-system/blob/main/CHANGELOG.md).
 
 ## Install
 
@@ -35,6 +35,7 @@ Dark is the default theme. Set `data-theme="light"` (or the `light` class) on `<
 
 ## Links
 
+- [Storybook](https://storybook.cesarfonseca.dev)
 - [Documentation and component catalog](https://github.com/cesuain/cesuain-design-system#readme)
 - [Figma library](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb)
 - [Accessibility notes](https://github.com/cesuain/cesuain-design-system/blob/main/docs/accessibility/README.md)

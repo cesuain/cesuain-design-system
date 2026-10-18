@@ -4,11 +4,11 @@
 
 A compact group of navigation links where exactly one is current (aria-current=page), e.g. the language switcher. For in-page state use Toggle Group or Tabs.
 
-|           |                                                                                                                                                      |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Navigation/Segmented Control` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-segmented-control--docs)) |
-| Figma     | [Segmented Control component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-341) (node `18:341`)                                |
-| Source    | [`packages/ui/src/components/segmented-control`](./)                                                                                                 |
+|           |                                                                                                                                           |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Segmented Control`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-segmented-control--docs) |
+| Figma     | [Segmented Control component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-341) (node `18:341`)                     |
+| Source    | [`packages/ui/src/components/segmented-control`](./)                                                                                      |
 
 ## Import
 

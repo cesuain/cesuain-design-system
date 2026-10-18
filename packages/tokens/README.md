@@ -2,7 +2,7 @@
 
 Design tokens for the [Cesuain Design System](https://github.com/cesuain/cesuain-design-system): 300 tokens in the W3C DTCG format (primitive, semantic and component layers) with dark and light themes, plus generated CSS variables, a Tailwind CSS v4 theme, TypeScript values and JSON.
 
-> 0.x: token names may still change between minor versions. See the [changelog](https://github.com/cesuain/cesuain-design-system/blob/main/CHANGELOG.md).
+> Stable since 1.0.0: token names and semantics change only in a major release. See the [changelog](https://github.com/cesuain/cesuain-design-system/blob/main/CHANGELOG.md).
 
 ## Install
 

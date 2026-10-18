@@ -1,6 +1,6 @@
 {
   "name": "cesuain-design-system",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Cesuain Design System — tokens, React components built on shadcn/ui, Storybook docs and a Figma library.",
   "type": "module",

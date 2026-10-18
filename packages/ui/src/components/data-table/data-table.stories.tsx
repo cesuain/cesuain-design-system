@@ -24,21 +24,21 @@ type Project = {
   id: string;
   name: string;
   client: string;
-  status: "Live" | "In progress" | "Archived";
+  status: "Live" | "In review" | "Archived";
   year: number;
 };
 
 const projects: Project[] = [
   { id: "1", name: "Storefront rebuild", client: "Retail A", status: "Live", year: 2025 },
-  { id: "2", name: "Design system", client: "Internal", status: "In progress", year: 2026 },
+  { id: "2", name: "Design system", client: "Internal", status: "In review", year: 2026 },
   { id: "3", name: "Checkout extension", client: "Retail B", status: "Live", year: 2024 },
   { id: "4", name: "Loyalty portal", client: "Retail C", status: "Archived", year: 2023 },
   { id: "5", name: "Marketing site", client: "Studio D", status: "Live", year: 2025 },
-  { id: "6", name: "Analytics dashboard", client: "Retail A", status: "In progress", year: 2026 },
+  { id: "6", name: "Analytics dashboard", client: "Retail A", status: "In review", year: 2026 },
   { id: "7", name: "Headless CMS", client: "Studio D", status: "Archived", year: 2022 },
 ];
 
-const statusVariant = { Live: "success", "In progress": "brand", Archived: "default" } as const;
+const statusVariant = { Live: "success", "In review": "brand", Archived: "default" } as const;
 
 const helper = createDataTableColumnHelper<Project>();
 const columns: DataTableColumnDef<Project>[] = [

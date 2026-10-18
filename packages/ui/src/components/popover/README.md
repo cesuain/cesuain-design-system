@@ -4,11 +4,11 @@
 
 Non-modal floating panel anchored to a trigger. Focus moves into it on open; Escape or an outside click closes it and focus returns to the trigger.
 
-|           |                                                                                                                              |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Overlays/Popover` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-popover--docs)) |
-| Figma     | [Popover component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-624) (node `23:624`)                  |
-| Source    | [`packages/ui/src/components/popover`](./)                                                                                   |
+|           |                                                                                                                   |
+| --------- | ----------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Popover`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-popover--docs) |
+| Figma     | [Popover component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-624) (node `23:624`)       |
+| Source    | [`packages/ui/src/components/popover`](./)                                                                        |
 
 ## Import
 

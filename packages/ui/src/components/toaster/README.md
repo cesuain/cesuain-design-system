@@ -4,11 +4,11 @@
 
 Transient notification rendered by Toaster (Sonner) and triggered with toast(). Announced through a polite live region; actions must also be reachable elsewhere.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Feedback/Toast` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-feedback-toast--docs)) |
-| Figma     | [Toast component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-516) (node `20:516`)                |
-| Source    | [`packages/ui/src/components/toaster`](./)                                                                               |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Feedback/Toast`](https://storybook.cesarfonseca.dev/?path=/docs/components-feedback-toast--docs) |
+| Figma     | [Toast component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-516) (node `20:516`)     |
+| Source    | [`packages/ui/src/components/toaster`](./)                                                                    |
 
 ## Import
 

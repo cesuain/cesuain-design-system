@@ -4,11 +4,11 @@
 
 Centers content with a max width and responsive side gutters (space.gutter.sm → lg). Sizes sm | md | lg | xl | full.
 
-|           |                                                                                                                              |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Layout/Container` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-layout-container--docs)) |
-| Figma     | [Container component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-599) (node `26:599`)                |
-| Source    | [`packages/ui/src/components/container`](./)                                                                                 |
+|           |                                                                                                                   |
+| --------- | ----------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Layout/Container`](https://storybook.cesarfonseca.dev/?path=/docs/components-layout-container--docs) |
+| Figma     | [Container component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-599) (node `26:599`)     |
+| Source    | [`packages/ui/src/components/container`](./)                                                                      |
 
 ## Import
 

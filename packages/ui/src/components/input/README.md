@@ -4,11 +4,11 @@
 
 Single-line text field. inputSize sm | md | lg maps to the control height tokens. Invalid = aria-invalid.
 
-|           |                                                                                                                    |
-| --------- | ------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Input` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-input--docs)) |
-| Figma     | [Input component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-216) (node `15:216`)          |
-| Source    | [`packages/ui/src/components/input`](./)                                                                           |
+|           |                                                                                                           |
+| --------- | --------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Input`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-input--docs)   |
+| Figma     | [Input component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-216) (node `15:216`) |
+| Source    | [`packages/ui/src/components/input`](./)                                                                  |
 
 ## Import
 

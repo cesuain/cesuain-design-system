@@ -4,11 +4,11 @@
 
 Page section with vertical rhythm from the section tokens (sm → lg, growing at larger breakpoints) and scroll-margin for anchored headings.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Layout/Section` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-layout-section--docs)) |
-| Figma     | [Section component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-656) (node `26:656`)              |
-| Source    | [`packages/ui/src/components/section`](./)                                                                               |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Layout/Section`](https://storybook.cesarfonseca.dev/?path=/docs/components-layout-section--docs) |
+| Figma     | [Section component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-656) (node `26:656`)   |
+| Source    | [`packages/ui/src/components/section`](./)                                                                    |
 
 ## Import
 

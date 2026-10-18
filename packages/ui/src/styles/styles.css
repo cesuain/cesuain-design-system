@@ -17,5 +17,9 @@
 @import "./base.css";
 @import "./utilities.css";
 
-/* Let Tailwind see the class names used by the components themselves. */
+/*
+ * Let Tailwind see the class names used by the components themselves, including the shared
+ * recipes in lib/ (overlay scrim, menus, fields) that several components compose.
+ */
 @source "../components";
+@source "../lib";

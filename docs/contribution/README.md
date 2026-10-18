@@ -47,11 +47,11 @@ Components are owned source, not a dependency, so upgrades are deliberate diffs:
 
 ## Releases
 
-Versioning follows SemVer for `@cesuain/tokens` and `@cesuain/ui`, released together with the same version while the system is pre-1.0:
+Versioning follows SemVer for `@cesuain/tokens` and `@cesuain/ui`, released together with the same version:
 
 - **patch**: fixes with no API or visual-intent change;
-- **minor**: new components, variants or tokens. During 0.x a minor may also contain breaking changes, which must be called out in the changelog;
-- **major** (from 1.0): removed or renamed exports, props or tokens, or changed token semantics.
+- **minor**: new components, variants, props or tokens;
+- **major**: removed or renamed exports, props or tokens, or changed token semantics.
 
 Steps:
 
@@ -60,5 +60,5 @@ Steps:
 3. Update the version on the Figma cover.
 4. Run `pnpm run ci`.
 5. Tag `vX.Y.Z`.
-
-Packages are not published to npm yet; publishing would add an `npm publish --access public` step from CI.
+6. Publish both packages: `pnpm --filter @cesuain/tokens --filter @cesuain/ui publish --access public`.
+7. Update the `@cesuain/ui` version in cesarfonseca.dev and check that the site builds.

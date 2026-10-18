@@ -4,11 +4,11 @@
 
 Loading placeholder, hidden from assistive technology (aria-hidden). Announce loading once on the container with aria-busy and a status message. Pulse is disabled under reduced motion.
 
-|           |                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Feedback/Skeleton` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-feedback-skeleton--docs)) |
-| Figma     | [Skeleton component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-549) (node `20:549`)                   |
-| Source    | [`packages/ui/src/components/skeleton`](./)                                                                                    |
+|           |                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Feedback/Skeleton`](https://storybook.cesarfonseca.dev/?path=/docs/components-feedback-skeleton--docs) |
+| Figma     | [Skeleton component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-549) (node `20:549`)        |
+| Source    | [`packages/ui/src/components/skeleton`](./)                                                                         |
 
 ## Import
 

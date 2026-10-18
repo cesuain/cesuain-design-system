@@ -4,11 +4,11 @@
 
 Joins related buttons into one control. Outer corners stay rounded; inner borders collapse. Mixed inputs and nested groups are supported in code.
 
-|           |                                                                                                                                      |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Actions/Button Group` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-actions-button-group--docs)) |
-| Figma     | [Button Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-465) (node `14:465`)                     |
-| Source    | [`packages/ui/src/components/button-group`](./)                                                                                      |
+|           |                                                                                                                           |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Actions/Button Group`](https://storybook.cesarfonseca.dev/?path=/docs/components-actions-button-group--docs) |
+| Figma     | [Button Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-465) (node `14:465`)          |
+| Source    | [`packages/ui/src/components/button-group`](./)                                                                           |
 
 ## Import
 

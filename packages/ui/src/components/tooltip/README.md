@@ -4,11 +4,11 @@
 
 Short supplementary label shown on hover and keyboard focus (role=tooltip). Never put essential or interactive content in a tooltip; the trigger must have its own accessible name.
 
-|           |                                                                                                                              |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Overlays/Tooltip` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-tooltip--docs)) |
-| Figma     | [Tooltip component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-635) (node `23:635`)                  |
-| Source    | [`packages/ui/src/components/tooltip`](./)                                                                                   |
+|           |                                                                                                                   |
+| --------- | ----------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Tooltip`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-tooltip--docs) |
+| Figma     | [Tooltip component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-635) (node `23:635`)       |
+| Source    | [`packages/ui/src/components/tooltip`](./)                                                                        |
 
 ## Import
 

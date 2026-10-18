@@ -4,11 +4,11 @@
 
 A field with inline add-ons: icons, prefixes and suffixes, buttons or keyboard hints. Clicking an add-on focuses the input.
 
-|           |                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Input Group` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-input-group--docs)) |
-| Figma     | [Input Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-251) (node `15:251`)                |
-| Source    | [`packages/ui/src/components/input-group`](./)                                                                                 |
+|           |                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Input Group`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-input-group--docs) |
+| Figma     | [Input Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-251) (node `15:251`)     |
+| Source    | [`packages/ui/src/components/input-group`](./)                                                                      |
 
 ## Import
 

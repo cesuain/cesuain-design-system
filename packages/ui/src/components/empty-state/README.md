@@ -4,11 +4,11 @@
 
 Explains why an area is empty and what to do next. Media is decorative (aria-hidden); the title and description carry the message.
 
-|           |                                                                                                                                      |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Feedback/Empty State` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-feedback-empty-state--docs)) |
-| Figma     | [Empty State component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-593) (node `20:593`)                      |
-| Source    | [`packages/ui/src/components/empty-state`](./)                                                                                       |
+|           |                                                                                                                           |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Feedback/Empty State`](https://storybook.cesarfonseca.dev/?path=/docs/components-feedback-empty-state--docs) |
+| Figma     | [Empty State component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-593) (node `20:593`)           |
+| Source    | [`packages/ui/src/components/empty-state`](./)                                                                            |
 
 ## Import
 

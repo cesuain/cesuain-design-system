@@ -12,7 +12,7 @@ export const containerVariants = cva(
         sm: "max-w-(--cds-size-container-sm)",
         md: "max-w-(--cds-size-container-md)",
         lg: "max-w-(--cds-size-container-lg)",
-        /** The site's page width (80rem). */
+        /** Page width (80rem). */
         xl: "max-w-(--cds-size-container-xl)",
         full: "max-w-none",
       },

@@ -4,11 +4,11 @@
 
 A 1px divider in border/default. Decorative by default (role=none); set decorative={false} when it separates meaningful groups.
 
-|           |                                                                                                                                          |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Separator` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-separator--docs)) |
-| Figma     | [Separator component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-640) (node `24:640`)                            |
-| Source    | [`packages/ui/src/components/separator`](./)                                                                                             |
+|           |                                                                                                                               |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Separator`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-separator--docs) |
+| Figma     | [Separator component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-640) (node `24:640`)                 |
+| Source    | [`packages/ui/src/components/separator`](./)                                                                                  |
 
 ## Import
 

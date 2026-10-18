@@ -4,11 +4,11 @@
 
 Semantic HTML table primitives in a horizontally scrollable wrapper. Headers use the eyebrow style; rows tint on hover and when selected (data-state=selected).
 
-|           |                                                                                                                                  |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Table` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-table--docs)) |
-| Figma     | [Table component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-649) (node `25:649`)                        |
-| Source    | [`packages/ui/src/components/table`](./)                                                                                         |
+|           |                                                                                                                       |
+| --------- | --------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Table`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-table--docs) |
+| Figma     | [Table component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-649) (node `25:649`)             |
+| Source    | [`packages/ui/src/components/table`](./)                                                                              |
 
 ## Import
 

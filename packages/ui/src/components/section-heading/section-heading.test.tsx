@@ -28,4 +28,12 @@ describe("SectionHeading", () => {
       "center",
     );
   });
+
+  it("scales the title with the size prop", () => {
+    render(<SectionHeading title="Work" size="2xl" />);
+    const heading = screen.getByRole("heading", { level: 2 });
+    expect(heading).toHaveClass("text-display-2xl", "text-foreground");
+    expect(heading).not.toHaveClass("text-display-lg");
+    expect(heading.parentElement).toHaveAttribute("data-size", "2xl");
+  });
 });

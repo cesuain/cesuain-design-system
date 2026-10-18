@@ -4,11 +4,11 @@
 
 Triggers an action. Use one high-emphasis button (Default, Glow or Gradient) per view; Link for inline navigation. Loading keeps the label and disables interaction.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Actions/Button` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-actions-button--docs)) |
-| Figma     | [Button component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-236) (node `14:236`)               |
-| Source    | [`packages/ui/src/components/button`](./)                                                                                |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Actions/Button`](https://storybook.cesarfonseca.dev/?path=/docs/components-actions-button--docs) |
+| Figma     | [Button component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-236) (node `14:236`)    |
+| Source    | [`packages/ui/src/components/button`](./)                                                                     |
 
 ## Import
 

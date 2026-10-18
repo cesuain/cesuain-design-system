@@ -4,11 +4,11 @@
 
 TanStack Table on top of Table: sorting, filtering, row selection, column visibility and pagination. Sort buttons announce their state; the select-all checkbox has an accessible name.
 
-|           |                                                                                                                                            |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Data Display/Data Table` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-data-table--docs)) |
-| Figma     | [Data Table component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-762) (node `25:762`)                             |
-| Source    | [`packages/ui/src/components/data-table`](./)                                                                                              |
+|           |                                                                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Data Table`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-data-table--docs) |
+| Figma     | [Data Table component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-762) (node `25:762`)                  |
+| Source    | [`packages/ui/src/components/data-table`](./)                                                                                   |
 
 ## Import
 

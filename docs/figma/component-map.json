@@ -179,7 +179,7 @@
       "storybook": "Components/Data Display/Card",
       "figmaNodeId": "24:572",
       "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-572",
-      "summary": "Container for a unit of content. surface is the site default (layered gradient), glass for content over imagery, solid for dense UIs, gradient border for featured items. interactive adds hover lift.",
+      "summary": "Container for a unit of content. surface is the default (layered gradient), glass for content over imagery, solid for dense UIs, gradient border for featured items. interactive adds hover lift.",
       "figmaProperties": ["Variant: Surface | Glass | Solid | Gradient"]
     },
     "checkbox": {
@@ -214,7 +214,7 @@
       "storybook": "Components/Data Display/Command",
       "figmaNodeId": "25:1007",
       "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-1007",
-      "summary": "Searchable command menu built on cmdk (role=combobox + listbox). CommandDialog opens it in a Dialog, as in the site's search; groups, separators, shortcuts and an empty state are included.",
+      "summary": "Searchable command menu built on cmdk (role=combobox + listbox). CommandDialog opens it in a Dialog as a ⌘K palette; groups, separators, shortcuts and an empty state are included.",
       "figmaProperties": ["Type: Palette"]
     },
     "container": {
@@ -462,7 +462,7 @@
       "storybook": "Patterns/Section Heading",
       "figmaNodeId": "27:614",
       "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-614",
-      "summary": "Eyebrow, display heading (h2 by default, configurable level) with optional gradient highlight, and a lead paragraph. Used at the top of every site section.",
+      "summary": "Eyebrow, display heading (h2 by default, configurable level) with optional gradient highlight, and a lead paragraph. Sizes lg, xl and 2xl map to the display text styles.",
       "figmaProperties": ["Align: Start | Center"]
     },
     "segmented-control": {

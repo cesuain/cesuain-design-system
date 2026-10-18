@@ -4,11 +4,11 @@
 
 Switch between related panels (role=tablist). Pill for navigation-like tabs, Line for dense, document-like layouts. Arrow keys move between tabs.
 
-|           |                                                                                                                            |
-| --------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Navigation/Tabs` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-tabs--docs)) |
-| Figma     | [Tabs component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-322) (node `18:322`)                   |
-| Source    | [`packages/ui/src/components/tabs`](./)                                                                                    |
+|           |                                                                                                                 |
+| --------- | --------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Tabs`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-tabs--docs) |
+| Figma     | [Tabs component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-322) (node `18:322`)        |
+| Source    | [`packages/ui/src/components/tabs`](./)                                                                         |
 
 ## Import
 

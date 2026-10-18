@@ -4,11 +4,11 @@
 
 Modal window (role=dialog) over a blurred scrim. Focus is trapped and returns to the trigger; Escape and the close button dismiss. Sizes map to the overlay width tokens.
 
-|           |                                                                                                                            |
-| --------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Overlays/Dialog` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-dialog--docs)) |
-| Figma     | [Dialog component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-491) (node `23:491`)                 |
-| Source    | [`packages/ui/src/components/dialog`](./)                                                                                  |
+|           |                                                                                                                 |
+| --------- | --------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Dialog`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-dialog--docs) |
+| Figma     | [Dialog component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-491) (node `23:491`)      |
+| Source    | [`packages/ui/src/components/dialog`](./)                                                                       |
 
 ## Import
 

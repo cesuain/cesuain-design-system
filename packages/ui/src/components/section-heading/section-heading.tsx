@@ -10,19 +10,28 @@ export type SectionHeadingProps = Omit<ComponentProps<"header">, "title"> & {
   highlight?: ReactNode;
   description?: ReactNode;
   align?: "left" | "center";
+  /** Title size: a `text-display-*` style. `2xl` is the large, page-level section title. */
+  size?: "lg" | "xl" | "2xl";
   /** Id of the `<h2>`. Pair with `Section`'s `labelledBy` (or `id`) to name the section landmark. */
   titleId?: string;
   /** Heading level. Defaults to `h2`, since `PageHeader` owns the page's `h1`. */
   as?: "h2" | "h3";
 };
 
-/** The site's section title: eyebrow with a gradient rule, condensed display title, lead paragraph. */
+const titleSizes = {
+  lg: "text-display-lg",
+  xl: "text-display-xl",
+  "2xl": "text-display-2xl",
+} as const;
+
+/** Section title: eyebrow with a gradient rule, condensed display title, lead paragraph. */
 export function SectionHeading({
   eyebrow,
   title,
   highlight,
   description,
   align = "left",
+  size = "lg",
   titleId,
   as: Heading = "h2",
   className,
@@ -32,6 +41,7 @@ export function SectionHeading({
     <header
       data-slot="section-heading"
       data-align={align}
+      data-size={size}
       className={cn(
         "flex max-w-3xl flex-col gap-5",
         align === "center" && "mx-auto items-center text-center",
@@ -45,7 +55,10 @@ export function SectionHeading({
           {eyebrow}
         </p>
       ) : null}
-      <Heading id={titleId} className="font-display text-display-lg text-balance text-foreground">
+      <Heading
+        id={titleId}
+        className={cn("font-display text-balance text-foreground", titleSizes[size])}
+      >
         {title}
         {highlight ? (
           <>

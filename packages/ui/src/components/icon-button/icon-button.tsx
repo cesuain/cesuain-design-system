@@ -14,10 +14,7 @@ export type IconButtonProps = Omit<ButtonProps, "size" | "aria-label" | "childre
 
 const sizes = { sm: "icon-sm", md: "icon", lg: "icon-lg" } as const;
 
-/**
- * A square, icon-only button. Enforces an accessible name through the required `label` prop,
- * which the portfolio previously supplied ad hoc via `aria-label`.
- */
+/** A square, icon-only button. Enforces an accessible name through the required `label` prop. */
 export function IconButton({
   label,
   icon,

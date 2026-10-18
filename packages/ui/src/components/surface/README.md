@@ -4,11 +4,11 @@
 
 Generic styled box when Card's structure is too much: variant surface | panel | muted | none, plus radius, padding (inset tokens) and elevation.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Layout/Surface` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-layout-surface--docs)) |
-| Figma     | [Surface component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-729) (node `26:729`)              |
-| Source    | [`packages/ui/src/components/surface`](./)                                                                               |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Layout/Surface`](https://storybook.cesarfonseca.dev/?path=/docs/components-layout-surface--docs) |
+| Figma     | [Surface component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-729) (node `26:729`)   |
+| Source    | [`packages/ui/src/components/surface`](./)                                                                    |
 
 ## Import
 

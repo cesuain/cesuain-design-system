@@ -33,17 +33,25 @@ export type FeatureCardProps = Omit<ComponentProps<"article">, "title"> &
     description: ReactNode;
     /** Larger title for the wide cells of a bento grid. */
     featured?: boolean;
+    /** Title scale. `lg` steps the title up one display size from the `sm` breakpoint. */
+    size?: "md" | "lg";
     /** Heading level of the title. */
     headingLevel?: "h3" | "h4";
   };
 
-/** The site's highlight card: icon tile, accent glow, display-face title and description. */
+const titleSizes = {
+  md: { regular: "text-display-sm", featured: "text-display-md" },
+  lg: { regular: "text-display-sm sm:text-display-md", featured: "text-display-lg" },
+} as const;
+
+/** Highlight card: icon tile, accent glow, display-face title and description. */
 export function FeatureCard({
   icon,
   title,
   description,
   accent = "cyan",
   featured = false,
+  size = "md",
   headingLevel: Heading = "h3",
   className,
   ...props
@@ -52,6 +60,7 @@ export function FeatureCard({
     <article
       data-slot="feature-card"
       data-accent={accent}
+      data-size={size}
       className={cn(
         "group relative flex h-full flex-col justify-between gap-10 overflow-hidden rounded-overlay p-(--cds-card-padding-lg) surface",
         "transition-[translate,background-color,border-color] duration-(--cds-duration-slower) ease-standard hover:-translate-y-1 hover:border-border-strong",
@@ -74,7 +83,7 @@ export function FeatureCard({
         <Heading
           className={cn(
             "font-display text-foreground",
-            featured ? "text-display-md" : "text-display-sm",
+            titleSizes[size][featured ? "featured" : "regular"],
           )}
         >
           {title}

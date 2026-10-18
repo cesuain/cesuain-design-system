@@ -5,7 +5,7 @@
 
 ## Context
 
-The source website uses Tailwind CSS. shadcn/ui gives accessible, owned component code on Radix primitives, with a large ecosystem of compatible components.
+cesarfonseca.dev, the system's first production consumer, uses Tailwind CSS. shadcn/ui gives accessible, owned component code on Radix primitives, with a large ecosystem of compatible components.
 
 ## Decision
 

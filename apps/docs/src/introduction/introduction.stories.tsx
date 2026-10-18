@@ -1,6 +1,8 @@
-import { Badge, Card, CardDescription, CardHeader, CardTitle, Link } from "@cesuain/ui";
+import { Badge, Button, Card, CardDescription, CardHeader, CardTitle, Link } from "@cesuain/ui";
 import type { Meta, StoryObj } from "@storybook/react-vite";
+import { ArrowUpRight } from "lucide-react";
 
+import uiManifest from "../../../../packages/ui/package.json";
 import componentMap from "../../../../docs/figma/component-map.json";
 import { Code, DocSection } from "../foundations/doc-blocks.js";
 import { contrastChecks, tokens } from "../foundations/tokens.js";
@@ -32,12 +34,14 @@ const principles = [
   },
 ];
 
+const repositoryUrl = "https://github.com/cesuain/cesuain-design-system";
+
 const packages = [
   [
     "@cesuain/tokens",
-    "DTCG sources and generated CSS variables, Tailwind theme, JSON and TypeScript.",
+    "DTCG sources and generated CSS variables, Tailwind theme, JSON and TypeScript. On npm.",
   ],
-  ["@cesuain/ui", "React components, styles and hooks."],
+  ["@cesuain/ui", "React components, styles and hooks. On npm."],
   [
     "@cesuain/docs",
     "This Storybook: foundations, component docs, interaction and accessibility tests.",
@@ -65,15 +69,36 @@ export const Overview: Story = {
           Design <span className="text-gradient">System</span>
         </h1>
         <p className="max-w-prose text-body-lg text-muted-foreground">
-          A unified foundation for product interfaces: design tokens, accessible React components
-          and the matching Figma library, extracted from{" "}
+          A production-ready foundation for product interfaces: design tokens, accessible React
+          components and the matching Figma library. Designed and built by Cesar Fonseca, and the
+          system behind{" "}
           <Link href="https://cesarfonseca.dev" external>
             cesarfonseca.dev
           </Link>
           .
         </p>
+        <div className="flex flex-wrap gap-3">
+          <Button asChild variant="gradient">
+            <a href={repositoryUrl} target="_blank" rel="noopener noreferrer">
+              View on GitHub <ArrowUpRight />
+              <span className="sr-only">, opens in a new tab</span>
+            </a>
+          </Button>
+          <Button asChild variant="secondary">
+            <a
+              href="https://www.npmjs.com/package/@cesuain/ui"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @cesuain/ui on npm <ArrowUpRight />
+              <span className="sr-only">, opens in a new tab</span>
+            </a>
+          </Button>
+        </div>
         <div className="flex flex-wrap gap-2">
+          <Badge variant="gradient">v{uiManifest.version} · Stable</Badge>
           <Badge variant="brand">{tokens.length} tokens</Badge>
+          <Badge>{Object.keys(componentMap.components).length} components</Badge>
           <Badge>2 themes</Badge>
           <Badge variant="success">
             {passing}/{contrastChecks.length} contrast checks passing
@@ -96,6 +121,29 @@ export const Overview: Story = {
         </ul>
       </DocSection>
 
+      <DocSection
+        title="In production"
+        description="The system is the UI layer of cesarfonseca.dev. The site imports @cesuain/ui and its stylesheet for buttons, badges, form fields, section layout and headings, stat and feature cards, the theme toggle, the language switch and the ⌘K command palette."
+      >
+        <ul className="flex flex-wrap gap-x-5 gap-y-2 text-body-md">
+          <li>
+            <Link href="https://cesarfonseca.dev" external>
+              cesarfonseca.dev
+            </Link>
+          </li>
+          <li>
+            <Link href={repositoryUrl} external>
+              Source on GitHub
+            </Link>
+          </li>
+          <li>
+            <Link href={`${repositoryUrl}/blob/main/CHANGELOG.md`} external>
+              Changelog
+            </Link>
+          </li>
+        </ul>
+      </DocSection>
+
       <DocSection title="Packages">
         <dl className="grid gap-4">
           {packages.map(([name, description]) => (
@@ -114,7 +162,9 @@ export const Overview: Story = {
           tabIndex={0}
           className="overflow-x-auto rounded-card border border-border bg-muted/40 p-5 font-mono text-code focus-ring"
         >
-          {`/* app/globals.css: replaces @import "tailwindcss" */
+          {`pnpm add @cesuain/ui
+
+/* app/globals.css: replaces @import "tailwindcss" */
 @import "@cesuain/ui/styles.css";
 
 // app/page.tsx
@@ -159,8 +209,8 @@ export default function Page() {
             has a Docs page with its props, plus stories for variants, sizes and states.
           </li>
           <li>
-            <strong className="text-foreground">Patterns</strong> are compositions taken from the
-            site, such as the section heading, stat card and timeline.
+            <strong className="text-foreground">Patterns</strong> are higher-level compositions,
+            such as the section heading, stat card and timeline, used across cesarfonseca.dev.
           </li>
           <li>
             Use the toolbar to switch between the dark and light themes. The Accessibility panel

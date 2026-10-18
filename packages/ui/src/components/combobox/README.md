@@ -4,11 +4,11 @@
 
 Autocomplete input with a filtered listbox (Base UI Combobox). Supports single and multiple selection with chips. The list needs an aria-label.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Combobox` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-combobox--docs)) |
-| Figma     | [Combobox component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-444) (node `16:444`)             |
-| Source    | [`packages/ui/src/components/combobox`](./)                                                                              |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Combobox`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-combobox--docs) |
+| Figma     | [Combobox component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-444) (node `16:444`)  |
+| Source    | [`packages/ui/src/components/combobox`](./)                                                                   |
 
 ## Import
 

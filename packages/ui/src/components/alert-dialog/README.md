@@ -4,11 +4,11 @@
 
 Modal confirmation for consequential actions (role=alertdialog). Not dismissed by clicking outside; initial focus lands on Cancel; Escape cancels.
 
-|           |                                                                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Feedback/Alert Dialog` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-feedback-alert-dialog--docs)) |
-| Figma     | [Alert Dialog component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-474) (node `20:474`)                       |
-| Source    | [`packages/ui/src/components/alert-dialog`](./)                                                                                        |
+|           |                                                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Feedback/Alert Dialog`](https://storybook.cesarfonseca.dev/?path=/docs/components-feedback-alert-dialog--docs) |
+| Figma     | [Alert Dialog component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-474) (node `20:474`)            |
+| Source    | [`packages/ui/src/components/alert-dialog`](./)                                                                             |
 
 ## Import
 

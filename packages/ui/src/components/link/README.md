@@ -4,11 +4,11 @@
 
 Text link. In running text it is always underlined (WCAG 1.4.1). `external` adds the arrow icon, target=_blank and a visually hidden “, opens in a new tab”.
 
-|           |                                                                                                                            |
-| --------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Navigation/Link` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-link--docs)) |
-| Figma     | [Link component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-363) (node `18:363`)                   |
-| Source    | [`packages/ui/src/components/link`](./)                                                                                    |
+|           |                                                                                                                 |
+| --------- | --------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Link`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-link--docs) |
+| Figma     | [Link component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-363) (node `18:363`)        |
+| Source    | [`packages/ui/src/components/link`](./)                                                                         |
 
 ## Import
 

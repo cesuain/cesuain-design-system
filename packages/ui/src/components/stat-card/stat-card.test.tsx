@@ -9,4 +9,11 @@ describe("StatCard", () => {
     const card = screen.getByText("40%").closest("[data-slot=stat-card]");
     expect(card?.textContent).toBe("40%Faster page loadsAfter the rebuild.");
   });
+
+  it("uses the larger display size when size is lg", () => {
+    render(<StatCard value="7+" label="Years" size="lg" />);
+    const value = screen.getByText("7+").parentElement;
+    expect(value).toHaveClass("text-display-lg");
+    expect(value).not.toHaveClass("text-display-md");
+  });
 });

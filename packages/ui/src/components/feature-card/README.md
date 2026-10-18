@@ -6,7 +6,7 @@ Large card for a capability or project: icon tile, display title, description an
 
 |           |                                                                                                                  |
 | --------- | ---------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Patterns/Feature Card` (local: [localhost:6006](http://localhost:6006/?path=/docs/patterns-feature-card--docs)) |
+| Storybook | [`Patterns/Feature Card`](https://storybook.cesarfonseca.dev/?path=/docs/patterns-feature-card--docs)            |
 | Figma     | [Feature Card component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-669) (node `27:669`) |
 | Source    | [`packages/ui/src/components/feature-card`](./)                                                                  |
 
@@ -50,6 +50,7 @@ Tokens referenced by the implementation (directly or through shared recipes in `
 - `radius.card`
 - `radius.overlay`
 - `text.body.md`
+- `text.display.lg`
 - `text.display.md`
 - `text.display.sm`
 

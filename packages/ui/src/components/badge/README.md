@@ -4,11 +4,11 @@
 
 Small status or metadata label. Tinted variants keep 10% fills and full-strength text so contrast holds in both themes. Render as a link with asChild when it navigates.
 
-|           |                                                                                                                                  |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Badge` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-badge--docs)) |
-| Figma     | [Badge component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-609) (node `24:609`)                        |
-| Source    | [`packages/ui/src/components/badge`](./)                                                                                         |
+|           |                                                                                                                       |
+| --------- | --------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Badge`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-badge--docs) |
+| Figma     | [Badge component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-609) (node `24:609`)             |
+| Source    | [`packages/ui/src/components/badge`](./)                                                                              |
 
 ## Import
 

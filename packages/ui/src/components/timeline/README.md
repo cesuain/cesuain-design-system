@@ -6,7 +6,7 @@ Ordered list of events on a gradient rail. The current item pulses (static under
 
 |           |                                                                                                              |
 | --------- | ------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Patterns/Timeline` (local: [localhost:6006](http://localhost:6006/?path=/docs/patterns-timeline--docs))     |
+| Storybook | [`Patterns/Timeline`](https://storybook.cesarfonseca.dev/?path=/docs/patterns-timeline--docs)                |
 | Figma     | [Timeline component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-698) (node `27:698`) |
 | Source    | [`packages/ui/src/components/timeline`](./)                                                                  |
 

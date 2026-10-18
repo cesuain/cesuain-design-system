@@ -4,11 +4,11 @@
 
 One choice from a short list. Arrow keys move and select; the group needs an accessible name.
 
-|           |                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Radio Group` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-radio-group--docs)) |
-| Figma     | [Radio Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-316) (node `15:316`)                |
-| Source    | [`packages/ui/src/components/radio-group`](./)                                                                                 |
+|           |                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Radio Group`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-radio-group--docs) |
+| Figma     | [Radio Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-316) (node `15:316`)     |
+| Source    | [`packages/ui/src/components/radio-group`](./)                                                                      |
 
 ## Import
 

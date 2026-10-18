@@ -1,14 +1,16 @@
 # Cesuain Design System
 
-**A unified foundation for product interfaces.** Design tokens, accessible React components, Storybook documentation and a matching Figma library, extracted from the visual language of [cesarfonseca.dev](https://cesarfonseca.dev).
+**A production-ready foundation for product interfaces.** I designed and built the Cesuain Design System — design tokens, accessible React components, Storybook documentation and a matching Figma library — and it powers the interface of my personal website, [cesarfonseca.dev](https://cesarfonseca.dev).
 
-|           |                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Version   | 0.1.0 (pre-release, not yet published to npm)                                                                                  |
-| Packages  | `@cesuain/tokens` · `@cesuain/ui` · `@cesuain/docs` (private Storybook)                                                        |
-| Figma     | [Cesuain Design System](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb)                                                   |
-| Storybook | `pnpm storybook` → http://localhost:6006 (not hosted yet; CI uploads the static build as an artifact)                          |
-| Status    | 300 tokens, 64 components, 50/50 contrast checks passing; see [Known limitations](#20-known-limitations) before production use |
+|           |                                                                                                                                                                    |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Version   | **1.0.0** (stable)                                                                                                                                                 |
+| Packages  | [`@cesuain/tokens`](https://www.npmjs.com/package/@cesuain/tokens) · [`@cesuain/ui`](https://www.npmjs.com/package/@cesuain/ui) · `@cesuain/docs` (Storybook site) |
+| Storybook | [storybook.cesarfonseca.dev](https://storybook.cesarfonseca.dev)                                                                                                   |
+| Figma     | [Cesuain Design System](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb)                                                                                       |
+| Source    | [github.com/cesuain/cesuain-design-system](https://github.com/cesuain/cesuain-design-system)                                                                       |
+| In use    | [cesarfonseca.dev](https://cesarfonseca.dev) consumes `@cesuain/ui` for its buttons, badges, forms, section layout, cards, theme toggle and command palette        |
+| Quality   | 300 tokens, 64 components, 50/50 contrast checks passing, unit + story + browser tests in CI                                                                       |
 
 ## Contents
 
@@ -31,19 +33,18 @@
 17. [Testing](#17-testing)
 18. [Contributing](#18-contributing)
 19. [Releases and versioning](#19-releases-and-versioning)
-20. [Known limitations](#20-known-limitations)
-21. [Roadmap](#21-roadmap)
+20. [Requirements and scope](#20-requirements-and-scope)
 
 ## 1. Project overview
 
-The Cesuain Design System turns the look and behaviour of an existing portfolio site into a reusable system for React products:
+The Cesuain Design System is a complete, versioned system for building React interfaces with one consistent visual language:
 
 - **`@cesuain/tokens`**: DTCG design tokens and a generator. It produces CSS variables, a Tailwind CSS v4 theme, TypeScript, JSON, a Figma variables payload and Markdown reference docs, and enforces WCAG contrast in both themes.
 - **`@cesuain/ui`**: 64 accessible React components (shadcn/ui conventions on Radix UI and friends), styled only through tokens.
 - **`@cesuain/docs`**: Storybook with foundations rendered from token data and a Docs page for every component, each linked to its Figma component set.
 - **Figma library**: variables and styles that mirror the tokens, foundation boards, and a native component set for every component.
 
-The source website is the visual reference only. The packages have no runtime dependency on it.
+Every component is styled only through tokens, so a change to a token updates code, Storybook and Figma together. The system runs in production on [cesarfonseca.dev](https://cesarfonseca.dev), which imports `@cesuain/ui` and its stylesheet instead of keeping its own UI primitives.
 
 ## 2. Design philosophy
 
@@ -94,14 +95,10 @@ Each component directory holds `<name>.tsx`, optional `<name>.variants.ts`, `<na
 
 ## 6. Installation
 
-The packages are not on npm yet. Use them from this workspace, or pack them for another project:
+Both packages are published to npm. `@cesuain/ui` depends on `@cesuain/tokens`, so one install brings both:
 
 ```sh
-pnpm install && pnpm build
-pnpm --filter @cesuain/tokens pack --pack-destination ../../dist-packages
-pnpm --filter @cesuain/ui pack --pack-destination ../../dist-packages
-# in your app
-pnpm add ./path/to/dist-packages/cesuain-tokens-0.1.0.tgz ./path/to/dist-packages/cesuain-ui-0.1.0.tgz
+pnpm add @cesuain/ui
 ```
 
 Peer dependencies: `react` and `react-dom` ^19, `tailwindcss` ^4.1 (with `@tailwindcss/vite` or `@tailwindcss/postcss`).
@@ -224,12 +221,14 @@ pnpm storybook         # dev server on http://localhost:6006
 pnpm storybook:build   # static site in apps/docs/storybook-static
 ```
 
-- **Introduction**: principles, packages, getting started and links into the Figma library.
+The published Storybook is at **[storybook.cesarfonseca.dev](https://storybook.cesarfonseca.dev)** and is rebuilt from `main`.
+
+- **Introduction**: principles, packages, getting started, production usage and links to GitHub and the Figma library.
 - **Foundations**: Colors, Contrast, Typography, Spacing, Radius, Shadows, Layout, Motion, Iconography, Themes and a searchable token reference. All are rendered from `@cesuain/tokens` data.
 - **Components** and **Patterns**: a Docs page per component, with a link to its Figma component set, props table and stories for variants, sizes and states.
 - Use the toolbar's theme switcher to see both themes. The Accessibility panel shows axe results for the current story.
 
-Storybook is not deployed yet. CI uploads `storybook-static` as a build artifact.
+CI also uploads `storybook-static` as a build artifact for every run.
 
 ## 13. Figma
 
@@ -242,23 +241,23 @@ The file has three pages: a cover, foundations and tokens, and components. It co
 - **Boards:** nine foundation boards and eight component boards;
 - **Component sets:** one per component, with variants that mirror the React props.
 
-Code is the source of truth, and Figma is updated **one way**. Nothing synchronizes automatically. [docs/figma](docs/figma/README.md) explains the sync process, conventions and the Starter-plan limitations. Every component's Figma node is recorded in [docs/figma/component-map.json](docs/figma/component-map.json).
+Code is the source of truth, and Figma is updated **one way**. Nothing synchronizes automatically. [docs/figma](docs/figma/README.md) explains the sync process, conventions and the Starter-plan constraints. Every component's Figma node is recorded in [docs/figma/component-map.json](docs/figma/component-map.json).
 
 ## 14. Foundations
 
-| Foundation  | Storybook                                                                                        | Figma                                                                                   | Reference                                                      |
-| ----------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| Colors      | [Foundations/Colors](http://localhost:6006/?path=/story/foundations-colors--palette)             | [Colors](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=6-2)               | [tokens.md](docs/foundations/generated/tokens.md)              |
-| Contrast    | [Foundations/Colors › Contrast](http://localhost:6006/?path=/story/foundations-colors--contrast) | [Themes & Contrast](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-364) | `packages/tokens/src/meta/contrast.json`                       |
-| Typography  | [Foundations/Typography](http://localhost:6006/?path=/story/foundations-typography--type-scale)  | [Typography](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=9-2)           | [tokens.md](docs/foundations/generated/tokens.md)              |
-| Spacing     | [Foundations/Spacing](http://localhost:6006/?path=/story/foundations-spacing--scale)             | [Spacing](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-2)             | [tokens.md](docs/foundations/generated/tokens.md)              |
-| Radius      | [Foundations/Radius](http://localhost:6006/?path=/story/foundations-radius--radius)              | [Radius](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-266)            | [tokens.md](docs/foundations/generated/tokens.md)              |
-| Shadows     | [Foundations/Shadows](http://localhost:6006/?path=/story/foundations-shadows--shadows)           | [Shadows](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-339)           | [tokens.md](docs/foundations/generated/tokens.md)              |
-| Layout      | [Foundations/Layout](http://localhost:6006/?path=/story/foundations-layout--layout)              | [Layout](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-2)              | [tokens.md](docs/foundations/generated/tokens.md)              |
-| Motion      | [Foundations/Motion](http://localhost:6006/?path=/story/foundations-motion--tokens)              | [Motion](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-160)            | [tokens.md](docs/foundations/generated/tokens.md)              |
-| Iconography | [Foundations/Iconography](http://localhost:6006/?path=/story/foundations-iconography--icons)     | [Iconography](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-226)       | [Lucide](https://lucide.dev)                                   |
-| Themes      | [Foundations/Themes](http://localhost:6006/?path=/story/foundations-themes--comparison)          | [Themes & Contrast](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-364) | [ADR 0004](docs/architecture/adr/0004-dark-default-theming.md) |
-| All tokens  | [Foundations/Tokens](http://localhost:6006/?path=/story/foundations-tokens--reference)           | Variables panel                                                                         | [mapping.md](docs/foundations/generated/mapping.md)            |
+| Foundation  | Storybook                                                                                                     | Figma                                                                                   | Reference                                                      |
+| ----------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Colors      | [Foundations/Colors](https://storybook.cesarfonseca.dev/?path=/story/foundations-colors--palette)             | [Colors](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=6-2)               | [tokens.md](docs/foundations/generated/tokens.md)              |
+| Contrast    | [Foundations/Colors › Contrast](https://storybook.cesarfonseca.dev/?path=/story/foundations-colors--contrast) | [Themes & Contrast](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-364) | `packages/tokens/src/meta/contrast.json`                       |
+| Typography  | [Foundations/Typography](https://storybook.cesarfonseca.dev/?path=/story/foundations-typography--type-scale)  | [Typography](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=9-2)           | [tokens.md](docs/foundations/generated/tokens.md)              |
+| Spacing     | [Foundations/Spacing](https://storybook.cesarfonseca.dev/?path=/story/foundations-spacing--scale)             | [Spacing](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-2)             | [tokens.md](docs/foundations/generated/tokens.md)              |
+| Radius      | [Foundations/Radius](https://storybook.cesarfonseca.dev/?path=/story/foundations-radius--radius)              | [Radius](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-266)            | [tokens.md](docs/foundations/generated/tokens.md)              |
+| Shadows     | [Foundations/Shadows](https://storybook.cesarfonseca.dev/?path=/story/foundations-shadows--shadows)           | [Shadows](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-339)           | [tokens.md](docs/foundations/generated/tokens.md)              |
+| Layout      | [Foundations/Layout](https://storybook.cesarfonseca.dev/?path=/story/foundations-layout--layout)              | [Layout](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-2)              | [tokens.md](docs/foundations/generated/tokens.md)              |
+| Motion      | [Foundations/Motion](https://storybook.cesarfonseca.dev/?path=/story/foundations-motion--tokens)              | [Motion](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-160)            | [tokens.md](docs/foundations/generated/tokens.md)              |
+| Iconography | [Foundations/Iconography](https://storybook.cesarfonseca.dev/?path=/story/foundations-iconography--icons)     | [Iconography](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-226)       | [Lucide](https://lucide.dev)                                   |
+| Themes      | [Foundations/Themes](https://storybook.cesarfonseca.dev/?path=/story/foundations-themes--comparison)          | [Themes & Contrast](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-364) | [ADR 0004](docs/architecture/adr/0004-dark-default-theming.md) |
+| All tokens  | [Foundations/Tokens](https://storybook.cesarfonseca.dev/?path=/story/foundations-tokens--reference)           | Variables panel                                                                         | [mapping.md](docs/foundations/generated/mapping.md)            |
 
 ## 15. Component catalog
 
@@ -290,7 +289,7 @@ Code is the source of truth, and Figma is updated **one way**. Nothing synchroni
   - live regions for alerts and toasts;
   - reduced-motion support;
   - 38px+ hit areas for small controls.
-- **Not yet done:** a manual audit with screen readers, forced colors and zoom/reflow. Automated checks are not a claim of full conformance.
+- **Manual review scope:** screen reader output, forced-colors mode and zoom/reflow are outside the automated suite. Review them in the product that ships the components before claiming WCAG conformance.
 
 Details and the contributor checklist: [docs/accessibility](docs/accessibility/README.md).
 
@@ -312,32 +311,21 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and rules, and [docs/contributi
 
 ## 19. Releases and versioning
 
-- `@cesuain/tokens` and `@cesuain/ui` follow [SemVer](https://semver.org) and are released together with one version while the system is pre-1.0.
+- `@cesuain/tokens` and `@cesuain/ui` follow [SemVer](https://semver.org) and are released together with one version.
+- **1.0.0 is the stable API.** Patch releases fix bugs; minor releases add components, variants or tokens; only a major release removes or renames exports, props or tokens.
 - Changes are recorded in [CHANGELOG.md](CHANGELOG.md) ([Keep a Changelog](https://keepachangelog.com)).
-- In 0.x, minor releases may contain breaking changes. They are always called out.
-- A release bumps the package versions and the Figma cover, passes `pnpm run ci`, and is tagged `vX.Y.Z`.
+- A release bumps the package versions and the Figma cover, passes `pnpm run ci`, is tagged `vX.Y.Z` and is published to npm.
 
-## 20. Known limitations
+## 20. Requirements and scope
 
-- **Not published to npm.** Consume the packages from the workspace or as packed tarballs.
-- **Storybook is not hosted.** Run it locally or download the CI artifact.
-- **Manual accessibility audit pending.** No screen reader, forced-colors or zoom/reflow audit has been done yet.
-- **No visual regression screenshots.** Rendering is covered by story and smoke tests, not pixel comparisons.
-- **Figma sync is one way and manual.** It is agent-driven through the Figma MCP server; the Starter plan's limits are described in [docs/figma](docs/figma/README.md#limitations):
+- **Tailwind CSS v4.** The styles ship as a Tailwind v4 stylesheet (`@cesuain/ui/styles.css`), which replaces `@import "tailwindcss"` in the consuming app.
+- **Fonts are loaded by the app.** Load Anton, Poppins and JetBrains Mono (for example with `next/font` or `@fontsource/*`); the stacks fall back to system fonts.
+- **Figma follows code.** Code is the source of truth and Figma is updated one way, through the Figma MCP server. The Starter plan shapes the file, as described in [docs/figma](docs/figma/README.md#plan-constraints):
   - 3 pages;
   - one mode per collection, so Light is a separate collection;
-  - motion tokens are not Figma variables;
-  - no Code Connect mappings.
-- **Tailwind v4 is required.** The styles are a Tailwind v4 stylesheet; there is no precompiled CSS for non-Tailwind apps.
-- **Font files are not bundled.** Apps load Anton, Poppins and JetBrains Mono themselves.
-
-## 21. Roadmap
-
-- Publish `@cesuain/tokens` and `@cesuain/ui` to npm from CI and deploy Storybook.
-- Manual accessibility audit (VoiceOver, NVDA, forced colors, 400% zoom) and fixes.
-- Visual regression tests for key component states in both themes.
-- Code Connect mappings, and a single two-mode Theme collection once the Figma plan allows it.
-- A precompiled CSS build for apps that do not use Tailwind.
+  - motion tokens are documented on the Motion board rather than as Figma variables;
+  - component descriptions link Figma to code in place of Code Connect.
+- **Testing scope.** Rendering is covered by unit, story and browser smoke tests rather than pixel comparisons.
 
 ## License
 

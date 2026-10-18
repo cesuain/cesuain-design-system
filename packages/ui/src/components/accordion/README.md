@@ -4,11 +4,11 @@
 
 Vertically stacked disclosure sections. Triggers are buttons inside headings with aria-expanded; type single or multiple; content animates height and respects reduced motion.
 
-|           |                                                                                                                                          |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Accordion` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-accordion--docs)) |
-| Figma     | [Accordion component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-694) (node `24:694`)                            |
-| Source    | [`packages/ui/src/components/accordion`](./)                                                                                             |
+|           |                                                                                                                               |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Accordion`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-accordion--docs) |
+| Figma     | [Accordion component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-694) (node `24:694`)                 |
+| Source    | [`packages/ui/src/components/accordion`](./)                                                                                  |
 
 ## Import
 

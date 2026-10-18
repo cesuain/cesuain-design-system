@@ -25,7 +25,7 @@ const meta = {
         A unified foundation for <PageHeaderHighlight>product interfaces</PageHeaderHighlight>
       </PageHeaderTitle>
       <PageHeaderDescription>
-        Design tokens, accessible React components and a matching Figma library, extracted from
+        Design tokens, accessible React components and a matching Figma library, in production on
         cesarfonseca.dev.
       </PageHeaderDescription>
       <PageHeaderActions>

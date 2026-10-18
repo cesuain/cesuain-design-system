@@ -4,11 +4,11 @@
 
 Form field layout: FieldLabel, control, FieldDescription and FieldError (role=alert, linked via aria-describedby). FieldSet + FieldLegend group related fields.
 
-|           |                                                                                                                    |
-| --------- | ------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Field` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-field--docs)) |
-| Figma     | [Field component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-469) (node `16:469`)          |
-| Source    | [`packages/ui/src/components/field`](./)                                                                           |
+|           |                                                                                                           |
+| --------- | --------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Field`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-field--docs)   |
+| Figma     | [Field component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-469) (node `16:469`) |
+| Source    | [`packages/ui/src/components/field`](./)                                                                  |
 
 ## Import
 

@@ -25,7 +25,7 @@ export const tabsListVariants = cva(
   {
     variants: {
       variant: {
-        /** Pill track with a solid active pill, as in the site's navigation. */
+        /** Pill track with a solid active pill, matching the header navigation. */
         pill: "gap-0.5 rounded-full border border-border bg-foreground/[0.03] p-1 group-data-vertical/tabs:rounded-card",
         /** Underlined tabs for dense, document-like layouts. */
         line: "gap-4 border-border group-data-horizontal/tabs:border-b group-data-vertical/tabs:border-r",
