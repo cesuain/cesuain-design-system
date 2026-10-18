@@ -1,0 +1,68 @@
+/* Uppercase condensed display face. Pair with a `text-display-*` size. */
+@utility font-display {
+  font-family: var(--font-display);
+  font-weight: var(--cds-font-weight-regular);
+  letter-spacing: var(--cds-font-letter-spacing-display);
+  text-transform: uppercase;
+}
+
+/* Monospaced uppercase kicker used above section titles. */
+@utility font-eyebrow {
+  font-family: var(--font-mono);
+  letter-spacing: var(--cds-font-letter-spacing-eyebrow);
+  text-transform: uppercase;
+}
+
+/* Consistent keyboard focus indicator for interactive components. */
+@utility focus-ring {
+  outline: none;
+  &:focus-visible {
+    outline: var(--cds-focus-width) solid var(--ring);
+    outline-offset: var(--cds-focus-offset);
+  }
+}
+
+/* Brand gradient text (blue → cyan → purple). */
+@utility text-gradient {
+  background-image: linear-gradient(
+    100deg,
+    var(--gradient-start) 0%,
+    var(--gradient-middle) 45%,
+    var(--gradient-end) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Brand gradient fill. */
+@utility bg-brand-gradient {
+  background-image: linear-gradient(
+    90deg,
+    var(--gradient-start),
+    var(--gradient-middle),
+    var(--gradient-end)
+  );
+}
+
+/* Translucent layered surface: the signature card treatment. */
+@utility surface {
+  background: linear-gradient(180deg, var(--surface-from), var(--surface-to));
+  border: var(--cds-border-width-default) solid var(--surface-border);
+}
+
+/* Frosted glass for content placed over imagery. */
+@utility glass {
+  background: linear-gradient(180deg, var(--glass-from), var(--glass-to));
+  border: var(--cds-border-width-default) solid var(--glass-border);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  backdrop-filter: blur(16px) saturate(140%);
+}
+
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

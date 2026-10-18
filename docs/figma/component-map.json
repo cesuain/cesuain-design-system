@@ -1,0 +1,642 @@
+{
+  "$comment": "Generated from the Figma build ledger. Node IDs were returned by the Figma Plugin API; do not edit by hand.",
+  "fileKey": "WujcogDvZk4Ds73gHwmvDb",
+  "fileUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb",
+  "pages": {
+    "cover": "0:1",
+    "foundations": "1:4",
+    "components": "1:5"
+  },
+  "foundations": {
+    "Cover": {
+      "figmaNodeId": "5:138",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=5-138"
+    },
+    "Colors": {
+      "figmaNodeId": "6:2",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=6-2"
+    },
+    "Typography": {
+      "figmaNodeId": "9:2",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=9-2"
+    },
+    "Spacing": {
+      "figmaNodeId": "10:2",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-2"
+    },
+    "Radius": {
+      "figmaNodeId": "10:266",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-266"
+    },
+    "Shadows": {
+      "figmaNodeId": "10:339",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=10-339"
+    },
+    "Layout": {
+      "figmaNodeId": "12:2",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-2"
+    },
+    "Motion": {
+      "figmaNodeId": "12:160",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-160"
+    },
+    "Iconography": {
+      "figmaNodeId": "12:226",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-226"
+    },
+    "Themes & Contrast": {
+      "figmaNodeId": "12:364",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=12-364"
+    }
+  },
+  "boards": {
+    "Actions": {
+      "figmaNodeId": "14:2",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-2"
+    },
+    "Forms": {
+      "figmaNodeId": "15:179",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-179"
+    },
+    "Navigation": {
+      "figmaNodeId": "18:292",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-292"
+    },
+    "Feedback": {
+      "figmaNodeId": "20:367",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-367"
+    },
+    "Overlays": {
+      "figmaNodeId": "23:412",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-412"
+    },
+    "Data Display": {
+      "figmaNodeId": "24:507",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-507"
+    },
+    "Layout": {
+      "figmaNodeId": "26:581",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-581"
+    },
+    "Patterns": {
+      "figmaNodeId": "27:593",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-593"
+    }
+  },
+  "sharedPrimitives": {
+    "Menu Item": {
+      "figmaNodeId": "16:262",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-262",
+      "code": "packages/ui/src/lib/styles.ts (menuItem)"
+    }
+  },
+  "components": {
+    "accordion": {
+      "name": "Accordion",
+      "storybook": "Components/Data Display/Accordion",
+      "figmaNodeId": "24:694",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-694",
+      "summary": "Vertically stacked disclosure sections. Triggers are buttons inside headings with aria-expanded; type single or multiple; content animates height and respects reduced motion.",
+      "figmaProperties": ["State: Collapsed | Expanded"]
+    },
+    "alert": {
+      "name": "Alert",
+      "storybook": "Components/Feedback/Alert",
+      "figmaNodeId": "20:415",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-415",
+      "summary": "Inline, prominent message. Uses role=alert for destructive and warning, role=status otherwise. Tinted backgrounds stay at 8% so text keeps full contrast.",
+      "figmaProperties": ["Variant: Default | Info | Success | Warning | Destructive"]
+    },
+    "alert-dialog": {
+      "name": "Alert Dialog",
+      "storybook": "Components/Feedback/Alert Dialog",
+      "figmaNodeId": "20:474",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-474",
+      "summary": "Modal confirmation for consequential actions (role=alertdialog). Not dismissed by clicking outside; initial focus lands on Cancel; Escape cancels.",
+      "figmaProperties": ["Variant: Default | Destructive"]
+    },
+    "avatar": {
+      "name": "Avatar",
+      "storybook": "Components/Data Display/Avatar",
+      "figmaNodeId": "24:625",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-625",
+      "summary": "User or entity image with an initials fallback. The image needs alt text; the fallback is shown until it loads. ring adds the brand gradient border; AvatarGroup overlaps avatars with a background ring.",
+      "figmaProperties": ["Size: sm | md | lg | xl", "Ring: False | True"]
+    },
+    "badge": {
+      "name": "Badge",
+      "storybook": "Components/Data Display/Badge",
+      "figmaNodeId": "24:609",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-609",
+      "summary": "Small status or metadata label. Tinted variants keep 10% fills and full-strength text so contrast holds in both themes. Render as a link with asChild when it navigates.",
+      "figmaProperties": [
+        "Variant: Default | Primary | Brand | Gradient | Outline | Success | Warning | Destructive",
+        "Size: sm | md"
+      ]
+    },
+    "breadcrumb": {
+      "name": "Breadcrumb",
+      "storybook": "Components/Navigation/Breadcrumb",
+      "figmaNodeId": "18:390",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-390",
+      "summary": "Shows the location in a hierarchy (nav aria-label=breadcrumb). The current page is BreadcrumbPage with aria-current=page; long trails collapse into an ellipsis menu.",
+      "figmaProperties": ["Type: Default | Collapsed"]
+    },
+    "button": {
+      "name": "Button",
+      "storybook": "Components/Actions/Button",
+      "figmaNodeId": "14:236",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-236",
+      "summary": "Triggers an action. Use one high-emphasis button (Default, Glow or Gradient) per view; Link for inline navigation. Loading keeps the label and disables interaction.",
+      "figmaProperties": [
+        "Label (text)",
+        "Leading icon (boolean)",
+        "Trailing icon (boolean)",
+        "Icon (instance swap)",
+        "Variant: Default | Glow | Gradient | Secondary | Outline | Ghost | Destructive | Link",
+        "Size: md | sm | lg",
+        "State: Default | Hover | Disabled | Focus | Loading"
+      ]
+    },
+    "button-group": {
+      "name": "Button Group",
+      "storybook": "Components/Actions/Button Group",
+      "figmaNodeId": "14:465",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-465",
+      "summary": "Joins related buttons into one control. Outer corners stay rounded; inner borders collapse. Mixed inputs and nested groups are supported in code.",
+      "figmaProperties": ["Orientation: Horizontal | Vertical"]
+    },
+    "calendar": {
+      "name": "Calendar",
+      "storybook": "Components/Data Display/Calendar",
+      "figmaNodeId": "25:963",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-963",
+      "summary": "Date grid built on react-day-picker. Arrow keys move by day, Page Up/Down by month; selected days expose aria-selected and today is marked. Modes: single, multiple and range.",
+      "figmaProperties": ["Mode: Single | Range"]
+    },
+    "card": {
+      "name": "Card",
+      "storybook": "Components/Data Display/Card",
+      "figmaNodeId": "24:572",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-572",
+      "summary": "Container for a unit of content. surface is the site default (layered gradient), glass for content over imagery, solid for dense UIs, gradient border for featured items. interactive adds hover lift.",
+      "figmaProperties": ["Variant: Surface | Glass | Solid | Gradient"]
+    },
+    "checkbox": {
+      "name": "Checkbox",
+      "storybook": "Components/Forms/Checkbox",
+      "figmaNodeId": "15:278",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-278",
+      "summary": "Binary or mixed (indeterminate) choice. 18px box with a 38px pointer target.",
+      "figmaProperties": [
+        "Label (text)",
+        "State: Unchecked | Checked | Indeterminate | Focus | Invalid | Disabled"
+      ]
+    },
+    "collapsible": {
+      "name": "Collapsible",
+      "storybook": "Components/Data Display/Collapsible",
+      "figmaNodeId": "24:735",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-735",
+      "summary": "A single show/hide region controlled by a trigger with aria-expanded. Use Accordion for several related sections.",
+      "figmaProperties": ["State: Closed | Open"]
+    },
+    "combobox": {
+      "name": "Combobox",
+      "storybook": "Components/Forms/Combobox",
+      "figmaNodeId": "16:444",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-444",
+      "summary": "Autocomplete input with a filtered listbox (Base UI Combobox). Supports single and multiple selection with chips. The list needs an aria-label.",
+      "figmaProperties": ["State: Closed | Open | Empty | Multiple"]
+    },
+    "command": {
+      "name": "Command",
+      "storybook": "Components/Data Display/Command",
+      "figmaNodeId": "25:1007",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-1007",
+      "summary": "Searchable command menu built on cmdk (role=combobox + listbox). CommandDialog opens it in a Dialog, as in the site's search; groups, separators, shortcuts and an empty state are included.",
+      "figmaProperties": ["Type: Palette"]
+    },
+    "container": {
+      "name": "Container",
+      "storybook": "Components/Layout/Container",
+      "figmaNodeId": "26:599",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-599",
+      "summary": "Centers content with a max width and responsive side gutters (space.gutter.sm → lg). Sizes sm | md | lg | xl | full.",
+      "figmaProperties": ["Size: sm | md | lg"]
+    },
+    "content-wrapper": {
+      "name": "Content Wrapper",
+      "storybook": "Components/Layout/Content Wrapper",
+      "figmaNodeId": "26:745",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-745",
+      "summary": "Typography for long-form content you don't control (Markdown, CMS): headings, links, lists, quotes, code and images styled at a readable measure (size.content.prose).",
+      "figmaProperties": ["Type: Prose"]
+    },
+    "context-menu": {
+      "name": "Context Menu",
+      "storybook": "Components/Overlays/Context Menu",
+      "figmaNodeId": "23:818",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-818",
+      "summary": "Menu opened by right-click or long-press on an area (and Shift+F10 from the keyboard). Same item anatomy as Dropdown Menu.",
+      "figmaProperties": ["State: Open"]
+    },
+    "data-table": {
+      "name": "Data Table",
+      "storybook": "Components/Data Display/Data Table",
+      "figmaNodeId": "25:762",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-762",
+      "summary": "TanStack Table on top of Table: sorting, filtering, row selection, column visibility and pagination. Sort buttons announce their state; the select-all checkbox has an accessible name.",
+      "figmaProperties": ["State: Selection"]
+    },
+    "date-picker": {
+      "name": "Date Picker",
+      "storybook": "Components/Forms/Date Picker",
+      "figmaNodeId": "16:509",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-509",
+      "summary": "Button that opens a Calendar in a Popover. With `name` it also submits an ISO date (yyyy-mm-dd) through a hidden input.",
+      "figmaProperties": ["State: Placeholder | Value | Focus | Invalid | Disabled"]
+    },
+    "dialog": {
+      "name": "Dialog",
+      "storybook": "Components/Overlays/Dialog",
+      "figmaNodeId": "23:491",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-491",
+      "summary": "Modal window (role=dialog) over a blurred scrim. Focus is trapped and returns to the trigger; Escape and the close button dismiss. Sizes map to the overlay width tokens.",
+      "figmaProperties": ["Size: sm | md"]
+    },
+    "drawer": {
+      "name": "Drawer",
+      "storybook": "Components/Overlays/Drawer",
+      "figmaNodeId": "23:608",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-608",
+      "summary": "Draggable panel built on Vaul. Bottom drawers show a handle and can be swiped closed; prefer it to Sheet on touch-first layouts.",
+      "figmaProperties": ["Direction: Bottom | Right"]
+    },
+    "dropdown-menu": {
+      "name": "Dropdown Menu",
+      "storybook": "Components/Overlays/Dropdown Menu",
+      "figmaNodeId": "23:733",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-733",
+      "summary": "Menu opened from a button (role=menu). Supports labels, groups, checkbox and radio items, shortcuts, submenus and a destructive variant; arrow keys and typeahead move between items.",
+      "figmaProperties": ["State: Open"]
+    },
+    "empty-state": {
+      "name": "Empty State",
+      "storybook": "Components/Feedback/Empty State",
+      "figmaNodeId": "20:593",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-593",
+      "summary": "Explains why an area is empty and what to do next. Media is decorative (aria-hidden); the title and description carry the message.",
+      "figmaProperties": ["Media: Icon | Plain"]
+    },
+    "feature-card": {
+      "name": "Feature Card",
+      "storybook": "Patterns/Feature Card",
+      "figmaNodeId": "27:669",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-669",
+      "summary": "Large card for a capability or project: icon tile, display title, description and a soft accent glow (start | middle | end of the brand gradient). featured uses the larger title.",
+      "figmaProperties": ["Accent: Start | Middle | End"]
+    },
+    "field": {
+      "name": "Field",
+      "storybook": "Components/Forms/Field",
+      "figmaNodeId": "16:469",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-469",
+      "summary": "Form field layout: FieldLabel, control, FieldDescription and FieldError (role=alert, linked via aria-describedby). FieldSet + FieldLegend group related fields.",
+      "figmaProperties": [
+        "Layout: Vertical | Horizontal",
+        "State: Default | Invalid",
+        "Description: No | Yes"
+      ]
+    },
+    "grid": {
+      "name": "Grid",
+      "storybook": "Components/Layout/Grid",
+      "figmaNodeId": "26:642",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-642",
+      "summary": "Responsive CSS grid: columns collapse to one column on small screens, then 2 from sm and the full count from lg. auto fills 16rem tracks.",
+      "figmaProperties": ["Columns: 2 | 3 | 4"]
+    },
+    "hover-card": {
+      "name": "Hover Card",
+      "storybook": "Components/Overlays/Hover Card",
+      "figmaNodeId": "23:832",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-832",
+      "summary": "Preview of linked content for sighted mouse users, shown on hover or focus. Its content is supplementary: the link itself must make sense without it.",
+      "figmaProperties": ["State: Open"]
+    },
+    "icon-button": {
+      "name": "Icon Button",
+      "storybook": "Components/Actions/Icon Button",
+      "figmaNodeId": "14:406",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-406",
+      "summary": "Square, icon-only button. The label prop is required and becomes aria-label, so an icon-only control always has an accessible name.",
+      "figmaProperties": [
+        "Icon (instance swap)",
+        "Variant: Ghost | Outline | Secondary | Default",
+        "Size: sm | md | lg",
+        "State: Default | Hover | Focus | Disabled"
+      ]
+    },
+    "input": {
+      "name": "Input",
+      "storybook": "Components/Forms/Input",
+      "figmaNodeId": "15:216",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-216",
+      "summary": "Single-line text field. inputSize sm | md | lg maps to the control height tokens. Invalid = aria-invalid.",
+      "figmaProperties": [
+        "Value (text)",
+        "Size: md | sm | lg",
+        "State: Default | Filled | Hover | Focus | Invalid | Disabled"
+      ]
+    },
+    "input-group": {
+      "name": "Input Group",
+      "storybook": "Components/Forms/Input Group",
+      "figmaNodeId": "15:251",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-251",
+      "summary": "A field with inline add-ons: icons, prefixes and suffixes, buttons or keyboard hints. Clicking an add-on focuses the input.",
+      "figmaProperties": ["Addon: Icon start | Text affixes | Button end | Keyboard hint"]
+    },
+    "kbd": {
+      "name": "Kbd",
+      "storybook": "Components/Data Display/Kbd",
+      "figmaNodeId": "24:655",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-655",
+      "summary": "Keyboard key or shortcut (<kbd>). KbdGroup combines keys; inside a tooltip it switches to the inverted colors.",
+      "figmaProperties": ["Type: Single | Group"]
+    },
+    "label": {
+      "name": "Label",
+      "storybook": "Components/Forms/Label",
+      "figmaNodeId": "15:195",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-195",
+      "summary": "Accessible label for a control (htmlFor). Dims with peer-disabled controls.",
+      "figmaProperties": ["Text (text)", "State: Default | Disabled | Required"]
+    },
+    "link": {
+      "name": "Link",
+      "storybook": "Components/Navigation/Link",
+      "figmaNodeId": "18:363",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-363",
+      "summary": "Text link. In running text it is always underlined (WCAG 1.4.1). `external` adds the arrow icon, target=_blank and a visually hidden “, opens in a new tab”.",
+      "figmaProperties": [
+        "Variant: Default | Underline | Subtle",
+        "State: Default | Hover | External"
+      ]
+    },
+    "menubar": {
+      "name": "Menubar",
+      "storybook": "Components/Navigation/Menubar",
+      "figmaNodeId": "18:567",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-567",
+      "summary": "Desktop-style persistent menu bar (role=menubar). Arrow keys move between menus; menus use the shared Menu Item rows.",
+      "figmaProperties": ["State: Closed | Open"]
+    },
+    "navigation-menu": {
+      "name": "Navigation Menu",
+      "storybook": "Components/Navigation/Navigation Menu",
+      "figmaNodeId": "18:482",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-482",
+      "summary": "Site navigation with flyout panels (Radix NavigationMenu). Triggers open on hover or Enter; links inside are plain anchors.",
+      "figmaProperties": ["State: Closed | Open"]
+    },
+    "page-header": {
+      "name": "Page Header",
+      "storybook": "Components/Layout/Page Header",
+      "figmaNodeId": "26:715",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-715",
+      "summary": "Top-of-page introduction: eyebrow, display title (h1 by default) with an optional gradient highlight, description and actions.",
+      "figmaProperties": ["Align: Start | Center"]
+    },
+    "pagination": {
+      "name": "Pagination",
+      "storybook": "Components/Navigation/Pagination",
+      "figmaNodeId": "18:443",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-443",
+      "summary": "Page navigation. paginationRange() computes the visible pages and ellipses; the current page has aria-current=page.",
+      "figmaProperties": ["Position: Start | Middle"]
+    },
+    "popover": {
+      "name": "Popover",
+      "storybook": "Components/Overlays/Popover",
+      "figmaNodeId": "23:624",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-624",
+      "summary": "Non-modal floating panel anchored to a trigger. Focus moves into it on open; Escape or an outside click closes it and focus returns to the trigger.",
+      "figmaProperties": ["Type: Form | Text"]
+    },
+    "progress": {
+      "name": "Progress",
+      "storybook": "Components/Feedback/Progress",
+      "figmaNodeId": "20:531",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-531",
+      "summary": "Determinate or indeterminate (value=null) progress bar. Needs an accessible name via aria-label or aria-labelledby. Indeterminate motion respects prefers-reduced-motion.",
+      "figmaProperties": ["Size: sm | md | lg", "Tone: Default | Brand | Success"]
+    },
+    "radio-group": {
+      "name": "Radio Group",
+      "storybook": "Components/Forms/Radio Group",
+      "figmaNodeId": "15:316",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-316",
+      "summary": "One choice from a short list. Arrow keys move and select; the group needs an accessible name.",
+      "figmaProperties": ["Orientation: Vertical | Horizontal", "State: Default | Disabled"]
+    },
+    "scroll-area": {
+      "name": "Scroll Area",
+      "storybook": "Components/Data Display/Scroll Area",
+      "figmaNodeId": "25:1044",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-1044",
+      "summary": "Custom-styled overflow region that keeps native scrolling and keyboard support. The viewport is focusable so keyboard users can scroll it.",
+      "figmaProperties": ["Orientation: Vertical | Horizontal"]
+    },
+    "section": {
+      "name": "Section",
+      "storybook": "Components/Layout/Section",
+      "figmaNodeId": "26:656",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-656",
+      "summary": "Page section with vertical rhythm from the section tokens (sm → lg, growing at larger breakpoints) and scroll-margin for anchored headings.",
+      "figmaProperties": ["Spacing: sm | md | lg"]
+    },
+    "section-heading": {
+      "name": "Section Heading",
+      "storybook": "Patterns/Section Heading",
+      "figmaNodeId": "27:614",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-614",
+      "summary": "Eyebrow, display heading (h2 by default, configurable level) with optional gradient highlight, and a lead paragraph. Used at the top of every site section.",
+      "figmaProperties": ["Align: Start | Center"]
+    },
+    "segmented-control": {
+      "name": "Segmented Control",
+      "storybook": "Components/Navigation/Segmented Control",
+      "figmaNodeId": "18:341",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-341",
+      "summary": "A compact group of navigation links where exactly one is current (aria-current=page), e.g. the language switcher. For in-page state use Toggle Group or Tabs.",
+      "figmaProperties": ["Size: sm | md"]
+    },
+    "select": {
+      "name": "Select",
+      "storybook": "Components/Forms/Select",
+      "figmaNodeId": "16:361",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-361",
+      "summary": "Pick one option from a list (Radix Select, role=combobox + listbox). For long or searchable lists use Combobox.",
+      "figmaProperties": ["State: Placeholder | Value | Focus | Invalid | Disabled | Open"]
+    },
+    "separator": {
+      "name": "Separator",
+      "storybook": "Components/Data Display/Separator",
+      "figmaNodeId": "24:640",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-640",
+      "summary": "A 1px divider in border/default. Decorative by default (role=none); set decorative={false} when it separates meaningful groups.",
+      "figmaProperties": ["Orientation: Horizontal | Vertical"]
+    },
+    "sheet": {
+      "name": "Sheet",
+      "storybook": "Components/Overlays/Sheet",
+      "figmaNodeId": "23:556",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-556",
+      "summary": "Dialog that slides in from an edge (side top | right | bottom | left). Used for filters, settings and the mobile sidebar.",
+      "figmaProperties": ["Side: Right | Bottom"]
+    },
+    "sidebar": {
+      "name": "Sidebar",
+      "storybook": "Components/Navigation/Sidebar",
+      "figmaNodeId": "18:628",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-628",
+      "summary": "Collapsible application sidebar (offcanvas or icon rail). On mobile it renders as a Sheet; Ctrl/Cmd+B toggles; state persists in the sidebar_state cookie.",
+      "figmaProperties": ["State: Expanded | Collapsed"]
+    },
+    "skeleton": {
+      "name": "Skeleton",
+      "storybook": "Components/Feedback/Skeleton",
+      "figmaNodeId": "20:549",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-549",
+      "summary": "Loading placeholder, hidden from assistive technology (aria-hidden). Announce loading once on the container with aria-busy and a status message. Pulse is disabled under reduced motion.",
+      "figmaProperties": ["Shape: Text | Avatar | Card"]
+    },
+    "slider": {
+      "name": "Slider",
+      "storybook": "Components/Forms/Slider",
+      "figmaNodeId": "15:363",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-363",
+      "summary": "Pick a value or range by dragging or with arrow keys. Each thumb needs an accessible name (thumbLabels for ranges).",
+      "figmaProperties": ["Type: Single | Range", "State: Default | Disabled"]
+    },
+    "spinner": {
+      "name": "Spinner",
+      "storybook": "Components/Feedback/Spinner",
+      "figmaNodeId": "20:560",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-560",
+      "summary": "Indeterminate loading indicator (Lucide LoaderCircle) with role=status and a default label “Loading”. Pass label={null} when a parent already announces progress.",
+      "figmaProperties": ["Size: sm | md | lg"]
+    },
+    "stack": {
+      "name": "Stack",
+      "storybook": "Components/Layout/Stack",
+      "figmaNodeId": "26:616",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-616",
+      "summary": "Flex layout with token-based gaps (space.stack.xs → xl). direction column | row | responsive (column, then row from sm); align and justify map to flex alignment.",
+      "figmaProperties": ["Direction: Column | Row", "Gap: md | lg"]
+    },
+    "stat-card": {
+      "name": "Stat Card",
+      "storybook": "Patterns/Stat Card",
+      "figmaNodeId": "27:630",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-630",
+      "summary": "A headline number with a label and context, on a surface card. The value uses the gradient text treatment; hover lifts the card and reveals a brand hairline.",
+      "figmaProperties": ["State: Default | Hover"]
+    },
+    "surface": {
+      "name": "Surface",
+      "storybook": "Components/Layout/Surface",
+      "figmaNodeId": "26:729",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-729",
+      "summary": "Generic styled box when Card's structure is too much: variant surface | panel | muted | none, plus radius, padding (inset tokens) and elevation.",
+      "figmaProperties": ["Variant: Surface | Panel | Muted"]
+    },
+    "switch": {
+      "name": "Switch",
+      "storybook": "Components/Forms/Switch",
+      "figmaNodeId": "15:345",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-345",
+      "summary": "Immediate on/off setting (role=switch). Use a checkbox instead when the change applies on submit.",
+      "figmaProperties": ["Size: md | sm", "State: Off | On | Disabled"]
+    },
+    "table": {
+      "name": "Table",
+      "storybook": "Components/Data Display/Table",
+      "figmaNodeId": "25:649",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-649",
+      "summary": "Semantic HTML table primitives in a horizontally scrollable wrapper. Headers use the eyebrow style; rows tint on hover and when selected (data-state=selected).",
+      "figmaProperties": ["State: Default | Row hover"]
+    },
+    "tabs": {
+      "name": "Tabs",
+      "storybook": "Components/Navigation/Tabs",
+      "figmaNodeId": "18:322",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-322",
+      "summary": "Switch between related panels (role=tablist). Pill for navigation-like tabs, Line for dense, document-like layouts. Arrow keys move between tabs.",
+      "figmaProperties": ["Variant: Pill | Line"]
+    },
+    "textarea": {
+      "name": "Textarea",
+      "storybook": "Components/Forms/Textarea",
+      "figmaNodeId": "15:229",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-229",
+      "summary": "Multi-line text field. Grows with content (field-sizing: content) up to its max height.",
+      "figmaProperties": ["State: Default | Focus | Invalid | Disabled"]
+    },
+    "theme-toggle": {
+      "name": "Theme Toggle",
+      "storybook": "Patterns/Theme Toggle",
+      "figmaNodeId": "27:737",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-737",
+      "summary": "Icon button that flips data-theme on <html> and persists the choice. Its accessible name says what will happen (“Switch to light theme”). Shows Sun in dark mode, Moon in light mode.",
+      "figmaProperties": ["Theme: Dark | Light"]
+    },
+    "timeline": {
+      "name": "Timeline",
+      "storybook": "Patterns/Timeline",
+      "figmaNodeId": "27:698",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-698",
+      "summary": "Ordered list of events on a gradient rail. The current item pulses (static under reduced motion); on large screens dates move to a left column with an oversized index.",
+      "figmaProperties": ["State: Current | Past"]
+    },
+    "toaster": {
+      "name": "Toast",
+      "storybook": "Components/Feedback/Toast",
+      "figmaNodeId": "20:516",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-516",
+      "summary": "Transient notification rendered by Toaster (Sonner) and triggered with toast(). Announced through a polite live region; actions must also be reachable elsewhere.",
+      "figmaProperties": ["Type: Default | Success | Info | Warning | Error"]
+    },
+    "toggle": {
+      "name": "Toggle",
+      "storybook": "Components/Actions/Toggle",
+      "figmaNodeId": "14:518",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-518",
+      "summary": "A two-state button (aria-pressed). Use for a single on/off option such as a formatting or view mode.",
+      "figmaProperties": [
+        "Label (text)",
+        "Variant: Default | Outline",
+        "Size: md | sm | lg",
+        "State: Off | Hover | On | Focus | Disabled"
+      ]
+    },
+    "toggle-group": {
+      "name": "Toggle Group",
+      "storybook": "Components/Actions/Toggle Group",
+      "figmaNodeId": "14:549",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-549",
+      "summary": "A set of toggles with single or multiple selection; arrow keys move focus (roving tabindex).",
+      "figmaProperties": ["Variant: Default | Outline", "Type: Single"]
+    },
+    "tooltip": {
+      "name": "Tooltip",
+      "storybook": "Components/Overlays/Tooltip",
+      "figmaNodeId": "23:635",
+      "figmaUrl": "https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-635",
+      "summary": "Short supplementary label shown on hover and keyboard focus (role=tooltip). Never put essential or interactive content in a tooltip; the trigger must have its own accessible name.",
+      "figmaProperties": ["Type: Default | Shortcut"]
+    }
+  }
+}

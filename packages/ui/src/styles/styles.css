@@ -1,0 +1,21 @@
+/*
+ * Cesuain Design System stylesheet.
+ *
+ * Import this file once from your application's main stylesheet, in place of
+ * `@import "tailwindcss"`:
+ *
+ *   @import "@cesuain/ui/styles.css";
+ *
+ * It loads Tailwind CSS v4, the generated design tokens, the Tailwind theme bridge,
+ * shadcn/ui state variants and the design-system base and utility layers.
+ */
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@cesuain/tokens/tokens.css";
+@import "@cesuain/tokens/theme.css";
+@import "./variants.css";
+@import "./base.css";
+@import "./utilities.css";
+
+/* Let Tailwind see the class names used by the components themselves. */
+@source "../components";

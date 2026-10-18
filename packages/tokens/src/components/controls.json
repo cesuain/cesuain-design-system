@@ -1,0 +1,54 @@
+{
+  "component": {
+    "$description": "Component-scoped tokens. Components read these through CSS variables so sizes stay consistent between code and Figma.",
+    "control": {
+      "$type": "dimension",
+      "height": {
+        "sm": {
+          "$value": "{spacing.9}",
+          "$description": "Compact buttons, inputs and selects (36px)."
+        },
+        "md": { "$value": "{spacing.11}", "$description": "Default control height (44px)." },
+        "lg": { "$value": "{spacing.13}", "$description": "Prominent calls to action (52px)." }
+      },
+      "padding-x": {
+        "sm": { "$value": "{spacing.4}" },
+        "md": { "$value": "{spacing.6}" },
+        "lg": { "$value": "{spacing.7}" }
+      }
+    },
+    "field": {
+      "$type": "dimension",
+      "padding-x": {
+        "$value": "{spacing.4}",
+        "$description": "Horizontal padding inside text fields."
+      },
+      "radius": { "$value": "{radius.field}" }
+    },
+    "card": {
+      "$type": "dimension",
+      "padding": { "$value": "{space.inset.lg}", "$description": "Default card padding (24px)." },
+      "padding-lg": {
+        "$value": "{space.inset.xl}",
+        "$description": "Spacious card padding (32px)."
+      },
+      "radius": { "$value": "{radius.card}" }
+    },
+    "overlay": {
+      "$type": "dimension",
+      "padding": { "$value": "{space.inset.lg}", "$description": "Dialog and sheet padding." },
+      "radius": { "$value": "{radius.overlay}" },
+      "width-sm": { "$value": { "value": 24, "unit": "rem" } },
+      "width-md": { "$value": { "value": 32, "unit": "rem" } },
+      "width-lg": { "$value": { "value": 40, "unit": "rem" } }
+    },
+    "menu": {
+      "$type": "dimension",
+      "padding": {
+        "$value": "{spacing.1-5}",
+        "$description": "Inner padding of menus and listboxes."
+      },
+      "item-radius": { "$value": "{radius.item}" }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "@cesuain/tokens",
+  "version": "0.1.0",
+  "description": "Design tokens for the Cesuain Design System: DTCG sources plus generated CSS, JSON and TypeScript.",
+  "license": "MIT",
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "dtcg",
+    "css-variables",
+    "tailwindcss"
+  ],
+  "homepage": "https://github.com/cesuain/cesuain-design-system/tree/main/packages/tokens#readme",
+  "bugs": {
+    "url": "https://github.com/cesuain/cesuain-design-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesuain/cesuain-design-system.git",
+    "directory": "packages/tokens"
+  },
+  "type": "module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./js/index.d.ts",
+      "default": "./js/index.js"
+    },
+    "./tokens.css": "./css/tokens.css",
+    "./theme.css": "./css/theme.css",
+    "./json/*": "./json/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "css",
+    "js",
+    "json",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node scripts/tokens.ts build",
+    "validate": "node scripts/tokens.ts validate",
+    "check": "node scripts/tokens.ts check",
+    "export:json": "node scripts/tokens.ts build --only json",
+    "export:css": "node scripts/tokens.ts build --only css",
+    "export:typescript": "node scripts/tokens.ts build --only typescript",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "typescript": "6.0.3",
+    "vitest": "5.0.5"
+  }
+}

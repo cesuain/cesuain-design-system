@@ -1,0 +1,3804 @@
+{
+  "collections": [
+    {
+      "name": "Primitives",
+      "modes": [
+        "Value"
+      ],
+      "variables": [
+        {
+          "name": "color/neutral/0",
+          "token": "color.neutral.0",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-0",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff"
+        },
+        {
+          "name": "color/neutral/50",
+          "token": "color.neutral.50",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-50",
+          "scopes": [],
+          "description": "",
+          "value": "#fafafa"
+        },
+        {
+          "name": "color/neutral/100",
+          "token": "color.neutral.100",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-100",
+          "scopes": [],
+          "description": "",
+          "value": "#f4f4f5"
+        },
+        {
+          "name": "color/neutral/200",
+          "token": "color.neutral.200",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-200",
+          "scopes": [],
+          "description": "",
+          "value": "#e4e4e7"
+        },
+        {
+          "name": "color/neutral/300",
+          "token": "color.neutral.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-300",
+          "scopes": [],
+          "description": "",
+          "value": "#d4d4d8"
+        },
+        {
+          "name": "color/neutral/400",
+          "token": "color.neutral.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-400",
+          "scopes": [],
+          "description": "",
+          "value": "#a1a1aa"
+        },
+        {
+          "name": "color/neutral/500",
+          "token": "color.neutral.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-500",
+          "scopes": [],
+          "description": "",
+          "value": "#71717a"
+        },
+        {
+          "name": "color/neutral/600",
+          "token": "color.neutral.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-600",
+          "scopes": [],
+          "description": "",
+          "value": "#52525b"
+        },
+        {
+          "name": "color/neutral/700",
+          "token": "color.neutral.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-700",
+          "scopes": [],
+          "description": "",
+          "value": "#3f3f46"
+        },
+        {
+          "name": "color/neutral/800",
+          "token": "color.neutral.800",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-800",
+          "scopes": [],
+          "description": "",
+          "value": "#27272a"
+        },
+        {
+          "name": "color/neutral/850",
+          "token": "color.neutral.850",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-850",
+          "scopes": [],
+          "description": "",
+          "value": "#18181b"
+        },
+        {
+          "name": "color/neutral/900",
+          "token": "color.neutral.900",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-900",
+          "scopes": [],
+          "description": "",
+          "value": "#141417"
+        },
+        {
+          "name": "color/neutral/925",
+          "token": "color.neutral.925",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-925",
+          "scopes": [],
+          "description": "",
+          "value": "#0b0b0d"
+        },
+        {
+          "name": "color/neutral/950",
+          "token": "color.neutral.950",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-950",
+          "scopes": [],
+          "description": "",
+          "value": "#09090b"
+        },
+        {
+          "name": "color/neutral/960",
+          "token": "color.neutral.960",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-960",
+          "scopes": [],
+          "description": "",
+          "value": "#08080a"
+        },
+        {
+          "name": "color/neutral/975",
+          "token": "color.neutral.975",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-975",
+          "scopes": [],
+          "description": "",
+          "value": "#050505"
+        },
+        {
+          "name": "color/neutral/1000",
+          "token": "color.neutral.1000",
+          "type": "COLOR",
+          "cssVar": "--cds-color-neutral-1000",
+          "scopes": [],
+          "description": "",
+          "value": "#000000"
+        },
+        {
+          "name": "color/sky/100",
+          "token": "color.sky.100",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-100",
+          "scopes": [],
+          "description": "",
+          "value": "#e0f2fe"
+        },
+        {
+          "name": "color/sky/200",
+          "token": "color.sky.200",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-200",
+          "scopes": [],
+          "description": "",
+          "value": "#bae6fd"
+        },
+        {
+          "name": "color/sky/300",
+          "token": "color.sky.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-300",
+          "scopes": [],
+          "description": "",
+          "value": "#7dd3fc"
+        },
+        {
+          "name": "color/sky/400",
+          "token": "color.sky.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-400",
+          "scopes": [],
+          "description": "",
+          "value": "#38bdf8"
+        },
+        {
+          "name": "color/sky/500",
+          "token": "color.sky.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-500",
+          "scopes": [],
+          "description": "",
+          "value": "#0ea5e9"
+        },
+        {
+          "name": "color/sky/600",
+          "token": "color.sky.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-600",
+          "scopes": [],
+          "description": "",
+          "value": "#0284c7"
+        },
+        {
+          "name": "color/sky/700",
+          "token": "color.sky.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-700",
+          "scopes": [],
+          "description": "",
+          "value": "#0369a1"
+        },
+        {
+          "name": "color/sky/800",
+          "token": "color.sky.800",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-800",
+          "scopes": [],
+          "description": "",
+          "value": "#075985"
+        },
+        {
+          "name": "color/sky/900",
+          "token": "color.sky.900",
+          "type": "COLOR",
+          "cssVar": "--cds-color-sky-900",
+          "scopes": [],
+          "description": "",
+          "value": "#0c4a6e"
+        },
+        {
+          "name": "color/blue/300",
+          "token": "color.blue.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-blue-300",
+          "scopes": [],
+          "description": "",
+          "value": "#93c5fd"
+        },
+        {
+          "name": "color/blue/400",
+          "token": "color.blue.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-blue-400",
+          "scopes": [],
+          "description": "",
+          "value": "#60a5fa"
+        },
+        {
+          "name": "color/blue/500",
+          "token": "color.blue.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-blue-500",
+          "scopes": [],
+          "description": "",
+          "value": "#3b82f6"
+        },
+        {
+          "name": "color/blue/600",
+          "token": "color.blue.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-blue-600",
+          "scopes": [],
+          "description": "",
+          "value": "#2563eb"
+        },
+        {
+          "name": "color/blue/700",
+          "token": "color.blue.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-blue-700",
+          "scopes": [],
+          "description": "",
+          "value": "#1d4ed8"
+        },
+        {
+          "name": "color/cyan/300",
+          "token": "color.cyan.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-cyan-300",
+          "scopes": [],
+          "description": "",
+          "value": "#67e8f9"
+        },
+        {
+          "name": "color/cyan/400",
+          "token": "color.cyan.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-cyan-400",
+          "scopes": [],
+          "description": "",
+          "value": "#22d3ee"
+        },
+        {
+          "name": "color/cyan/500",
+          "token": "color.cyan.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-cyan-500",
+          "scopes": [],
+          "description": "",
+          "value": "#06b6d4"
+        },
+        {
+          "name": "color/cyan/600",
+          "token": "color.cyan.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-cyan-600",
+          "scopes": [],
+          "description": "",
+          "value": "#0891b2"
+        },
+        {
+          "name": "color/cyan/700",
+          "token": "color.cyan.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-cyan-700",
+          "scopes": [],
+          "description": "",
+          "value": "#0e7490"
+        },
+        {
+          "name": "color/purple/300",
+          "token": "color.purple.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-purple-300",
+          "scopes": [],
+          "description": "",
+          "value": "#d8b4fe"
+        },
+        {
+          "name": "color/purple/400",
+          "token": "color.purple.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-purple-400",
+          "scopes": [],
+          "description": "",
+          "value": "#c084fc"
+        },
+        {
+          "name": "color/purple/500",
+          "token": "color.purple.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-purple-500",
+          "scopes": [],
+          "description": "",
+          "value": "#a855f7"
+        },
+        {
+          "name": "color/purple/600",
+          "token": "color.purple.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-purple-600",
+          "scopes": [],
+          "description": "",
+          "value": "#9333ea"
+        },
+        {
+          "name": "color/purple/700",
+          "token": "color.purple.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-purple-700",
+          "scopes": [],
+          "description": "",
+          "value": "#7e22ce"
+        },
+        {
+          "name": "color/red/300",
+          "token": "color.red.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-red-300",
+          "scopes": [],
+          "description": "",
+          "value": "#fca5a5"
+        },
+        {
+          "name": "color/red/400",
+          "token": "color.red.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-red-400",
+          "scopes": [],
+          "description": "",
+          "value": "#f87171"
+        },
+        {
+          "name": "color/red/500",
+          "token": "color.red.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-red-500",
+          "scopes": [],
+          "description": "",
+          "value": "#ef4444"
+        },
+        {
+          "name": "color/red/600",
+          "token": "color.red.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-red-600",
+          "scopes": [],
+          "description": "",
+          "value": "#dc2626"
+        },
+        {
+          "name": "color/red/700",
+          "token": "color.red.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-red-700",
+          "scopes": [],
+          "description": "",
+          "value": "#b91c1c"
+        },
+        {
+          "name": "color/emerald/300",
+          "token": "color.emerald.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-emerald-300",
+          "scopes": [],
+          "description": "",
+          "value": "#6ee7b7"
+        },
+        {
+          "name": "color/emerald/400",
+          "token": "color.emerald.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-emerald-400",
+          "scopes": [],
+          "description": "",
+          "value": "#34d399"
+        },
+        {
+          "name": "color/emerald/500",
+          "token": "color.emerald.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-emerald-500",
+          "scopes": [],
+          "description": "",
+          "value": "#10b981"
+        },
+        {
+          "name": "color/emerald/600",
+          "token": "color.emerald.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-emerald-600",
+          "scopes": [],
+          "description": "",
+          "value": "#059669"
+        },
+        {
+          "name": "color/emerald/700",
+          "token": "color.emerald.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-emerald-700",
+          "scopes": [],
+          "description": "",
+          "value": "#047857"
+        },
+        {
+          "name": "color/amber/300",
+          "token": "color.amber.300",
+          "type": "COLOR",
+          "cssVar": "--cds-color-amber-300",
+          "scopes": [],
+          "description": "",
+          "value": "#fcd34d"
+        },
+        {
+          "name": "color/amber/400",
+          "token": "color.amber.400",
+          "type": "COLOR",
+          "cssVar": "--cds-color-amber-400",
+          "scopes": [],
+          "description": "",
+          "value": "#fbbf24"
+        },
+        {
+          "name": "color/amber/500",
+          "token": "color.amber.500",
+          "type": "COLOR",
+          "cssVar": "--cds-color-amber-500",
+          "scopes": [],
+          "description": "",
+          "value": "#f59e0b"
+        },
+        {
+          "name": "color/amber/600",
+          "token": "color.amber.600",
+          "type": "COLOR",
+          "cssVar": "--cds-color-amber-600",
+          "scopes": [],
+          "description": "",
+          "value": "#d97706"
+        },
+        {
+          "name": "color/amber/700",
+          "token": "color.amber.700",
+          "type": "COLOR",
+          "cssVar": "--cds-color-amber-700",
+          "scopes": [],
+          "description": "",
+          "value": "#b45309"
+        },
+        {
+          "name": "color/alpha/white/1",
+          "token": "color.alpha.white.1",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-1",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff03"
+        },
+        {
+          "name": "color/alpha/white/4",
+          "token": "color.alpha.white.4",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-4",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff0a"
+        },
+        {
+          "name": "color/alpha/white/5",
+          "token": "color.alpha.white.5",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-5",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff0d"
+        },
+        {
+          "name": "color/alpha/white/7",
+          "token": "color.alpha.white.7",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-7",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff12"
+        },
+        {
+          "name": "color/alpha/white/8",
+          "token": "color.alpha.white.8",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-8",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff14"
+        },
+        {
+          "name": "color/alpha/white/16",
+          "token": "color.alpha.white.16",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-16",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff29"
+        },
+        {
+          "name": "color/alpha/white/38",
+          "token": "color.alpha.white.38",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-38",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff61"
+        },
+        {
+          "name": "color/alpha/white/62",
+          "token": "color.alpha.white.62",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-62",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffff9e"
+        },
+        {
+          "name": "color/alpha/white/78",
+          "token": "color.alpha.white.78",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-white-78",
+          "scopes": [],
+          "description": "",
+          "value": "#ffffffc7"
+        },
+        {
+          "name": "color/alpha/black/1",
+          "token": "color.alpha.black.1",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-1",
+          "scopes": [],
+          "description": "",
+          "value": "#00000003"
+        },
+        {
+          "name": "color/alpha/black/4",
+          "token": "color.alpha.black.4",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-4",
+          "scopes": [],
+          "description": "",
+          "value": "#0000000a"
+        },
+        {
+          "name": "color/alpha/black/7",
+          "token": "color.alpha.black.7",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-7",
+          "scopes": [],
+          "description": "",
+          "value": "#00000012"
+        },
+        {
+          "name": "color/alpha/black/8",
+          "token": "color.alpha.black.8",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-8",
+          "scopes": [],
+          "description": "",
+          "value": "#00000014"
+        },
+        {
+          "name": "color/alpha/black/16",
+          "token": "color.alpha.black.16",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-16",
+          "scopes": [],
+          "description": "",
+          "value": "#00000029"
+        },
+        {
+          "name": "color/alpha/black/40",
+          "token": "color.alpha.black.40",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-40",
+          "scopes": [],
+          "description": "",
+          "value": "#00000066"
+        },
+        {
+          "name": "color/alpha/black/45",
+          "token": "color.alpha.black.45",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-45",
+          "scopes": [],
+          "description": "",
+          "value": "#00000073"
+        },
+        {
+          "name": "color/alpha/black/60",
+          "token": "color.alpha.black.60",
+          "type": "COLOR",
+          "cssVar": "--cds-color-alpha-black-60",
+          "scopes": [],
+          "description": "",
+          "value": "#00000099"
+        },
+        {
+          "name": "radius/none",
+          "token": "radius.none",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-none",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 0
+        },
+        {
+          "name": "radius/xs",
+          "token": "radius.xs",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-xs",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 6
+        },
+        {
+          "name": "radius/sm",
+          "token": "radius.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-sm",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 10
+        },
+        {
+          "name": "radius/md",
+          "token": "radius.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-md",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 12
+        },
+        {
+          "name": "radius/lg",
+          "token": "radius.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-lg",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 16
+        },
+        {
+          "name": "radius/xl",
+          "token": "radius.xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-xl",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 20
+        },
+        {
+          "name": "radius/2xl",
+          "token": "radius.2xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-2xl",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 24
+        },
+        {
+          "name": "radius/3xl",
+          "token": "radius.3xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-3xl",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 32
+        },
+        {
+          "name": "radius/full",
+          "token": "radius.full",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-full",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": 9999
+        },
+        {
+          "name": "border-width/default",
+          "token": "border-width.default",
+          "type": "FLOAT",
+          "cssVar": "--cds-border-width-default",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "description": "",
+          "value": 1
+        },
+        {
+          "name": "border-width/strong",
+          "token": "border-width.strong",
+          "type": "FLOAT",
+          "cssVar": "--cds-border-width-strong",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "description": "",
+          "value": 2
+        },
+        {
+          "name": "opacity/disabled",
+          "token": "opacity.disabled",
+          "type": "FLOAT",
+          "cssVar": "--cds-opacity-disabled",
+          "scopes": [
+            "OPACITY"
+          ],
+          "description": "Applied to disabled controls.",
+          "value": 0.5
+        },
+        {
+          "name": "z-index/base",
+          "token": "z-index.base",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-base",
+          "scopes": [],
+          "description": "",
+          "value": 0
+        },
+        {
+          "name": "z-index/raised",
+          "token": "z-index.raised",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-raised",
+          "scopes": [],
+          "description": "",
+          "value": 10
+        },
+        {
+          "name": "z-index/sticky",
+          "token": "z-index.sticky",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-sticky",
+          "scopes": [],
+          "description": "",
+          "value": 40
+        },
+        {
+          "name": "z-index/header",
+          "token": "z-index.header",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-header",
+          "scopes": [],
+          "description": "",
+          "value": 50
+        },
+        {
+          "name": "z-index/overlay",
+          "token": "z-index.overlay",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-overlay",
+          "scopes": [],
+          "description": "",
+          "value": 80
+        },
+        {
+          "name": "z-index/modal",
+          "token": "z-index.modal",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-modal",
+          "scopes": [],
+          "description": "",
+          "value": 90
+        },
+        {
+          "name": "z-index/popover",
+          "token": "z-index.popover",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-popover",
+          "scopes": [],
+          "description": "",
+          "value": 100
+        },
+        {
+          "name": "z-index/toast",
+          "token": "z-index.toast",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-toast",
+          "scopes": [],
+          "description": "",
+          "value": 110
+        },
+        {
+          "name": "z-index/tooltip",
+          "token": "z-index.tooltip",
+          "type": "FLOAT",
+          "cssVar": "--cds-z-index-tooltip",
+          "scopes": [],
+          "description": "",
+          "value": 120
+        },
+        {
+          "name": "spacing/0",
+          "token": "spacing.0",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-0",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 0
+        },
+        {
+          "name": "spacing/1",
+          "token": "spacing.1",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-1",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 4
+        },
+        {
+          "name": "spacing/2",
+          "token": "spacing.2",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-2",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 8
+        },
+        {
+          "name": "spacing/3",
+          "token": "spacing.3",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-3",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 12
+        },
+        {
+          "name": "spacing/4",
+          "token": "spacing.4",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-4",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 16
+        },
+        {
+          "name": "spacing/5",
+          "token": "spacing.5",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-5",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 20
+        },
+        {
+          "name": "spacing/6",
+          "token": "spacing.6",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-6",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 24
+        },
+        {
+          "name": "spacing/7",
+          "token": "spacing.7",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-7",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 28
+        },
+        {
+          "name": "spacing/8",
+          "token": "spacing.8",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-8",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 32
+        },
+        {
+          "name": "spacing/9",
+          "token": "spacing.9",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-9",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 36
+        },
+        {
+          "name": "spacing/10",
+          "token": "spacing.10",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-10",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 40
+        },
+        {
+          "name": "spacing/11",
+          "token": "spacing.11",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-11",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 44
+        },
+        {
+          "name": "spacing/12",
+          "token": "spacing.12",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-12",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 48
+        },
+        {
+          "name": "spacing/13",
+          "token": "spacing.13",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-13",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 52
+        },
+        {
+          "name": "spacing/16",
+          "token": "spacing.16",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-16",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 64
+        },
+        {
+          "name": "spacing/20",
+          "token": "spacing.20",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-20",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 80
+        },
+        {
+          "name": "spacing/24",
+          "token": "spacing.24",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-24",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 96
+        },
+        {
+          "name": "spacing/32",
+          "token": "spacing.32",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-32",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 128
+        },
+        {
+          "name": "spacing/0-5",
+          "token": "spacing.0-5",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-0-5",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 2
+        },
+        {
+          "name": "spacing/1-5",
+          "token": "spacing.1-5",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-1-5",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 6
+        },
+        {
+          "name": "spacing/2-5",
+          "token": "spacing.2-5",
+          "type": "FLOAT",
+          "cssVar": "--cds-spacing-2-5",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 10
+        },
+        {
+          "name": "size/container/sm",
+          "token": "size.container.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-container-sm",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 640
+        },
+        {
+          "name": "size/container/md",
+          "token": "size.container.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-container-md",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 768
+        },
+        {
+          "name": "size/container/lg",
+          "token": "size.container.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-container-lg",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 1024
+        },
+        {
+          "name": "size/container/xl",
+          "token": "size.container.xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-container-xl",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 1280
+        },
+        {
+          "name": "size/content/prose",
+          "token": "size.content.prose",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-content-prose",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 672
+        },
+        {
+          "name": "size/content/narrow",
+          "token": "size.content.narrow",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-content-narrow",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 768
+        },
+        {
+          "name": "size/icon/xs",
+          "token": "size.icon.xs",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-icon-xs",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 12
+        },
+        {
+          "name": "size/icon/sm",
+          "token": "size.icon.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-icon-sm",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 14
+        },
+        {
+          "name": "size/icon/md",
+          "token": "size.icon.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-icon-md",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 16
+        },
+        {
+          "name": "size/icon/lg",
+          "token": "size.icon.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-icon-lg",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 20
+        },
+        {
+          "name": "size/icon/xl",
+          "token": "size.icon.xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-size-icon-xl",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": 24
+        },
+        {
+          "name": "breakpoint/sm",
+          "token": "breakpoint.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-breakpoint-sm",
+          "scopes": [],
+          "description": "",
+          "value": 640
+        },
+        {
+          "name": "breakpoint/md",
+          "token": "breakpoint.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-breakpoint-md",
+          "scopes": [],
+          "description": "",
+          "value": 768
+        },
+        {
+          "name": "breakpoint/lg",
+          "token": "breakpoint.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-breakpoint-lg",
+          "scopes": [],
+          "description": "",
+          "value": 1024
+        },
+        {
+          "name": "breakpoint/xl",
+          "token": "breakpoint.xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-breakpoint-xl",
+          "scopes": [],
+          "description": "",
+          "value": 1280
+        },
+        {
+          "name": "breakpoint/2xl",
+          "token": "breakpoint.2xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-breakpoint-2xl",
+          "scopes": [],
+          "description": "",
+          "value": 1536
+        },
+        {
+          "name": "font/family/sans",
+          "token": "font.family.sans",
+          "type": "STRING",
+          "cssVar": "--cds-font-family-sans",
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "description": "Interface and body copy.",
+          "value": "Poppins"
+        },
+        {
+          "name": "font/family/display",
+          "token": "font.family.display",
+          "type": "STRING",
+          "cssVar": "--cds-font-family-display",
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "description": "Condensed uppercase display face for headlines and big numbers.",
+          "value": "Anton"
+        },
+        {
+          "name": "font/family/mono",
+          "token": "font.family.mono",
+          "type": "STRING",
+          "cssVar": "--cds-font-family-mono",
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "description": "Code, keyboard hints and eyebrow labels.",
+          "value": "JetBrains Mono"
+        },
+        {
+          "name": "font/weight/light",
+          "token": "font.weight.light",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-weight-light",
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "description": "",
+          "value": 300
+        },
+        {
+          "name": "font/weight/regular",
+          "token": "font.weight.regular",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-weight-regular",
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "description": "",
+          "value": 400
+        },
+        {
+          "name": "font/weight/medium",
+          "token": "font.weight.medium",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-weight-medium",
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "description": "",
+          "value": 500
+        },
+        {
+          "name": "font/weight/semibold",
+          "token": "font.weight.semibold",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-weight-semibold",
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "description": "",
+          "value": 600
+        },
+        {
+          "name": "font/size/11",
+          "token": "font.size.11",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-11",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 11
+        },
+        {
+          "name": "font/size/12",
+          "token": "font.size.12",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-12",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 12
+        },
+        {
+          "name": "font/size/13",
+          "token": "font.size.13",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-13",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 13
+        },
+        {
+          "name": "font/size/14",
+          "token": "font.size.14",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-14",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 14
+        },
+        {
+          "name": "font/size/15",
+          "token": "font.size.15",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-15",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 15
+        },
+        {
+          "name": "font/size/16",
+          "token": "font.size.16",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-16",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 16
+        },
+        {
+          "name": "font/size/18",
+          "token": "font.size.18",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-18",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 18
+        },
+        {
+          "name": "font/size/20",
+          "token": "font.size.20",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-20",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 20
+        },
+        {
+          "name": "font/size/24",
+          "token": "font.size.24",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-24",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 24
+        },
+        {
+          "name": "font/size/30",
+          "token": "font.size.30",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-30",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 30
+        },
+        {
+          "name": "font/size/36",
+          "token": "font.size.36",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-36",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 36
+        },
+        {
+          "name": "font/size/48",
+          "token": "font.size.48",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-48",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 48
+        },
+        {
+          "name": "font/size/60",
+          "token": "font.size.60",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-60",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 60
+        },
+        {
+          "name": "font/size/72",
+          "token": "font.size.72",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-size-72",
+          "scopes": [
+            "FONT_SIZE"
+          ],
+          "description": "",
+          "value": 72
+        },
+        {
+          "name": "font/line-height/none",
+          "token": "font.line-height.none",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-line-height-none",
+          "scopes": [],
+          "description": "",
+          "value": 1
+        },
+        {
+          "name": "font/line-height/display",
+          "token": "font.line-height.display",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-line-height-display",
+          "scopes": [],
+          "description": "",
+          "value": 0.95
+        },
+        {
+          "name": "font/line-height/tight",
+          "token": "font.line-height.tight",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-line-height-tight",
+          "scopes": [],
+          "description": "",
+          "value": 1.15
+        },
+        {
+          "name": "font/line-height/snug",
+          "token": "font.line-height.snug",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-line-height-snug",
+          "scopes": [],
+          "description": "",
+          "value": 1.3
+        },
+        {
+          "name": "font/line-height/normal",
+          "token": "font.line-height.normal",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-line-height-normal",
+          "scopes": [],
+          "description": "",
+          "value": 1.5
+        },
+        {
+          "name": "font/line-height/relaxed",
+          "token": "font.line-height.relaxed",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-line-height-relaxed",
+          "scopes": [],
+          "description": "",
+          "value": 1.625
+        },
+        {
+          "name": "font/letter-spacing/tight",
+          "token": "font.letter-spacing.tight",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-letter-spacing-tight",
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "description": "",
+          "value": -0.01
+        },
+        {
+          "name": "font/letter-spacing/display",
+          "token": "font.letter-spacing.display",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-letter-spacing-display",
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "description": "",
+          "value": -0.005
+        },
+        {
+          "name": "font/letter-spacing/normal",
+          "token": "font.letter-spacing.normal",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-letter-spacing-normal",
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "description": "",
+          "value": 0
+        },
+        {
+          "name": "font/letter-spacing/wide",
+          "token": "font.letter-spacing.wide",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-letter-spacing-wide",
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "description": "",
+          "value": 0.025
+        },
+        {
+          "name": "font/letter-spacing/widest",
+          "token": "font.letter-spacing.widest",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-letter-spacing-widest",
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "description": "",
+          "value": 0.2
+        },
+        {
+          "name": "font/letter-spacing/eyebrow",
+          "token": "font.letter-spacing.eyebrow",
+          "type": "FLOAT",
+          "cssVar": "--cds-font-letter-spacing-eyebrow",
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "description": "",
+          "value": 0.25
+        }
+      ]
+    },
+    {
+      "name": "Theme",
+      "modes": [
+        "Dark",
+        "Light"
+      ],
+      "modeKeys": [
+        "dark",
+        "light"
+      ],
+      "variables": [
+        {
+          "name": "color/background/default",
+          "token": "color.background.default",
+          "type": "COLOR",
+          "cssVar": "--background",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Page canvas.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/50"
+            }
+          }
+        },
+        {
+          "name": "color/foreground/default",
+          "token": "color.foreground.default",
+          "type": "COLOR",
+          "cssVar": "--foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Primary text and icons on the canvas.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/card/default",
+          "token": "color.card.default",
+          "type": "COLOR",
+          "cssVar": "--card",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Card surface.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/925"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/card/foreground",
+          "token": "color.card.foreground",
+          "type": "COLOR",
+          "cssVar": "--card-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on cards.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/popover/default",
+          "token": "color.popover.default",
+          "type": "COLOR",
+          "cssVar": "--popover",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Menus, popovers, dialogs and other floating surfaces.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/960"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/popover/foreground",
+          "token": "color.popover.foreground",
+          "type": "COLOR",
+          "cssVar": "--popover-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on floating surfaces.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/panel/default",
+          "token": "color.panel.default",
+          "type": "COLOR",
+          "cssVar": "--panel",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Solid chrome behind navigation bars and sidebars.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/960"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/primary/default",
+          "token": "color.primary.default",
+          "type": "COLOR",
+          "cssVar": "--primary",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "High-emphasis action fill (inverted ink).",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/primary/foreground",
+          "token": "color.primary.foreground",
+          "type": "COLOR",
+          "cssVar": "--primary-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on primary fills.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/50"
+            }
+          }
+        },
+        {
+          "name": "color/secondary/default",
+          "token": "color.secondary.default",
+          "type": "COLOR",
+          "cssVar": "--secondary",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Low-emphasis action fill.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/900"
+            },
+            "light": {
+              "alias": "color/neutral/100"
+            }
+          }
+        },
+        {
+          "name": "color/secondary/foreground",
+          "token": "color.secondary.foreground",
+          "type": "COLOR",
+          "cssVar": "--secondary-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on secondary fills.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/muted/default",
+          "token": "color.muted.default",
+          "type": "COLOR",
+          "cssVar": "--muted",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Subdued backgrounds: skeletons, tracks, code.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/900"
+            },
+            "light": {
+              "alias": "color/neutral/100"
+            }
+          }
+        },
+        {
+          "name": "color/muted/foreground",
+          "token": "color.muted.foreground",
+          "type": "COLOR",
+          "cssVar": "--muted-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Secondary text, descriptions and placeholders.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/400"
+            },
+            "light": {
+              "alias": "color/neutral/600"
+            }
+          }
+        },
+        {
+          "name": "color/accent/default",
+          "token": "color.accent.default",
+          "type": "COLOR",
+          "cssVar": "--accent",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Hover and selected backgrounds for items.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/850"
+            },
+            "light": {
+              "alias": "color/neutral/200"
+            }
+          }
+        },
+        {
+          "name": "color/accent/foreground",
+          "token": "color.accent.foreground",
+          "type": "COLOR",
+          "cssVar": "--accent-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on accent backgrounds.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/brand/default",
+          "token": "color.brand.default",
+          "type": "COLOR",
+          "cssVar": "--brand",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Interactive accent: links, eyebrows, active indicators.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/sky/400"
+            },
+            "light": {
+              "alias": "color/sky/700"
+            }
+          }
+        },
+        {
+          "name": "color/brand/foreground",
+          "token": "color.brand.foreground",
+          "type": "COLOR",
+          "cssVar": "--brand-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on brand fills.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/destructive/default",
+          "token": "color.destructive.default",
+          "type": "COLOR",
+          "cssVar": "--destructive",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Errors and destructive actions.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/red/400"
+            },
+            "light": {
+              "alias": "color/red/700"
+            }
+          }
+        },
+        {
+          "name": "color/destructive/foreground",
+          "token": "color.destructive.foreground",
+          "type": "COLOR",
+          "cssVar": "--destructive-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on destructive fills.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/success/default",
+          "token": "color.success.default",
+          "type": "COLOR",
+          "cssVar": "--success",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Positive outcomes and live status.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/emerald/400"
+            },
+            "light": {
+              "alias": "color/emerald/700"
+            }
+          }
+        },
+        {
+          "name": "color/success/foreground",
+          "token": "color.success.foreground",
+          "type": "COLOR",
+          "cssVar": "--success-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on success fills.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/warning/default",
+          "token": "color.warning.default",
+          "type": "COLOR",
+          "cssVar": "--warning",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Caution and pending states.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/amber/300"
+            },
+            "light": {
+              "alias": "color/amber/700"
+            }
+          }
+        },
+        {
+          "name": "color/warning/foreground",
+          "token": "color.warning.foreground",
+          "type": "COLOR",
+          "cssVar": "--warning-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on warning fills.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/info/default",
+          "token": "color.info.default",
+          "type": "COLOR",
+          "cssVar": "--info",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Neutral informational messages.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/sky/400"
+            },
+            "light": {
+              "alias": "color/sky/700"
+            }
+          }
+        },
+        {
+          "name": "color/info/foreground",
+          "token": "color.info.foreground",
+          "type": "COLOR",
+          "cssVar": "--info-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on info fills.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/border/default",
+          "token": "color.border.default",
+          "type": "COLOR",
+          "cssVar": "--border",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "Decorative dividers and surface outlines.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/8"
+            },
+            "light": {
+              "alias": "color/alpha/black/8"
+            }
+          }
+        },
+        {
+          "name": "color/border/strong",
+          "token": "color.border.strong",
+          "type": "COLOR",
+          "cssVar": "--border-strong",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "Hovered outlines and emphasized separators.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/16"
+            },
+            "light": {
+              "alias": "color/alpha/black/16"
+            }
+          }
+        },
+        {
+          "name": "color/input/default",
+          "token": "color.input.default",
+          "type": "COLOR",
+          "cssVar": "--input",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "Form control boundaries (≥3:1 against the canvas).",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/38"
+            },
+            "light": {
+              "alias": "color/alpha/black/45"
+            }
+          }
+        },
+        {
+          "name": "color/ring/default",
+          "token": "color.ring.default",
+          "type": "COLOR",
+          "cssVar": "--ring",
+          "scopes": [
+            "STROKE_COLOR"
+          ],
+          "description": "Focus indicator.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/sky/400"
+            },
+            "light": {
+              "alias": "color/sky/600"
+            }
+          }
+        },
+        {
+          "name": "color/overlay/default",
+          "token": "color.overlay.default",
+          "type": "COLOR",
+          "cssVar": "--overlay",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Scrim behind modal surfaces.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/black/60"
+            },
+            "light": {
+              "alias": "color/alpha/black/40"
+            }
+          }
+        },
+        {
+          "name": "color/surface/from",
+          "token": "color.surface.from",
+          "type": "COLOR",
+          "cssVar": "--surface-from",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Top stop of the translucent surface gradient.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/4"
+            },
+            "light": {
+              "alias": "color/alpha/black/4"
+            }
+          }
+        },
+        {
+          "name": "color/surface/to",
+          "token": "color.surface.to",
+          "type": "COLOR",
+          "cssVar": "--surface-to",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Bottom stop of the translucent surface gradient.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/1"
+            },
+            "light": {
+              "alias": "color/alpha/black/1"
+            }
+          }
+        },
+        {
+          "name": "color/surface/border",
+          "token": "color.surface.border",
+          "type": "COLOR",
+          "cssVar": "--surface-border",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Outline of translucent surfaces.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/7"
+            },
+            "light": {
+              "alias": "color/alpha/black/7"
+            }
+          }
+        },
+        {
+          "name": "color/glass/from",
+          "token": "color.glass.from",
+          "type": "COLOR",
+          "cssVar": "--glass-from",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Top stop of the frosted glass gradient.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/5"
+            },
+            "light": {
+              "alias": "color/alpha/white/78"
+            }
+          }
+        },
+        {
+          "name": "color/glass/to",
+          "token": "color.glass.to",
+          "type": "COLOR",
+          "cssVar": "--glass-to",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Bottom stop of the frosted glass gradient.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/1"
+            },
+            "light": {
+              "alias": "color/alpha/white/62"
+            }
+          }
+        },
+        {
+          "name": "color/glass/border",
+          "token": "color.glass.border",
+          "type": "COLOR",
+          "cssVar": "--glass-border",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Outline of glass surfaces.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/8"
+            },
+            "light": {
+              "alias": "color/alpha/black/8"
+            }
+          }
+        },
+        {
+          "name": "color/gradient/start",
+          "token": "color.gradient.start",
+          "type": "COLOR",
+          "cssVar": "--gradient-start",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Brand gradient start.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/blue/500"
+            },
+            "light": {
+              "alias": "color/blue/500"
+            }
+          }
+        },
+        {
+          "name": "color/gradient/middle",
+          "token": "color.gradient.middle",
+          "type": "COLOR",
+          "cssVar": "--gradient-middle",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Brand gradient midpoint.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/cyan/400"
+            },
+            "light": {
+              "alias": "color/cyan/400"
+            }
+          }
+        },
+        {
+          "name": "color/gradient/end",
+          "token": "color.gradient.end",
+          "type": "COLOR",
+          "cssVar": "--gradient-end",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Brand gradient end.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/purple/500"
+            },
+            "light": {
+              "alias": "color/purple/500"
+            }
+          }
+        },
+        {
+          "name": "color/gradient/foreground",
+          "token": "color.gradient.foreground",
+          "type": "COLOR",
+          "cssVar": "--gradient-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on the brand gradient.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/975"
+            }
+          }
+        },
+        {
+          "name": "color/chart/1",
+          "token": "color.chart.1",
+          "type": "COLOR",
+          "cssVar": "--chart-1",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Chart series 1.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/sky/400"
+            },
+            "light": {
+              "alias": "color/sky/600"
+            }
+          }
+        },
+        {
+          "name": "color/chart/2",
+          "token": "color.chart.2",
+          "type": "COLOR",
+          "cssVar": "--chart-2",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Chart series 2.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/purple/400"
+            },
+            "light": {
+              "alias": "color/purple/600"
+            }
+          }
+        },
+        {
+          "name": "color/chart/3",
+          "token": "color.chart.3",
+          "type": "COLOR",
+          "cssVar": "--chart-3",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Chart series 3.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/emerald/400"
+            },
+            "light": {
+              "alias": "color/emerald/600"
+            }
+          }
+        },
+        {
+          "name": "color/chart/4",
+          "token": "color.chart.4",
+          "type": "COLOR",
+          "cssVar": "--chart-4",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Chart series 4.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/amber/300"
+            },
+            "light": {
+              "alias": "color/amber/600"
+            }
+          }
+        },
+        {
+          "name": "color/chart/5",
+          "token": "color.chart.5",
+          "type": "COLOR",
+          "cssVar": "--chart-5",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Chart series 5.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/blue/400"
+            },
+            "light": {
+              "alias": "color/blue/600"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/default",
+          "token": "color.sidebar.default",
+          "type": "COLOR",
+          "cssVar": "--sidebar",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Sidebar surface.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/960"
+            },
+            "light": {
+              "alias": "color/neutral/0"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/foreground",
+          "token": "color.sidebar.foreground",
+          "type": "COLOR",
+          "cssVar": "--sidebar-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Sidebar text.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/primary/default",
+          "token": "color.sidebar.primary.default",
+          "type": "COLOR",
+          "cssVar": "--sidebar-primary",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Sidebar primary action.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/primary/foreground",
+          "token": "color.sidebar.primary.foreground",
+          "type": "COLOR",
+          "cssVar": "--sidebar-primary-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on sidebar primary.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/975"
+            },
+            "light": {
+              "alias": "color/neutral/50"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/accent/default",
+          "token": "color.sidebar.accent.default",
+          "type": "COLOR",
+          "cssVar": "--sidebar-accent",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Sidebar hovered item.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/850"
+            },
+            "light": {
+              "alias": "color/neutral/100"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/accent/foreground",
+          "token": "color.sidebar.accent.foreground",
+          "type": "COLOR",
+          "cssVar": "--sidebar-accent-foreground",
+          "scopes": [
+            "TEXT_FILL",
+            "SHAPE_FILL"
+          ],
+          "description": "Text on sidebar hovered item.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/neutral/50"
+            },
+            "light": {
+              "alias": "color/neutral/950"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/border",
+          "token": "color.sidebar.border",
+          "type": "COLOR",
+          "cssVar": "--sidebar-border",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Sidebar dividers.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/alpha/white/8"
+            },
+            "light": {
+              "alias": "color/alpha/black/8"
+            }
+          }
+        },
+        {
+          "name": "color/sidebar/ring",
+          "token": "color.sidebar.ring",
+          "type": "COLOR",
+          "cssVar": "--sidebar-ring",
+          "scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE_COLOR",
+            "TEXT_FILL"
+          ],
+          "description": "Sidebar focus indicator.",
+          "value": null,
+          "valuesByMode": {
+            "dark": {
+              "alias": "color/sky/400"
+            },
+            "light": {
+              "alias": "color/sky/600"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Semantic",
+      "modes": [
+        "Value"
+      ],
+      "variables": [
+        {
+          "name": "component/control/height/sm",
+          "token": "component.control.height.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-control-height-sm",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Compact buttons, inputs and selects (36px).",
+          "value": {
+            "alias": "spacing/9"
+          }
+        },
+        {
+          "name": "component/control/height/md",
+          "token": "component.control.height.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-control-height-md",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Default control height (44px).",
+          "value": {
+            "alias": "spacing/11"
+          }
+        },
+        {
+          "name": "component/control/height/lg",
+          "token": "component.control.height.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-control-height-lg",
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Prominent calls to action (52px).",
+          "value": {
+            "alias": "spacing/13"
+          }
+        },
+        {
+          "name": "component/control/padding-x/sm",
+          "token": "component.control.padding-x.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-control-padding-x-sm",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/4"
+          }
+        },
+        {
+          "name": "component/control/padding-x/md",
+          "token": "component.control.padding-x.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-control-padding-x-md",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/6"
+          }
+        },
+        {
+          "name": "component/control/padding-x/lg",
+          "token": "component.control.padding-x.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-control-padding-x-lg",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/7"
+          }
+        },
+        {
+          "name": "component/field/padding-x",
+          "token": "component.field.padding-x",
+          "type": "FLOAT",
+          "cssVar": "--cds-field-padding-x",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Horizontal padding inside text fields.",
+          "value": {
+            "alias": "spacing/4"
+          }
+        },
+        {
+          "name": "component/field/radius",
+          "token": "component.field.radius",
+          "type": "FLOAT",
+          "cssVar": "--cds-field-radius",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": {
+            "alias": "radius/field"
+          }
+        },
+        {
+          "name": "component/card/padding",
+          "token": "component.card.padding",
+          "type": "FLOAT",
+          "cssVar": "--cds-card-padding",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Default card padding (24px).",
+          "value": {
+            "alias": "space/inset/lg"
+          }
+        },
+        {
+          "name": "component/card/padding-lg",
+          "token": "component.card.padding-lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-card-padding-lg",
+          "scopes": [],
+          "description": "Spacious card padding (32px).",
+          "value": {
+            "alias": "space/inset/xl"
+          }
+        },
+        {
+          "name": "component/card/radius",
+          "token": "component.card.radius",
+          "type": "FLOAT",
+          "cssVar": "--cds-card-radius",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": {
+            "alias": "radius/card"
+          }
+        },
+        {
+          "name": "component/overlay/padding",
+          "token": "component.overlay.padding",
+          "type": "FLOAT",
+          "cssVar": "--cds-overlay-padding",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Dialog and sheet padding.",
+          "value": {
+            "alias": "space/inset/lg"
+          }
+        },
+        {
+          "name": "component/overlay/radius",
+          "token": "component.overlay.radius",
+          "type": "FLOAT",
+          "cssVar": "--cds-overlay-radius",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "",
+          "value": {
+            "alias": "radius/overlay"
+          }
+        },
+        {
+          "name": "component/overlay/width-sm",
+          "token": "component.overlay.width-sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-overlay-width-sm",
+          "scopes": [],
+          "description": "",
+          "value": 384
+        },
+        {
+          "name": "component/overlay/width-md",
+          "token": "component.overlay.width-md",
+          "type": "FLOAT",
+          "cssVar": "--cds-overlay-width-md",
+          "scopes": [],
+          "description": "",
+          "value": 512
+        },
+        {
+          "name": "component/overlay/width-lg",
+          "token": "component.overlay.width-lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-overlay-width-lg",
+          "scopes": [],
+          "description": "",
+          "value": 640
+        },
+        {
+          "name": "component/menu/padding",
+          "token": "component.menu.padding",
+          "type": "FLOAT",
+          "cssVar": "--cds-menu-padding",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "Inner padding of menus and listboxes.",
+          "value": {
+            "alias": "spacing/1-5"
+          }
+        },
+        {
+          "name": "component/menu/item-radius",
+          "token": "component.menu.item-radius",
+          "type": "FLOAT",
+          "cssVar": "--cds-menu-item-radius",
+          "scopes": [],
+          "description": "",
+          "value": {
+            "alias": "radius/item"
+          }
+        },
+        {
+          "name": "radius/control",
+          "token": "radius.control",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-control",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "Pill shape for buttons, toggles, badges and segmented controls.",
+          "value": {
+            "alias": "radius/full"
+          }
+        },
+        {
+          "name": "radius/field",
+          "token": "radius.field",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-field",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "Text inputs, selects and textareas.",
+          "value": {
+            "alias": "radius/xl"
+          }
+        },
+        {
+          "name": "radius/item",
+          "token": "radius.item",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-item",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "Menu items, list rows and small tiles.",
+          "value": {
+            "alias": "radius/md"
+          }
+        },
+        {
+          "name": "radius/card",
+          "token": "radius.card",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-card",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "Cards and large surfaces.",
+          "value": {
+            "alias": "radius/2xl"
+          }
+        },
+        {
+          "name": "radius/overlay",
+          "token": "radius.overlay",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-overlay",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "Dialogs, sheets, popovers and menus.",
+          "value": {
+            "alias": "radius/2xl"
+          }
+        },
+        {
+          "name": "radius/indicator",
+          "token": "radius.indicator",
+          "type": "FLOAT",
+          "cssVar": "--cds-radius-indicator",
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "description": "Checkboxes, keyboard hints and small markers.",
+          "value": {
+            "alias": "radius/xs"
+          }
+        },
+        {
+          "name": "space/inset/xs",
+          "token": "space.inset.xs",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-inset-xs",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/2"
+          }
+        },
+        {
+          "name": "space/inset/sm",
+          "token": "space.inset.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-inset-sm",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/3"
+          }
+        },
+        {
+          "name": "space/inset/md",
+          "token": "space.inset.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-inset-md",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/4"
+          }
+        },
+        {
+          "name": "space/inset/lg",
+          "token": "space.inset.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-inset-lg",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/6"
+          }
+        },
+        {
+          "name": "space/inset/xl",
+          "token": "space.inset.xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-inset-xl",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/8"
+          }
+        },
+        {
+          "name": "space/stack/xs",
+          "token": "space.stack.xs",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-stack-xs",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/1"
+          }
+        },
+        {
+          "name": "space/stack/sm",
+          "token": "space.stack.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-stack-sm",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/2"
+          }
+        },
+        {
+          "name": "space/stack/md",
+          "token": "space.stack.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-stack-md",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/4"
+          }
+        },
+        {
+          "name": "space/stack/lg",
+          "token": "space.stack.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-stack-lg",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/6"
+          }
+        },
+        {
+          "name": "space/stack/xl",
+          "token": "space.stack.xl",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-stack-xl",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/10"
+          }
+        },
+        {
+          "name": "space/section/sm",
+          "token": "space.section.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-section-sm",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/16"
+          }
+        },
+        {
+          "name": "space/section/md",
+          "token": "space.section.md",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-section-md",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/24"
+          }
+        },
+        {
+          "name": "space/section/lg",
+          "token": "space.section.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-section-lg",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/32"
+          }
+        },
+        {
+          "name": "space/gutter/sm",
+          "token": "space.gutter.sm",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-gutter-sm",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/5"
+          }
+        },
+        {
+          "name": "space/gutter/lg",
+          "token": "space.gutter.lg",
+          "type": "FLOAT",
+          "cssVar": "--cds-space-gutter-lg",
+          "scopes": [
+            "GAP",
+            "WIDTH_HEIGHT"
+          ],
+          "description": "",
+          "value": {
+            "alias": "spacing/8"
+          }
+        },
+        {
+          "name": "focus/width",
+          "token": "focus.width",
+          "type": "FLOAT",
+          "cssVar": "--cds-focus-width",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "description": "Focus ring thickness.",
+          "value": {
+            "alias": "border-width/strong"
+          }
+        },
+        {
+          "name": "focus/offset",
+          "token": "focus.offset",
+          "type": "FLOAT",
+          "cssVar": "--cds-focus-offset",
+          "scopes": [
+            "STROKE_FLOAT"
+          ],
+          "description": "Gap between the element and its focus ring.",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "textStyles": [
+    {
+      "name": "text/display/2xl",
+      "token": "text.display.2xl",
+      "utility": "text-display-2xl",
+      "fontFamily": "Anton",
+      "fontWeight": 400,
+      "fontSize": 72,
+      "lineHeight": 0.95,
+      "letterSpacingEm": -0.005,
+      "textCase": "UPPER",
+      "description": "Hero headlines. Scales fluidly from 48px."
+    },
+    {
+      "name": "text/display/xl",
+      "token": "text.display.xl",
+      "utility": "text-display-xl",
+      "fontFamily": "Anton",
+      "fontWeight": 400,
+      "fontSize": 60,
+      "lineHeight": 0.95,
+      "letterSpacingEm": -0.005,
+      "textCase": "UPPER",
+      "description": "Section titles. Scales fluidly from 36px."
+    },
+    {
+      "name": "text/display/lg",
+      "token": "text.display.lg",
+      "utility": "text-display-lg",
+      "fontFamily": "Anton",
+      "fontWeight": 400,
+      "fontSize": 48,
+      "lineHeight": 0.95,
+      "letterSpacingEm": -0.005,
+      "textCase": "UPPER",
+      "description": "Page headers and large statistics. Scales fluidly from 36px."
+    },
+    {
+      "name": "text/display/md",
+      "token": "text.display.md",
+      "utility": "text-display-md",
+      "fontFamily": "Anton",
+      "fontWeight": 400,
+      "fontSize": 36,
+      "lineHeight": 1,
+      "letterSpacingEm": -0.005,
+      "textCase": "UPPER",
+      "description": "Card headlines and featured numbers."
+    },
+    {
+      "name": "text/display/sm",
+      "token": "text.display.sm",
+      "utility": "text-display-sm",
+      "fontFamily": "Anton",
+      "fontWeight": 400,
+      "fontSize": 30,
+      "lineHeight": 1,
+      "letterSpacingEm": -0.005,
+      "textCase": "UPPER",
+      "description": "Compact card titles."
+    },
+    {
+      "name": "text/heading/lg",
+      "token": "text.heading.lg",
+      "utility": "text-heading-lg",
+      "fontFamily": "Poppins",
+      "fontWeight": 600,
+      "fontSize": 24,
+      "lineHeight": 1.3,
+      "letterSpacingEm": -0.01,
+      "textCase": "ORIGINAL",
+      "description": "Dialog and panel titles."
+    },
+    {
+      "name": "text/heading/md",
+      "token": "text.heading.md",
+      "utility": "text-heading-md",
+      "fontFamily": "Poppins",
+      "fontWeight": 600,
+      "fontSize": 18,
+      "lineHeight": 1.3,
+      "letterSpacingEm": -0.01,
+      "textCase": "ORIGINAL",
+      "description": "Card and section-level UI headings."
+    },
+    {
+      "name": "text/heading/sm",
+      "token": "text.heading.sm",
+      "utility": "text-heading-sm",
+      "fontFamily": "Poppins",
+      "fontWeight": 600,
+      "fontSize": 16,
+      "lineHeight": 1.3,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Group labels and compact headings."
+    },
+    {
+      "name": "text/body/lg",
+      "token": "text.body.lg",
+      "utility": "text-body-lg",
+      "fontFamily": "Poppins",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeight": 1.625,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Lead paragraphs."
+    },
+    {
+      "name": "text/body/md",
+      "token": "text.body.md",
+      "utility": "text-body-md",
+      "fontFamily": "Poppins",
+      "fontWeight": 400,
+      "fontSize": 15,
+      "lineHeight": 1.625,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Default reading text."
+    },
+    {
+      "name": "text/body/sm",
+      "token": "text.body.sm",
+      "utility": "text-body-sm",
+      "fontFamily": "Poppins",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeight": 1.5,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Interface copy, table cells, descriptions."
+    },
+    {
+      "name": "text/body/xs",
+      "token": "text.body.xs",
+      "utility": "text-body-xs",
+      "fontFamily": "Poppins",
+      "fontWeight": 400,
+      "fontSize": 13,
+      "lineHeight": 1.5,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Dense supporting copy."
+    },
+    {
+      "name": "text/label/md",
+      "token": "text.label.md",
+      "utility": "text-label-md",
+      "fontFamily": "Poppins",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeight": 1.15,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Buttons, form labels, menu items."
+    },
+    {
+      "name": "text/label/sm",
+      "token": "text.label.sm",
+      "utility": "text-label-sm",
+      "fontFamily": "Poppins",
+      "fontWeight": 500,
+      "fontSize": 13,
+      "lineHeight": 1.15,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Small buttons, tabs, navigation links."
+    },
+    {
+      "name": "text/label/xs",
+      "token": "text.label.xs",
+      "utility": "text-label-xs",
+      "fontFamily": "Poppins",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeight": 1.15,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Badges and compact metadata."
+    },
+    {
+      "name": "text/caption",
+      "token": "text.caption",
+      "utility": "text-caption",
+      "fontFamily": "Poppins",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": 1.5,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Helper text, timestamps and footnotes."
+    },
+    {
+      "name": "text/eyebrow",
+      "token": "text.eyebrow",
+      "utility": "text-eyebrow",
+      "fontFamily": "JetBrains Mono",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeight": 1.3,
+      "letterSpacingEm": 0.25,
+      "textCase": "UPPER",
+      "description": "Monospaced uppercase kicker above section titles."
+    },
+    {
+      "name": "text/code",
+      "token": "text.code",
+      "utility": "text-code",
+      "fontFamily": "JetBrains Mono",
+      "fontWeight": 400,
+      "fontSize": 13,
+      "lineHeight": 1.625,
+      "letterSpacingEm": 0,
+      "textCase": "ORIGINAL",
+      "description": "Inline and block code."
+    }
+  ],
+  "effectStyles": [
+    {
+      "name": "dark/elevation/sm",
+      "token": "elevation.sm",
+      "value": {
+        "color": "#00000066",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 2,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 8,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -2,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "dark/elevation/md",
+      "token": "elevation.md",
+      "value": {
+        "color": "#000000e6",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 10,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 40,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -15,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "dark/elevation/lg",
+      "token": "elevation.lg",
+      "value": {
+        "color": "#000000bf",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 30,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 80,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -30,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "dark/elevation/xl",
+      "token": "elevation.xl",
+      "value": {
+        "color": "#000000cc",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 30,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 120,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -20,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "light/elevation/sm",
+      "token": "elevation.sm",
+      "value": {
+        "color": "#0000000f",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 1,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 3,
+          "unit": "px"
+        },
+        "spread": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "light/elevation/md",
+      "token": "elevation.md",
+      "value": {
+        "color": "#0000001a",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 10,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 30,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -12,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "light/elevation/lg",
+      "token": "elevation.lg",
+      "value": {
+        "color": "#0000001f",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 24,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 60,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -24,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "light/elevation/xl",
+      "token": "elevation.xl",
+      "value": {
+        "color": "#00000029",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 30,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 90,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -20,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "shadow/glow/brand",
+      "token": "shadow.glow.brand",
+      "value": {
+        "color": "#38bdf88c",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 8,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 40,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -8,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "shadow/glow/brand-strong",
+      "token": "shadow.glow.brand-strong",
+      "value": {
+        "color": "#38bdf8cc",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 12,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 60,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -6,
+          "unit": "px"
+        }
+      }
+    },
+    {
+      "name": "shadow/glow/purple",
+      "token": "shadow.glow.purple",
+      "value": {
+        "color": "#a855f759",
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 30,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 80,
+          "unit": "px"
+        },
+        "spread": {
+          "value": -30,
+          "unit": "px"
+        }
+      }
+    }
+  ]
+}

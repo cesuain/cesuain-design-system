@@ -1,0 +1,52 @@
+{
+  "name": "cesuain-design-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cesuain Design System — tokens, React components built on shadcn/ui, Storybook docs and a Figma library.",
+  "type": "module",
+  "packageManager": "pnpm@10.15.0",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "tokens:build": "pnpm --filter @cesuain/tokens build",
+    "tokens:validate": "pnpm --filter @cesuain/tokens validate",
+    "tokens:export:json": "pnpm --filter @cesuain/tokens export:json",
+    "tokens:export:css": "pnpm --filter @cesuain/tokens export:css",
+    "tokens:export:typescript": "pnpm --filter @cesuain/tokens export:typescript",
+    "tokens:check": "pnpm --filter @cesuain/tokens check",
+    "build": "pnpm tokens:build && pnpm --filter @cesuain/ui build",
+    "dev": "pnpm storybook",
+    "storybook": "pnpm --filter @cesuain/docs storybook",
+    "storybook:build": "pnpm --filter @cesuain/docs build",
+    "test": "pnpm -r --if-present test",
+    "test:stories": "pnpm --filter @cesuain/docs test",
+    "test:e2e": "playwright test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "docs:generate": "node scripts/generate-component-docs.ts",
+    "docs:check": "node scripts/check-docs.ts",
+    "ci": "pnpm format:check && pnpm lint && pnpm tokens:check && pnpm typecheck && pnpm test && pnpm build && pnpm docs:check && pnpm storybook:build && pnpm test:stories && pnpm test:e2e"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "eslint": "10.13.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-storybook": "10.6.2",
+    "globals": "17.13.0",
+    "prettier": "3.9.10",
+    "prettier-plugin-tailwindcss": "0.8.1",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

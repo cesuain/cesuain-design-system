@@ -1,0 +1,35 @@
+{
+  "radius": {
+    "$type": "dimension",
+    "none": { "$value": { "value": 0, "unit": "px" } },
+    "xs": { "$value": { "value": 6, "unit": "px" } },
+    "sm": { "$value": { "value": 10, "unit": "px" } },
+    "md": { "$value": { "value": 12, "unit": "px" } },
+    "lg": { "$value": { "value": 16, "unit": "px" } },
+    "xl": { "$value": { "value": 20, "unit": "px" } },
+    "2xl": { "$value": { "value": 24, "unit": "px" } },
+    "3xl": { "$value": { "value": 32, "unit": "px" } },
+    "full": { "$value": { "value": 9999, "unit": "px" } }
+  },
+  "border-width": {
+    "$type": "dimension",
+    "default": { "$value": { "value": 1, "unit": "px" } },
+    "strong": { "$value": { "value": 2, "unit": "px" } }
+  },
+  "opacity": {
+    "$type": "number",
+    "disabled": { "$value": 0.5, "$description": "Applied to disabled controls." }
+  },
+  "z-index": {
+    "$type": "number",
+    "base": { "$value": 0 },
+    "raised": { "$value": 10 },
+    "sticky": { "$value": 40 },
+    "header": { "$value": 50 },
+    "overlay": { "$value": 80 },
+    "modal": { "$value": 90 },
+    "popover": { "$value": 100 },
+    "toast": { "$value": 110 },
+    "tooltip": { "$value": 120 }
+  }
+}

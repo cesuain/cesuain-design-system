@@ -1,0 +1,11 @@
+node_modules/
+dist/
+storybook-static/
+coverage/
+*.tsbuildinfo
+.DS_Store
+.env*
+!.env.example
+test-results/
+playwright-report/
+__screenshots__/.tmp/

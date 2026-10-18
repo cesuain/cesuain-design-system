@@ -1,0 +1,59 @@
+{
+  "radius": {
+    "$type": "dimension",
+    "control": {
+      "$value": "{radius.full}",
+      "$description": "Pill shape for buttons, toggles, badges and segmented controls."
+    },
+    "field": { "$value": "{radius.xl}", "$description": "Text inputs, selects and textareas." },
+    "item": { "$value": "{radius.md}", "$description": "Menu items, list rows and small tiles." },
+    "card": { "$value": "{radius.2xl}", "$description": "Cards and large surfaces." },
+    "overlay": { "$value": "{radius.2xl}", "$description": "Dialogs, sheets, popovers and menus." },
+    "indicator": {
+      "$value": "{radius.xs}",
+      "$description": "Checkboxes, keyboard hints and small markers."
+    }
+  },
+  "space": {
+    "$type": "dimension",
+    "inset": {
+      "$description": "Padding inside components.",
+      "xs": { "$value": "{spacing.2}" },
+      "sm": { "$value": "{spacing.3}" },
+      "md": { "$value": "{spacing.4}" },
+      "lg": { "$value": "{spacing.6}" },
+      "xl": { "$value": "{spacing.8}" }
+    },
+    "stack": {
+      "$description": "Gaps between stacked or inline siblings.",
+      "xs": { "$value": "{spacing.1}" },
+      "sm": { "$value": "{spacing.2}" },
+      "md": { "$value": "{spacing.4}" },
+      "lg": { "$value": "{spacing.6}" },
+      "xl": { "$value": "{spacing.10}" }
+    },
+    "section": {
+      "$description": "Vertical rhythm between page sections.",
+      "sm": { "$value": "{spacing.16}" },
+      "md": { "$value": "{spacing.24}" },
+      "lg": { "$value": "{spacing.32}" }
+    },
+    "gutter": {
+      "$description": "Horizontal page padding.",
+      "sm": { "$value": "{spacing.5}" },
+      "lg": { "$value": "{spacing.8}" }
+    }
+  },
+  "focus": {
+    "width": {
+      "$type": "dimension",
+      "$value": "{border-width.strong}",
+      "$description": "Focus ring thickness."
+    },
+    "offset": {
+      "$type": "dimension",
+      "$value": { "value": 2, "unit": "px" },
+      "$description": "Gap between the element and its focus ring."
+    }
+  }
+}

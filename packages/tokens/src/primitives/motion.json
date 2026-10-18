@@ -1,0 +1,38 @@
+{
+  "duration": {
+    "$type": "duration",
+    "fast": {
+      "$value": { "value": 150, "unit": "ms" },
+      "$description": "Hover and press feedback."
+    },
+    "base": {
+      "$value": { "value": 200, "unit": "ms" },
+      "$description": "Field focus, small state changes."
+    },
+    "moderate": {
+      "$value": { "value": 300, "unit": "ms" },
+      "$description": "Buttons, toggles, overlays entering."
+    },
+    "slow": {
+      "$value": { "value": 500, "unit": "ms" },
+      "$description": "Cards and surface emphasis."
+    },
+    "slower": {
+      "$value": { "value": 700, "unit": "ms" },
+      "$description": "Ambient glows and reveals."
+    }
+  },
+  "easing": {
+    "$type": "cubicBezier",
+    "standard": {
+      "$value": [0.16, 1, 0.3, 1],
+      "$description": "Expressive ease-out used across the product."
+    },
+    "in-out": {
+      "$value": [0.65, 0, 0.35, 1],
+      "$description": "Symmetric movement, e.g. carousels."
+    },
+    "in": { "$value": [0.4, 0, 1, 1], "$description": "Elements leaving the screen." },
+    "linear": { "$value": [0, 0, 1, 1], "$description": "Spinners and progress loops." }
+  }
+}

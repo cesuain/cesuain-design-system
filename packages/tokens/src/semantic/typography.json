@@ -1,0 +1,206 @@
+{
+  "text": {
+    "$type": "typography",
+    "$description": "Named text styles. Each becomes a Tailwind utility (e.g. `text-display-xl`) and a Figma text style.",
+    "display": {
+      "2xl": {
+        "$value": {
+          "fontFamily": "{font.family.display}",
+          "fontSize": "{font.size.72}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.display}",
+          "letterSpacing": "{font.letter-spacing.display}"
+        },
+        "$description": "Hero headlines. Scales fluidly from 48px.",
+        "$extensions": {
+          "dev.cesuain": { "textTransform": "uppercase", "fluidMin": "{font.size.48}" }
+        }
+      },
+      "xl": {
+        "$value": {
+          "fontFamily": "{font.family.display}",
+          "fontSize": "{font.size.60}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.display}",
+          "letterSpacing": "{font.letter-spacing.display}"
+        },
+        "$description": "Section titles. Scales fluidly from 36px.",
+        "$extensions": {
+          "dev.cesuain": { "textTransform": "uppercase", "fluidMin": "{font.size.36}" }
+        }
+      },
+      "lg": {
+        "$value": {
+          "fontFamily": "{font.family.display}",
+          "fontSize": "{font.size.48}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.display}",
+          "letterSpacing": "{font.letter-spacing.display}"
+        },
+        "$description": "Page headers and large statistics. Scales fluidly from 36px.",
+        "$extensions": {
+          "dev.cesuain": { "textTransform": "uppercase", "fluidMin": "{font.size.36}" }
+        }
+      },
+      "md": {
+        "$value": {
+          "fontFamily": "{font.family.display}",
+          "fontSize": "{font.size.36}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.none}",
+          "letterSpacing": "{font.letter-spacing.display}"
+        },
+        "$description": "Card headlines and featured numbers.",
+        "$extensions": { "dev.cesuain": { "textTransform": "uppercase" } }
+      },
+      "sm": {
+        "$value": {
+          "fontFamily": "{font.family.display}",
+          "fontSize": "{font.size.30}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.none}",
+          "letterSpacing": "{font.letter-spacing.display}"
+        },
+        "$description": "Compact card titles.",
+        "$extensions": { "dev.cesuain": { "textTransform": "uppercase" } }
+      }
+    },
+    "heading": {
+      "lg": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.24}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{font.line-height.snug}",
+          "letterSpacing": "{font.letter-spacing.tight}"
+        },
+        "$description": "Dialog and panel titles."
+      },
+      "md": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.18}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{font.line-height.snug}",
+          "letterSpacing": "{font.letter-spacing.tight}"
+        },
+        "$description": "Card and section-level UI headings."
+      },
+      "sm": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.16}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{font.line-height.snug}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Group labels and compact headings."
+      }
+    },
+    "body": {
+      "lg": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.18}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.relaxed}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Lead paragraphs."
+      },
+      "md": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.15}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.relaxed}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Default reading text."
+      },
+      "sm": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.14}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.normal}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Interface copy, table cells, descriptions."
+      },
+      "xs": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.13}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.line-height.normal}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Dense supporting copy."
+      }
+    },
+    "label": {
+      "md": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.14}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.line-height.tight}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Buttons, form labels, menu items."
+      },
+      "sm": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.13}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.line-height.tight}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Small buttons, tabs, navigation links."
+      },
+      "xs": {
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.12}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.line-height.tight}",
+          "letterSpacing": "{font.letter-spacing.normal}"
+        },
+        "$description": "Badges and compact metadata."
+      }
+    },
+    "caption": {
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.12}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "{font.line-height.normal}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Helper text, timestamps and footnotes."
+    },
+    "eyebrow": {
+      "$value": {
+        "fontFamily": "{font.family.mono}",
+        "fontSize": "{font.size.12}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "{font.line-height.snug}",
+        "letterSpacing": "{font.letter-spacing.eyebrow}"
+      },
+      "$description": "Monospaced uppercase kicker above section titles.",
+      "$extensions": { "dev.cesuain": { "textTransform": "uppercase" } }
+    },
+    "code": {
+      "$value": {
+        "fontFamily": "{font.family.mono}",
+        "fontSize": "{font.size.13}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "{font.line-height.relaxed}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Inline and block code."
+    }
+  }
+}

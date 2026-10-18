@@ -1,0 +1,64 @@
+{
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "sans": {
+        "$value": ["Poppins", "ui-sans-serif", "system-ui", "sans-serif"],
+        "$description": "Interface and body copy.",
+        "$extensions": { "dev.cesuain": { "cssVariable": "--font-poppins" } }
+      },
+      "display": {
+        "$value": ["Anton", "Impact", "Arial Narrow", "sans-serif"],
+        "$description": "Condensed uppercase display face for headlines and big numbers.",
+        "$extensions": { "dev.cesuain": { "cssVariable": "--font-anton" } }
+      },
+      "mono": {
+        "$value": ["JetBrains Mono", "ui-monospace", "SFMono-Regular", "Menlo", "monospace"],
+        "$description": "Code, keyboard hints and eyebrow labels.",
+        "$extensions": { "dev.cesuain": { "cssVariable": "--font-jetbrains-mono" } }
+      }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "light": { "$value": 300 },
+      "regular": { "$value": 400 },
+      "medium": { "$value": 500 },
+      "semibold": { "$value": 600 }
+    },
+    "size": {
+      "$type": "dimension",
+      "11": { "$value": { "value": 0.6875, "unit": "rem" } },
+      "12": { "$value": { "value": 0.75, "unit": "rem" } },
+      "13": { "$value": { "value": 0.8125, "unit": "rem" } },
+      "14": { "$value": { "value": 0.875, "unit": "rem" } },
+      "15": { "$value": { "value": 0.9375, "unit": "rem" } },
+      "16": { "$value": { "value": 1, "unit": "rem" } },
+      "18": { "$value": { "value": 1.125, "unit": "rem" } },
+      "20": { "$value": { "value": 1.25, "unit": "rem" } },
+      "24": { "$value": { "value": 1.5, "unit": "rem" } },
+      "30": { "$value": { "value": 1.875, "unit": "rem" } },
+      "36": { "$value": { "value": 2.25, "unit": "rem" } },
+      "48": { "$value": { "value": 3, "unit": "rem" } },
+      "60": { "$value": { "value": 3.75, "unit": "rem" } },
+      "72": { "$value": { "value": 4.5, "unit": "rem" } }
+    },
+    "line-height": {
+      "$type": "number",
+      "none": { "$value": 1 },
+      "display": { "$value": 0.95 },
+      "tight": { "$value": 1.15 },
+      "snug": { "$value": 1.3 },
+      "normal": { "$value": 1.5 },
+      "relaxed": { "$value": 1.625 }
+    },
+    "letter-spacing": {
+      "$type": "dimension",
+      "tight": { "$value": { "value": -0.01, "unit": "em" } },
+      "display": { "$value": { "value": -0.005, "unit": "em" } },
+      "normal": { "$value": { "value": 0, "unit": "em" } },
+      "wide": { "$value": { "value": 0.025, "unit": "em" } },
+      "widest": { "$value": { "value": 0.2, "unit": "em" } },
+      "eyebrow": { "$value": { "value": 0.25, "unit": "em" } }
+    }
+  }
+}

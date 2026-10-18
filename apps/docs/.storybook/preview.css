@@ -1,0 +1,22 @@
+/* The design system stylesheet, loaded from source (equivalent to "@cesuain/ui/styles.css"). */
+@import "../../../packages/ui/src/styles/styles.css";
+
+/* Self-hosted brand fonts. Consumers can use next/font instead (see README › Fonts). */
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/anton/400.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+
+/* Documentation components live in this app. */
+@source "../src";
+
+/* Render inline stories on the design-system canvas in docs mode, in either theme. */
+.docs-story,
+.sb-story {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

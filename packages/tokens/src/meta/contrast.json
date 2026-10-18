@@ -1,0 +1,155 @@
+{
+  "$description": "Foreground/background pairs that must meet WCAG 2.2 contrast in every theme. The build fails when a pair falls below its minimum. Translucent backgrounds are composited over color.background.default.",
+  "pairs": [
+    {
+      "foreground": "color.foreground.default",
+      "background": "color.background.default",
+      "minimum": 4.5,
+      "usage": "Body text on the canvas"
+    },
+    {
+      "foreground": "color.muted.foreground",
+      "background": "color.background.default",
+      "minimum": 4.5,
+      "usage": "Secondary text on the canvas"
+    },
+    {
+      "foreground": "color.muted.foreground",
+      "background": "color.card.default",
+      "minimum": 4.5,
+      "usage": "Secondary text on cards"
+    },
+    {
+      "foreground": "color.muted.foreground",
+      "background": "color.muted.default",
+      "minimum": 4.5,
+      "usage": "Secondary text on muted fills"
+    },
+    {
+      "foreground": "color.card.foreground",
+      "background": "color.card.default",
+      "minimum": 4.5,
+      "usage": "Text on cards"
+    },
+    {
+      "foreground": "color.popover.foreground",
+      "background": "color.popover.default",
+      "minimum": 4.5,
+      "usage": "Text in menus and dialogs"
+    },
+    {
+      "foreground": "color.primary.foreground",
+      "background": "color.primary.default",
+      "minimum": 4.5,
+      "usage": "Primary button label"
+    },
+    {
+      "foreground": "color.secondary.foreground",
+      "background": "color.secondary.default",
+      "minimum": 4.5,
+      "usage": "Secondary button label"
+    },
+    {
+      "foreground": "color.accent.foreground",
+      "background": "color.accent.default",
+      "minimum": 4.5,
+      "usage": "Hovered menu item"
+    },
+    {
+      "foreground": "color.brand.default",
+      "background": "color.background.default",
+      "minimum": 4.5,
+      "usage": "Links and eyebrows"
+    },
+    {
+      "foreground": "color.brand.default",
+      "background": "color.card.default",
+      "minimum": 4.5,
+      "usage": "Links on cards"
+    },
+    {
+      "foreground": "color.brand.foreground",
+      "background": "color.brand.default",
+      "minimum": 4.5,
+      "usage": "Label on brand fills"
+    },
+    {
+      "foreground": "color.destructive.default",
+      "background": "color.background.default",
+      "minimum": 4.5,
+      "usage": "Error messages"
+    },
+    {
+      "foreground": "color.destructive.default",
+      "background": "color.card.default",
+      "minimum": 4.5,
+      "usage": "Error messages on cards"
+    },
+    {
+      "foreground": "color.destructive.foreground",
+      "background": "color.destructive.default",
+      "minimum": 4.5,
+      "usage": "Destructive button label"
+    },
+    {
+      "foreground": "color.success.default",
+      "background": "color.background.default",
+      "minimum": 4.5,
+      "usage": "Success messages"
+    },
+    {
+      "foreground": "color.success.foreground",
+      "background": "color.success.default",
+      "minimum": 4.5,
+      "usage": "Label on success fills"
+    },
+    {
+      "foreground": "color.warning.default",
+      "background": "color.background.default",
+      "minimum": 4.5,
+      "usage": "Warning messages"
+    },
+    {
+      "foreground": "color.warning.foreground",
+      "background": "color.warning.default",
+      "minimum": 4.5,
+      "usage": "Label on warning fills"
+    },
+    {
+      "foreground": "color.info.default",
+      "background": "color.background.default",
+      "minimum": 4.5,
+      "usage": "Informational messages"
+    },
+    {
+      "foreground": "color.input.default",
+      "background": "color.background.default",
+      "minimum": 3,
+      "usage": "Form control boundary (WCAG 1.4.11)"
+    },
+    {
+      "foreground": "color.ring.default",
+      "background": "color.background.default",
+      "minimum": 3,
+      "usage": "Focus indicator (WCAG 2.4.13 / 1.4.11)"
+    },
+    {
+      "foreground": "color.sidebar.foreground",
+      "background": "color.sidebar.default",
+      "minimum": 4.5,
+      "usage": "Sidebar text"
+    },
+    {
+      "foreground": "color.gradient.foreground",
+      "background": "color.gradient.start",
+      "minimum": 4.5,
+      "usage": "Label on the gradient button (start)"
+    },
+    {
+      "foreground": "color.gradient.foreground",
+      "background": "color.gradient.end",
+      "minimum": 4.5,
+      "usage": "Label on the gradient button (end)"
+    }
+  ]
+}

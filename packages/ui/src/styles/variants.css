@@ -1,0 +1,123 @@
+/*
+ * Theme and state variants.
+ *
+ * The `data-*` variants and accordion keyframes are adapted from shadcn/ui's
+ * `shadcn/tailwind.css` (MIT) so components ported from the registry keep working
+ * without depending on the shadcn CLI package at runtime.
+ */
+
+/* Dark is the default theme: `dark:` applies unless an ancestor opts into light. */
+@custom-variant dark {
+  &:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  &:not(:where(.light, .light *, [data-theme="light"], [data-theme="light"] *)) {
+    @slot;
+  }
+}
+
+@custom-variant light (&:where(.light, .light *, [data-theme="light"], [data-theme="light"] *));
+
+@custom-variant data-open {
+  &:where([data-state="open"]),
+  &:where([data-open]:not([data-open="false"])) {
+    @slot;
+  }
+}
+
+@custom-variant data-closed {
+  &:where([data-state="closed"]),
+  &:where([data-closed]:not([data-closed="false"])) {
+    @slot;
+  }
+}
+
+@custom-variant data-checked {
+  &:where([data-state="checked"]),
+  &:where([data-checked]:not([data-checked="false"])) {
+    @slot;
+  }
+}
+
+@custom-variant data-unchecked {
+  &:where([data-state="unchecked"]),
+  &:where([data-unchecked]:not([data-unchecked="false"])) {
+    @slot;
+  }
+}
+
+@custom-variant data-selected {
+  &:where([data-selected="true"]) {
+    @slot;
+  }
+}
+
+@custom-variant data-disabled {
+  &:where([data-disabled="true"]),
+  &:where([data-disabled]:not([data-disabled="false"])) {
+    @slot;
+  }
+}
+
+@custom-variant data-active {
+  &:where([data-state="active"]),
+  &:where([data-active]:not([data-active="false"])) {
+    @slot;
+  }
+}
+
+@custom-variant data-horizontal {
+  &:where([data-orientation="horizontal"]) {
+    @slot;
+  }
+}
+
+@custom-variant data-vertical {
+  &:where([data-orientation="vertical"]) {
+    @slot;
+  }
+}
+
+@theme inline {
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height, var(--radix-collapsible-content-height, auto));
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height, var(--radix-collapsible-content-height, auto));
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 0.55;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  --animate-accordion-down: accordion-down var(--cds-duration-base) var(--cds-easing-standard);
+  --animate-accordion-up: accordion-up var(--cds-duration-base) var(--cds-easing-standard);
+  @keyframes progress-indeterminate {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(300%);
+    }
+  }
+
+  --animate-pulse-soft: pulse-soft 3s ease-in-out infinite;
+  --animate-progress-indeterminate: progress-indeterminate 1.4s var(--cds-easing-in-out) infinite;
+}

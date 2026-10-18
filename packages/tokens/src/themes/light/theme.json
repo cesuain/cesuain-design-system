@@ -1,0 +1,286 @@
+{
+  "color": {
+    "$type": "color",
+    "background": {
+      "default": {
+        "$value": "{color.neutral.50}",
+        "$description": "Page canvas."
+      }
+    },
+    "foreground": {
+      "default": {
+        "$value": "{color.neutral.950}",
+        "$description": "Primary text and icons on the canvas."
+      }
+    },
+    "card": {
+      "default": {
+        "$value": "{color.neutral.0}",
+        "$description": "Card surface."
+      },
+      "foreground": {
+        "$value": "{color.neutral.950}",
+        "$description": "Text on cards."
+      }
+    },
+    "popover": {
+      "default": {
+        "$value": "{color.neutral.0}",
+        "$description": "Menus, popovers, dialogs and other floating surfaces."
+      },
+      "foreground": {
+        "$value": "{color.neutral.950}",
+        "$description": "Text on floating surfaces."
+      }
+    },
+    "panel": {
+      "default": {
+        "$value": "{color.neutral.0}",
+        "$description": "Solid chrome behind navigation bars and sidebars."
+      }
+    },
+    "primary": {
+      "default": {
+        "$value": "{color.neutral.950}",
+        "$description": "High-emphasis action fill (inverted ink)."
+      },
+      "foreground": {
+        "$value": "{color.neutral.50}",
+        "$description": "Text on primary fills."
+      }
+    },
+    "secondary": {
+      "default": {
+        "$value": "{color.neutral.100}",
+        "$description": "Low-emphasis action fill."
+      },
+      "foreground": {
+        "$value": "{color.neutral.950}",
+        "$description": "Text on secondary fills."
+      }
+    },
+    "muted": {
+      "default": {
+        "$value": "{color.neutral.100}",
+        "$description": "Subdued backgrounds: skeletons, tracks, code."
+      },
+      "foreground": {
+        "$value": "{color.neutral.600}",
+        "$description": "Secondary text, descriptions and placeholders."
+      }
+    },
+    "accent": {
+      "default": {
+        "$value": "{color.neutral.200}",
+        "$description": "Hover and selected backgrounds for items."
+      },
+      "foreground": {
+        "$value": "{color.neutral.950}",
+        "$description": "Text on accent backgrounds."
+      }
+    },
+    "brand": {
+      "default": {
+        "$value": "{color.sky.700}",
+        "$description": "Interactive accent: links, eyebrows, active indicators."
+      },
+      "foreground": {
+        "$value": "{color.neutral.0}",
+        "$description": "Text on brand fills."
+      }
+    },
+    "destructive": {
+      "default": {
+        "$value": "{color.red.700}",
+        "$description": "Errors and destructive actions."
+      },
+      "foreground": {
+        "$value": "{color.neutral.0}",
+        "$description": "Text on destructive fills."
+      }
+    },
+    "success": {
+      "default": {
+        "$value": "{color.emerald.700}",
+        "$description": "Positive outcomes and live status."
+      },
+      "foreground": {
+        "$value": "{color.neutral.0}",
+        "$description": "Text on success fills."
+      }
+    },
+    "warning": {
+      "default": {
+        "$value": "{color.amber.700}",
+        "$description": "Caution and pending states."
+      },
+      "foreground": {
+        "$value": "{color.neutral.0}",
+        "$description": "Text on warning fills."
+      }
+    },
+    "info": {
+      "default": {
+        "$value": "{color.sky.700}",
+        "$description": "Neutral informational messages."
+      },
+      "foreground": {
+        "$value": "{color.neutral.0}",
+        "$description": "Text on info fills."
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{color.alpha.black.8}",
+        "$description": "Decorative dividers and surface outlines."
+      },
+      "strong": {
+        "$value": "{color.alpha.black.16}",
+        "$description": "Hovered outlines and emphasized separators."
+      }
+    },
+    "input": {
+      "default": {
+        "$value": "{color.alpha.black.45}",
+        "$description": "Form control boundaries (≥3:1 against the canvas)."
+      }
+    },
+    "ring": {
+      "default": {
+        "$value": "{color.sky.600}",
+        "$description": "Focus indicator."
+      }
+    },
+    "overlay": {
+      "default": {
+        "$value": "{color.alpha.black.40}",
+        "$description": "Scrim behind modal surfaces."
+      }
+    },
+    "surface": {
+      "from": {
+        "$value": "{color.alpha.black.4}",
+        "$description": "Top stop of the translucent surface gradient."
+      },
+      "to": {
+        "$value": "{color.alpha.black.1}",
+        "$description": "Bottom stop of the translucent surface gradient."
+      },
+      "border": {
+        "$value": "{color.alpha.black.7}",
+        "$description": "Outline of translucent surfaces."
+      }
+    },
+    "glass": {
+      "from": {
+        "$value": "{color.alpha.white.78}",
+        "$description": "Top stop of the frosted glass gradient."
+      },
+      "to": {
+        "$value": "{color.alpha.white.62}",
+        "$description": "Bottom stop of the frosted glass gradient."
+      },
+      "border": {
+        "$value": "{color.alpha.black.8}",
+        "$description": "Outline of glass surfaces."
+      }
+    },
+    "gradient": {
+      "start": {
+        "$value": "{color.blue.500}",
+        "$description": "Brand gradient start."
+      },
+      "middle": {
+        "$value": "{color.cyan.400}",
+        "$description": "Brand gradient midpoint."
+      },
+      "end": {
+        "$value": "{color.purple.500}",
+        "$description": "Brand gradient end."
+      },
+      "foreground": {
+        "$value": "{color.neutral.975}",
+        "$description": "Text on the brand gradient."
+      }
+    },
+    "chart": {
+      "1": {
+        "$value": "{color.sky.600}",
+        "$description": "Chart series 1."
+      },
+      "2": {
+        "$value": "{color.purple.600}",
+        "$description": "Chart series 2."
+      },
+      "3": {
+        "$value": "{color.emerald.600}",
+        "$description": "Chart series 3."
+      },
+      "4": {
+        "$value": "{color.amber.600}",
+        "$description": "Chart series 4."
+      },
+      "5": {
+        "$value": "{color.blue.600}",
+        "$description": "Chart series 5."
+      }
+    },
+    "sidebar": {
+      "default": {
+        "$value": "{color.neutral.0}",
+        "$description": "Sidebar surface."
+      },
+      "foreground": {
+        "$value": "{color.neutral.950}",
+        "$description": "Sidebar text."
+      },
+      "primary": {
+        "default": {
+          "$value": "{color.neutral.950}",
+          "$description": "Sidebar primary action."
+        },
+        "foreground": {
+          "$value": "{color.neutral.50}",
+          "$description": "Text on sidebar primary."
+        }
+      },
+      "accent": {
+        "default": {
+          "$value": "{color.neutral.100}",
+          "$description": "Sidebar hovered item."
+        },
+        "foreground": {
+          "$value": "{color.neutral.950}",
+          "$description": "Text on sidebar hovered item."
+        }
+      },
+      "border": {
+        "$value": "{color.alpha.black.8}",
+        "$description": "Sidebar dividers."
+      },
+      "ring": {
+        "$value": "{color.sky.600}",
+        "$description": "Sidebar focus indicator."
+      }
+    }
+  },
+  "elevation": {
+    "$type": "shadow",
+    "sm": {
+      "$value": "{shadow.light.sm}",
+      "$description": "Resting controls and small cards."
+    },
+    "md": {
+      "$value": "{shadow.light.md}",
+      "$description": "Sticky chrome and raised cards."
+    },
+    "lg": {
+      "$value": "{shadow.light.lg}",
+      "$description": "Hovered cards and menus."
+    },
+    "xl": {
+      "$value": "{shadow.light.xl}",
+      "$description": "Dialogs and command palettes."
+    }
+  }
+}

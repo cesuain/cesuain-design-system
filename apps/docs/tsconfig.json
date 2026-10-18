@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["node", "vite/client"],
+    "paths": {
+      "@cesuain/ui": ["../../packages/ui/src/index.ts"]
+    }
+  },
+  "include": [".storybook/**/*.ts", ".storybook/**/*.tsx", "src", "vitest.config.ts"]
+}

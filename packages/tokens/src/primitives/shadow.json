@@ -1,0 +1,113 @@
+{
+  "shadow": {
+    "$type": "shadow",
+    "dark": {
+      "$description": "Deep, diffuse shadows tuned for the near-black canvas.",
+      "sm": {
+        "$value": {
+          "color": "#00000066",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 2, "unit": "px" },
+          "blur": { "value": 8, "unit": "px" },
+          "spread": { "value": -2, "unit": "px" }
+        }
+      },
+      "md": {
+        "$value": {
+          "color": "#000000e6",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 10, "unit": "px" },
+          "blur": { "value": 40, "unit": "px" },
+          "spread": { "value": -15, "unit": "px" }
+        }
+      },
+      "lg": {
+        "$value": {
+          "color": "#000000bf",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 30, "unit": "px" },
+          "blur": { "value": 80, "unit": "px" },
+          "spread": { "value": -30, "unit": "px" }
+        }
+      },
+      "xl": {
+        "$value": {
+          "color": "#000000cc",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 30, "unit": "px" },
+          "blur": { "value": 120, "unit": "px" },
+          "spread": { "value": -20, "unit": "px" }
+        }
+      }
+    },
+    "light": {
+      "$description": "Soft shadows for the light canvas.",
+      "sm": {
+        "$value": {
+          "color": "#0000000f",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 1, "unit": "px" },
+          "blur": { "value": 3, "unit": "px" },
+          "spread": { "value": 0, "unit": "px" }
+        }
+      },
+      "md": {
+        "$value": {
+          "color": "#0000001a",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 10, "unit": "px" },
+          "blur": { "value": 30, "unit": "px" },
+          "spread": { "value": -12, "unit": "px" }
+        }
+      },
+      "lg": {
+        "$value": {
+          "color": "#0000001f",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 24, "unit": "px" },
+          "blur": { "value": 60, "unit": "px" },
+          "spread": { "value": -24, "unit": "px" }
+        }
+      },
+      "xl": {
+        "$value": {
+          "color": "#00000029",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 30, "unit": "px" },
+          "blur": { "value": 90, "unit": "px" },
+          "spread": { "value": -20, "unit": "px" }
+        }
+      }
+    },
+    "glow": {
+      "$description": "Brand glows used on primary calls to action and featured surfaces.",
+      "brand": {
+        "$value": {
+          "color": "#38bdf88c",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 8, "unit": "px" },
+          "blur": { "value": 40, "unit": "px" },
+          "spread": { "value": -8, "unit": "px" }
+        }
+      },
+      "brand-strong": {
+        "$value": {
+          "color": "#38bdf8cc",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 12, "unit": "px" },
+          "blur": { "value": 60, "unit": "px" },
+          "spread": { "value": -6, "unit": "px" }
+        }
+      },
+      "purple": {
+        "$value": {
+          "color": "#a855f759",
+          "offsetX": { "value": 0, "unit": "px" },
+          "offsetY": { "value": 30, "unit": "px" },
+          "blur": { "value": 80, "unit": "px" },
+          "spread": { "value": -30, "unit": "px" }
+        }
+      }
+    }
+  }
+}

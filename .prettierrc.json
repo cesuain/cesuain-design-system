@@ -1,0 +1,9 @@
+{
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": "./apps/docs/.storybook/preview.css",
+  "tailwindFunctions": ["cva", "cn"]
+}
