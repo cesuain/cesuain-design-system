@@ -4,11 +4,11 @@
 
 A set of toggles with single or multiple selection; arrow keys move focus (roving tabindex).
 
-|           |                                                                                                                                      |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Actions/Toggle Group` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-actions-toggle-group--docs)) |
-| Figma     | [Toggle Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-549) (node `14:549`)                     |
-| Source    | [`packages/ui/src/components/toggle-group`](./)                                                                                      |
+|           |                                                                                                                           |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Actions/Toggle Group`](https://storybook.cesarfonseca.dev/?path=/docs/components-actions-toggle-group--docs) |
+| Figma     | [Toggle Group component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-549) (node `14:549`)          |
+| Source    | [`packages/ui/src/components/toggle-group`](./)                                                                           |
 
 ## Import
 

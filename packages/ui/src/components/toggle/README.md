@@ -4,11 +4,11 @@
 
 A two-state button (aria-pressed). Use for a single on/off option such as a formatting or view mode.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Actions/Toggle` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-actions-toggle--docs)) |
-| Figma     | [Toggle component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-518) (node `14:518`)               |
-| Source    | [`packages/ui/src/components/toggle`](./)                                                                                |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Actions/Toggle`](https://storybook.cesarfonseca.dev/?path=/docs/components-actions-toggle--docs) |
+| Figma     | [Toggle component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-518) (node `14:518`)    |
+| Source    | [`packages/ui/src/components/toggle`](./)                                                                     |
 
 ## Import
 

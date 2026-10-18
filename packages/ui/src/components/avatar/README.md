@@ -4,11 +4,11 @@
 
 User or entity image with an initials fallback. The image needs alt text; the fallback is shown until it loads. ring adds the brand gradient border; AvatarGroup overlaps avatars with a background ring.
 
-|           |                                                                                                                                    |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Avatar` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-avatar--docs)) |
-| Figma     | [Avatar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-625) (node `24:625`)                         |
-| Source    | [`packages/ui/src/components/avatar`](./)                                                                                          |
+|           |                                                                                                                         |
+| --------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Avatar`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-avatar--docs) |
+| Figma     | [Avatar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-625) (node `24:625`)              |
+| Source    | [`packages/ui/src/components/avatar`](./)                                                                               |
 
 ## Import
 

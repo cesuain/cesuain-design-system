@@ -4,11 +4,11 @@
 
 Keyboard key or shortcut (<kbd>). KbdGroup combines keys; inside a tooltip it switches to the inverted colors.
 
-|           |                                                                                                                              |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Kbd` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-kbd--docs)) |
-| Figma     | [Kbd component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-655) (node `24:655`)                      |
-| Source    | [`packages/ui/src/components/kbd`](./)                                                                                       |
+|           |                                                                                                                   |
+| --------- | ----------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Kbd`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-kbd--docs) |
+| Figma     | [Kbd component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-655) (node `24:655`)           |
+| Source    | [`packages/ui/src/components/kbd`](./)                                                                            |
 
 ## Import
 

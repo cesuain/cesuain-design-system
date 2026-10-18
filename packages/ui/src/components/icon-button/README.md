@@ -4,11 +4,11 @@
 
 Square, icon-only button. The label prop is required and becomes aria-label, so an icon-only control always has an accessible name.
 
-|           |                                                                                                                                    |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Actions/Icon Button` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-actions-icon-button--docs)) |
-| Figma     | [Icon Button component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-406) (node `14:406`)                    |
-| Source    | [`packages/ui/src/components/icon-button`](./)                                                                                     |
+|           |                                                                                                                         |
+| --------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Actions/Icon Button`](https://storybook.cesarfonseca.dev/?path=/docs/components-actions-icon-button--docs) |
+| Figma     | [Icon Button component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=14-406) (node `14:406`)         |
+| Source    | [`packages/ui/src/components/icon-button`](./)                                                                          |
 
 ## Import
 

@@ -4,11 +4,11 @@
 
 Accessible label for a control (htmlFor). Dims with peer-disabled controls.
 
-|           |                                                                                                                    |
-| --------- | ------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Label` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-label--docs)) |
-| Figma     | [Label component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-195) (node `15:195`)          |
-| Source    | [`packages/ui/src/components/label`](./)                                                                           |
+|           |                                                                                                           |
+| --------- | --------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Label`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-label--docs)   |
+| Figma     | [Label component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-195) (node `15:195`) |
+| Source    | [`packages/ui/src/components/label`](./)                                                                  |
 
 ## Import
 

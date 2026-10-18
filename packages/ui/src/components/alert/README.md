@@ -4,11 +4,11 @@
 
 Inline, prominent message. Uses role=alert for destructive and warning, role=status otherwise. Tinted backgrounds stay at 8% so text keeps full contrast.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Feedback/Alert` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-feedback-alert--docs)) |
-| Figma     | [Alert component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-415) (node `20:415`)                |
-| Source    | [`packages/ui/src/components/alert`](./)                                                                                 |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Feedback/Alert`](https://storybook.cesarfonseca.dev/?path=/docs/components-feedback-alert--docs) |
+| Figma     | [Alert component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-415) (node `20:415`)     |
+| Source    | [`packages/ui/src/components/alert`](./)                                                                      |
 
 ## Import
 

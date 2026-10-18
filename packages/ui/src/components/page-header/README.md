@@ -4,11 +4,11 @@
 
 Top-of-page introduction: eyebrow, display title (h1 by default) with an optional gradient highlight, description and actions.
 
-|           |                                                                                                                                  |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Layout/Page Header` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-layout-page-header--docs)) |
-| Figma     | [Page Header component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-715) (node `26:715`)                  |
-| Source    | [`packages/ui/src/components/page-header`](./)                                                                                   |
+|           |                                                                                                                       |
+| --------- | --------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Layout/Page Header`](https://storybook.cesarfonseca.dev/?path=/docs/components-layout-page-header--docs) |
+| Figma     | [Page Header component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-715) (node `26:715`)       |
+| Source    | [`packages/ui/src/components/page-header`](./)                                                                        |
 
 ## Import
 

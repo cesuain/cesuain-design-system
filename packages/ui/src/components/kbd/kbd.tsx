@@ -2,7 +2,7 @@ import type { ComponentProps } from "react";
 
 import { cn } from "../../lib/utils.js";
 
-/** A keyboard key or shortcut, e.g. ⌘K in the site's command palette hint. */
+/** A keyboard key or shortcut, e.g. ⌘K in a command palette hint. */
 export function Kbd({ className, ...props }: ComponentProps<"kbd">) {
   return (
     <kbd

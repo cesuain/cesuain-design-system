@@ -4,11 +4,11 @@
 
 Page navigation. paginationRange() computes the visible pages and ellipses; the current page has aria-current=page.
 
-|           |                                                                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Navigation/Pagination` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-pagination--docs)) |
-| Figma     | [Pagination component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-443) (node `18:443`)                         |
-| Source    | [`packages/ui/src/components/pagination`](./)                                                                                          |
+|           |                                                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Pagination`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-pagination--docs) |
+| Figma     | [Pagination component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-443) (node `18:443`)              |
+| Source    | [`packages/ui/src/components/pagination`](./)                                                                               |
 
 ## Import
 

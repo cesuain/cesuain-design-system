@@ -4,11 +4,11 @@
 
 Collapsible application sidebar (offcanvas or icon rail). On mobile it renders as a Sheet; Ctrl/Cmd+B toggles; state persists in the sidebar_state cookie.
 
-|           |                                                                                                                                  |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Navigation/Sidebar` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-sidebar--docs)) |
-| Figma     | [Sidebar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-628) (node `18:628`)                      |
-| Source    | [`packages/ui/src/components/sidebar`](./)                                                                                       |
+|           |                                                                                                                       |
+| --------- | --------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Sidebar`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-sidebar--docs) |
+| Figma     | [Sidebar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-628) (node `18:628`)           |
+| Source    | [`packages/ui/src/components/sidebar`](./)                                                                            |
 
 ## Import
 

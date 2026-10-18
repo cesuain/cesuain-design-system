@@ -4,11 +4,11 @@
 
 Date grid built on react-day-picker. Arrow keys move by day, Page Up/Down by month; selected days expose aria-selected and today is marked. Modes: single, multiple and range.
 
-|           |                                                                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Calendar` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-calendar--docs)) |
-| Figma     | [Calendar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-963) (node `25:963`)                           |
-| Source    | [`packages/ui/src/components/calendar`](./)                                                                                            |
+|           |                                                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Calendar`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-calendar--docs) |
+| Figma     | [Calendar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-963) (node `25:963`)                |
+| Source    | [`packages/ui/src/components/calendar`](./)                                                                                 |
 
 ## Import
 

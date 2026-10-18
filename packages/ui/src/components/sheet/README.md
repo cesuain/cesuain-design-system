@@ -4,11 +4,11 @@
 
 Dialog that slides in from an edge (side top | right | bottom | left). Used for filters, settings and the mobile sidebar.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Overlays/Sheet` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-sheet--docs)) |
-| Figma     | [Sheet component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-556) (node `23:556`)                |
-| Source    | [`packages/ui/src/components/sheet`](./)                                                                                 |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Sheet`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-sheet--docs) |
+| Figma     | [Sheet component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-556) (node `23:556`)     |
+| Source    | [`packages/ui/src/components/sheet`](./)                                                                      |
 
 ## Import
 

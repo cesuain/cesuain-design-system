@@ -27,7 +27,7 @@ const meta = {
     <>
       <Toaster {...args} />
       <div className="flex flex-wrap gap-2">
-        <Button variant="secondary" onClick={() => toast("Draft saved")}>
+        <Button variant="secondary" onClick={() => toast("Changes saved")}>
           Default
         </Button>
         <Button

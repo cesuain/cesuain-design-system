@@ -4,11 +4,11 @@
 
 Pick one option from a list (Radix Select, role=combobox + listbox). For long or searchable lists use Combobox.
 
-|           |                                                                                                                      |
-| --------- | -------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Forms/Select` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-select--docs)) |
-| Figma     | [Select component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-361) (node `16:361`)           |
-| Source    | [`packages/ui/src/components/select`](./)                                                                            |
+|           |                                                                                                            |
+| --------- | ---------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Select`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-select--docs)  |
+| Figma     | [Select component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-361) (node `16:361`) |
+| Source    | [`packages/ui/src/components/select`](./)                                                                  |
 
 ## Import
 

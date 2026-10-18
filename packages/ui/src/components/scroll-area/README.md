@@ -4,11 +4,11 @@
 
 Custom-styled overflow region that keeps native scrolling and keyboard support. The viewport is focusable so keyboard users can scroll it.
 
-|           |                                                                                                                                              |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Scroll Area` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-scroll-area--docs)) |
-| Figma     | [Scroll Area component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-1044) (node `25:1044`)                            |
-| Source    | [`packages/ui/src/components/scroll-area`](./)                                                                                               |
+|           |                                                                                                                                   |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Scroll Area`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-scroll-area--docs) |
+| Figma     | [Scroll Area component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=25-1044) (node `25:1044`)                 |
+| Source    | [`packages/ui/src/components/scroll-area`](./)                                                                                    |
 
 ## Import
 

@@ -13,6 +13,8 @@ import { format, resolveConfig } from "prettier";
 export const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 export const componentsDir = join(repoRoot, "packages/ui/src/components");
 export const componentMapPath = join(repoRoot, "docs/figma/component-map.json");
+/** The published Storybook. Run `pnpm storybook` for the same docs locally on port 6006. */
+export const storybookUrl = "https://storybook.cesarfonseca.dev";
 
 export interface ComponentEntry {
   name: string;
@@ -184,7 +186,7 @@ export function renderReadme(dir: string, entry: ComponentEntry, fileKey: string
     "",
     "| | |",
     "| --- | --- |",
-    `| Storybook | \`${entry.storybook}\` (local: [localhost:6006](http://localhost:6006/?path=/docs/${storyId}--docs)) |`,
+    `| Storybook | [\`${entry.storybook}\`](${storybookUrl}/?path=/docs/${storyId}--docs) |`,
     `| Figma | [${entry.name} component set](${figmaNodeUrl(fileKey, entry.figmaNodeId)}) (node \`${entry.figmaNodeId}\`) |`,
     `| Source | [\`packages/ui/src/components/${dir}\`](./) |`,
     "",
@@ -263,7 +265,7 @@ export function renderComponentIndex(map: ComponentMap): string {
     "",
     "# Component index",
     "",
-    "Every component with its source, Storybook entry, tests, design tokens and Figma component set. Storybook links point to a local Storybook (`pnpm storybook`, port 6006).",
+    "Every component with its source, Storybook entry, tests, design tokens and Figma component set. Storybook links open the published Storybook; `pnpm storybook` serves the same pages locally on port 6006.",
     "",
   ];
   for (const [group, dirs] of [...groups].sort(([a], [b]) => a.localeCompare(b))) {
@@ -277,7 +279,7 @@ export function renderComponentIndex(map: ComponentMap): string {
       const entry = map.components[dir]!;
       const base = `../packages/ui/src/components/${dir}`;
       lines.push(
-        `| [${entry.name}](${base}/README.md) | [\`${dir}/\`](${base}) | [${entry.storybook.split("/").at(-1)}](http://localhost:6006/?path=/docs/${storybookId(entry.storybook)}--docs) | [\`${dir}.test.tsx\`](${base}/${dir}.test.tsx) | [${tokensUsed(dir).length} tokens](${base}/README.md#design-tokens) | [\`${entry.figmaNodeId}\`](${figmaNodeUrl(map.fileKey, entry.figmaNodeId)}) |`,
+        `| [${entry.name}](${base}/README.md) | [\`${dir}/\`](${base}) | [${entry.storybook.split("/").at(-1)}](${storybookUrl}/?path=/docs/${storybookId(entry.storybook)}--docs) | [\`${dir}.test.tsx\`](${base}/${dir}.test.tsx) | [${tokensUsed(dir).length} tokens](${base}/README.md#design-tokens) | [\`${entry.figmaNodeId}\`](${figmaNodeUrl(map.fileKey, entry.figmaNodeId)}) |`,
       );
     }
     lines.push("");

@@ -32,7 +32,7 @@ export type CommandDialogProps = ComponentProps<typeof Dialog> & {
   commandProps?: ComponentProps<typeof CommandPrimitive>;
 };
 
-/** The command palette: a `Command` inside a modal dialog, opened with ⌘K on the site. */
+/** The command palette: a `Command` inside a modal dialog, typically opened with ⌘K. */
 export function CommandDialog({
   title = "Command palette",
   description = "Search for a page or action.",
@@ -162,7 +162,7 @@ export function CommandItem({ className, ...props }: ComponentProps<typeof Comma
   );
 }
 
-/** Square icon tile at the start of an item, as in the site's palette. */
+/** Square icon tile at the start of an item. */
 export function CommandItemIcon({ className, ...props }: ComponentProps<"span">) {
   return (
     <span

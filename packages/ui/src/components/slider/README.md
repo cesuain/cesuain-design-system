@@ -4,11 +4,11 @@
 
 Pick a value or range by dragging or with arrow keys. Each thumb needs an accessible name (thumbLabels for ranges).
 
-|           |                                                                                                                      |
-| --------- | -------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Forms/Slider` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-slider--docs)) |
-| Figma     | [Slider component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-363) (node `15:363`)           |
-| Source    | [`packages/ui/src/components/slider`](./)                                                                            |
+|           |                                                                                                            |
+| --------- | ---------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Slider`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-slider--docs)  |
+| Figma     | [Slider component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-363) (node `15:363`) |
+| Source    | [`packages/ui/src/components/slider`](./)                                                                  |
 
 ## Import
 

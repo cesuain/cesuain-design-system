@@ -4,11 +4,11 @@
 
 Responsive CSS grid: columns collapse to one column on small screens, then 2 from sm and the full count from lg. auto fills 16rem tracks.
 
-|           |                                                                                                                    |
-| --------- | ------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Layout/Grid` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-layout-grid--docs)) |
-| Figma     | [Grid component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-642) (node `26:642`)           |
-| Source    | [`packages/ui/src/components/grid`](./)                                                                            |
+|           |                                                                                                          |
+| --------- | -------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Layout/Grid`](https://storybook.cesarfonseca.dev/?path=/docs/components-layout-grid--docs)  |
+| Figma     | [Grid component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-642) (node `26:642`) |
+| Source    | [`packages/ui/src/components/grid`](./)                                                                  |
 
 ## Import
 

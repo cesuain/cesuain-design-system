@@ -4,11 +4,11 @@
 
 Menu opened from a button (role=menu). Supports labels, groups, checkbox and radio items, shortcuts, submenus and a destructive variant; arrow keys and typeahead move between items.
 
-|           |                                                                                                                                          |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Overlays/Dropdown Menu` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-dropdown-menu--docs)) |
-| Figma     | [Dropdown Menu component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-733) (node `23:733`)                        |
-| Source    | [`packages/ui/src/components/dropdown-menu`](./)                                                                                         |
+|           |                                                                                                                               |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Dropdown Menu`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-dropdown-menu--docs) |
+| Figma     | [Dropdown Menu component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-733) (node `23:733`)             |
+| Source    | [`packages/ui/src/components/dropdown-menu`](./)                                                                              |
 
 ## Import
 

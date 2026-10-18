@@ -4,11 +4,11 @@
 
 Button that opens a Calendar in a Popover. With `name` it also submits an ISO date (yyyy-mm-dd) through a hidden input.
 
-|           |                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Date Picker` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-date-picker--docs)) |
-| Figma     | [Date Picker component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-509) (node `16:509`)                |
-| Source    | [`packages/ui/src/components/date-picker`](./)                                                                                 |
+|           |                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Date Picker`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-date-picker--docs) |
+| Figma     | [Date Picker component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=16-509) (node `16:509`)     |
+| Source    | [`packages/ui/src/components/date-picker`](./)                                                                      |
 
 ## Import
 

@@ -6,7 +6,7 @@ A headline number with a label and context, on a surface card. The value uses th
 
 |           |                                                                                                               |
 | --------- | ------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Patterns/Stat Card` (local: [localhost:6006](http://localhost:6006/?path=/docs/patterns-stat-card--docs))    |
+| Storybook | [`Patterns/Stat Card`](https://storybook.cesarfonseca.dev/?path=/docs/patterns-stat-card--docs)               |
 | Figma     | [Stat Card component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-630) (node `27:630`) |
 | Source    | [`packages/ui/src/components/stat-card`](./)                                                                  |
 
@@ -45,6 +45,7 @@ Tokens referenced by the implementation (directly or through shared recipes in `
 - `font.family.display`
 - `radius.card`
 - `text.body.sm`
+- `text.display.lg`
 - `text.display.md`
 - `text.label.md`
 

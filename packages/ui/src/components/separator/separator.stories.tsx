@@ -18,7 +18,7 @@ export const Horizontal: Story = {
       <p className="text-heading-sm">Cesuain Design System</p>
       <p className="text-body-sm text-muted-foreground">Foundations, components and patterns.</p>
       <Separator {...args} className="my-4" />
-      <p className="text-body-sm text-muted-foreground">Version 0.1.0</p>
+      <p className="text-body-sm text-muted-foreground">Version 1.0.0</p>
     </div>
   ),
 };

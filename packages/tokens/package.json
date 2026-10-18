@@ -1,6 +1,6 @@
 {
   "name": "@cesuain/tokens",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Design tokens for the Cesuain Design System: DTCG sources plus generated CSS, JSON and TypeScript.",
   "license": "MIT",
   "keywords": [

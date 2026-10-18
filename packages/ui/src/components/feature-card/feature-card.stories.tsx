@@ -14,8 +14,10 @@ const meta = {
     description: "Tokens, components and documentation that keep product teams consistent.",
     accent: "cyan",
     featured: false,
+    size: "md",
   },
   argTypes: {
+    size: { control: "inline-radio", options: ["md", "lg"] },
     accent: { control: "inline-radio", options: ["blue", "cyan", "purple"] },
     icon: { control: false },
   },
@@ -27,6 +29,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {};
 export const Purple: Story = { args: { accent: "purple", icon: <Palette /> } };
+export const Large: Story = { args: { size: "lg", featured: true } };
 
 export const Bento: Story = {
   decorators: [(Story) => <div className="w-[60rem]">{Story()}</div>],

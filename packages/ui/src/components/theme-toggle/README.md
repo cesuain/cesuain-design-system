@@ -6,7 +6,7 @@ Icon button that flips data-theme on <html> and persists the choice. Its accessi
 
 |           |                                                                                                                  |
 | --------- | ---------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Patterns/Theme Toggle` (local: [localhost:6006](http://localhost:6006/?path=/docs/patterns-theme-toggle--docs)) |
+| Storybook | [`Patterns/Theme Toggle`](https://storybook.cesarfonseca.dev/?path=/docs/patterns-theme-toggle--docs)            |
 | Figma     | [Theme Toggle component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-737) (node `27:737`) |
 | Source    | [`packages/ui/src/components/theme-toggle`](./)                                                                  |
 

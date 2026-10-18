@@ -4,11 +4,11 @@
 
 Draggable panel built on Vaul. Bottom drawers show a handle and can be swiped closed; prefer it to Sheet on touch-first layouts.
 
-|           |                                                                                                                            |
-| --------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Overlays/Drawer` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-drawer--docs)) |
-| Figma     | [Drawer component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-608) (node `23:608`)                 |
-| Source    | [`packages/ui/src/components/drawer`](./)                                                                                  |
+|           |                                                                                                                 |
+| --------- | --------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Drawer`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-drawer--docs) |
+| Figma     | [Drawer component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-608) (node `23:608`)      |
+| Source    | [`packages/ui/src/components/drawer`](./)                                                                       |
 
 ## Import
 

@@ -21,7 +21,7 @@ export function PageHeader({
   );
 }
 
-/** Monospaced kicker with the site's gradient rule. */
+/** Monospaced kicker with the gradient rule. */
 export function PageHeaderEyebrow({ className, children, ...props }: ComponentProps<"p">) {
   return (
     <p

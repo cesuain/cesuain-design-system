@@ -38,7 +38,7 @@ export const SplitButton: Story = {
 export const WithText: Story = {
   render: (args) => (
     <ButtonGroup {...args}>
-      <ButtonGroupText>v0.1.0</ButtonGroupText>
+      <ButtonGroupText>v1.0.0</ButtonGroupText>
       <Button variant="outline">
         <Copy /> Copy
       </Button>

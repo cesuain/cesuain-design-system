@@ -4,11 +4,11 @@
 
 A single show/hide region controlled by a trigger with aria-expanded. Use Accordion for several related sections.
 
-|           |                                                                                                                                              |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Data Display/Collapsible` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-collapsible--docs)) |
-| Figma     | [Collapsible component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-735) (node `24:735`)                              |
-| Source    | [`packages/ui/src/components/collapsible`](./)                                                                                               |
+|           |                                                                                                                                   |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Collapsible`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-collapsible--docs) |
+| Figma     | [Collapsible component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-735) (node `24:735`)                   |
+| Source    | [`packages/ui/src/components/collapsible`](./)                                                                                    |
 
 ## Import
 

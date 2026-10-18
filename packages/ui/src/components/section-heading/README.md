@@ -2,13 +2,13 @@
 
 # Section Heading
 
-Eyebrow, display heading (h2 by default, configurable level) with optional gradient highlight, and a lead paragraph. Used at the top of every site section.
+Eyebrow, display heading (h2 by default, configurable level) with optional gradient highlight, and a lead paragraph. Sizes lg, xl and 2xl map to the display text styles.
 
-|           |                                                                                                                        |
-| --------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Patterns/Section Heading` (local: [localhost:6006](http://localhost:6006/?path=/docs/patterns-section-heading--docs)) |
-| Figma     | [Section Heading component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-614) (node `27:614`)    |
-| Source    | [`packages/ui/src/components/section-heading`](./)                                                                     |
+|           |                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Patterns/Section Heading`](https://storybook.cesarfonseca.dev/?path=/docs/patterns-section-heading--docs)         |
+| Figma     | [Section Heading component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=27-614) (node `27:614`) |
+| Source    | [`packages/ui/src/components/section-heading`](./)                                                                  |
 
 ## Import
 
@@ -41,7 +41,9 @@ Tokens referenced by the implementation (directly or through shared recipes in `
 - `color.muted.foreground`
 - `font.family.display`
 - `text.body.lg`
+- `text.display.2xl`
 - `text.display.lg`
+- `text.display.xl`
 - `text.eyebrow`
 
 ## Accessibility

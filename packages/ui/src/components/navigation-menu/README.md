@@ -4,11 +4,11 @@
 
 Site navigation with flyout panels (Radix NavigationMenu). Triggers open on hover or Enter; links inside are plain anchors.
 
-|           |                                                                                                                                                  |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Navigation/Navigation Menu` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-navigation-menu--docs)) |
-| Figma     | [Navigation Menu component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-482) (node `18:482`)                              |
-| Source    | [`packages/ui/src/components/navigation-menu`](./)                                                                                               |
+|           |                                                                                                                                       |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Navigation Menu`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-navigation-menu--docs) |
+| Figma     | [Navigation Menu component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-482) (node `18:482`)                   |
+| Source    | [`packages/ui/src/components/navigation-menu`](./)                                                                                    |
 
 ## Import
 

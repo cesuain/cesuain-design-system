@@ -8,13 +8,13 @@ export const cardVariants = cva(
   {
     variants: {
       variant: {
-        /** Translucent layered surface: the site's signature card. */
+        /** Translucent layered surface: the signature card treatment. */
         surface: "surface",
         /** Frosted glass for cards placed over imagery or gradients. */
         glass: "glass",
         /** Solid card with a hairline border. */
         solid: "border border-border bg-card",
-        /** Solid panel framed by the brand gradient (the site's contact card). */
+        /** Solid panel framed by the brand gradient, for featured content such as a contact card. */
         gradient:
           "border border-transparent [background:linear-gradient(var(--panel),var(--panel))_padding-box,linear-gradient(120deg,var(--gradient-start),var(--gradient-middle),var(--gradient-end))_border-box]",
       },

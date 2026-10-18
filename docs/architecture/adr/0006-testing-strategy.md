@@ -18,4 +18,4 @@ Component behaviour (props, keyboard, focus, forms) needs fast feedback. Renderi
 
 - A regression in a documented example fails CI even if no unit test covers it.
 - Browser tests need Playwright's Chromium installed (`pnpm exec playwright install chromium`), which CI does explicitly.
-- Visual regression screenshots are not part of the suite yet (see the roadmap in the README).
+- Rendering is verified by story and smoke tests; the suite does not compare screenshots pixel by pixel.

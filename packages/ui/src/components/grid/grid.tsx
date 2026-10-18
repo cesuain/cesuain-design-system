@@ -11,7 +11,7 @@ export const gridVariants = cva("grid", {
       2: "grid-cols-1 sm:grid-cols-2",
       3: "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3",
       4: "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4",
-      /** 12-column grid from `lg`; children set `lg:col-span-*` (the site's bento layout). */
+      /** 12-column grid from `lg`; children set `lg:col-span-*` (bento layouts). */
       12: "grid-cols-1 sm:grid-cols-2 lg:grid-cols-12",
       /** As many 16rem columns as fit. */
       auto: "grid-cols-[repeat(auto-fill,minmax(min(16rem,100%),1fr))]",

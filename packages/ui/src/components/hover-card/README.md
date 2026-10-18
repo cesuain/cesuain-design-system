@@ -4,11 +4,11 @@
 
 Preview of linked content for sighted mouse users, shown on hover or focus. Its content is supplementary: the link itself must make sense without it.
 
-|           |                                                                                                                                    |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Overlays/Hover Card` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-overlays-hover-card--docs)) |
-| Figma     | [Hover Card component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-832) (node `23:832`)                     |
-| Source    | [`packages/ui/src/components/hover-card`](./)                                                                                      |
+|           |                                                                                                                         |
+| --------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Overlays/Hover Card`](https://storybook.cesarfonseca.dev/?path=/docs/components-overlays-hover-card--docs) |
+| Figma     | [Hover Card component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=23-832) (node `23:832`)          |
+| Source    | [`packages/ui/src/components/hover-card`](./)                                                                           |
 
 ## Import
 

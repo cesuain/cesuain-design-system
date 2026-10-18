@@ -4,11 +4,11 @@
 
 Immediate on/off setting (role=switch). Use a checkbox instead when the change applies on submit.
 
-|           |                                                                                                                      |
-| --------- | -------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Forms/Switch` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-switch--docs)) |
-| Figma     | [Switch component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-345) (node `15:345`)           |
-| Source    | [`packages/ui/src/components/switch`](./)                                                                            |
+|           |                                                                                                            |
+| --------- | ---------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Switch`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-switch--docs)  |
+| Figma     | [Switch component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-345) (node `15:345`) |
+| Source    | [`packages/ui/src/components/switch`](./)                                                                  |
 
 ## Import
 

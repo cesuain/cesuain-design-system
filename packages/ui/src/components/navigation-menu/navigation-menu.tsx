@@ -64,7 +64,7 @@ export function NavigationMenuItem({
   );
 }
 
-/** Pill link style from the site header. Also apply it to top-level `NavigationMenuLink`s. */
+/** Pill link style of the header navigation. Also apply it to top-level `NavigationMenuLink`s. */
 export const navigationMenuTriggerStyle = cva(
   [
     "group/navigation-menu-trigger inline-flex h-(--cds-control-height-sm) w-max items-center justify-center gap-1 rounded-full px-3.5",

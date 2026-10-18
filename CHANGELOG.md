@@ -4,9 +4,29 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-18
+
+The stable release. The token names, component APIs and stylesheet entry point are now covered by SemVer: only a major release removes or renames them. [cesarfonseca.dev](https://cesarfonseca.dev) runs on this release.
+
+### Added
+
+- `SectionHeading` `size` prop (`lg` | `xl` | `2xl`) mapping the title to the display text styles.
+- `StatCard` `size` prop (`md` | `lg`) for a larger, fluid value.
+- `FeatureCard` `size` prop (`md` | `lg`) that steps titles up one display size from the `sm` breakpoint.
+- Storybook introduction links to the GitHub repository, the npm packages and the production site.
+
+### Fixed
+
+- `styles.css` also scans `lib/` for class names, so the shared recipes (dialog and sheet scrims, menu rows, field controls) are generated in apps that install the package.
+
+### Changed
+
+- Generated component READMEs and the component index link to the published Storybook.
+- Documentation describes the 1.x release policy.
+
 ## [0.1.0] - 2026-10-18
 
-First internal release. Not yet published to npm.
+First published release of `@cesuain/tokens` and `@cesuain/ui`.
 
 ### Added
 
@@ -29,5 +49,6 @@ First internal release. Not yet published to npm.
   - Playwright smoke tests against the static Storybook.
   - GitHub Actions CI.
 
-[Unreleased]: #unreleased
-[0.1.0]: #010---2026-10-18
+[Unreleased]: https://github.com/cesuain/cesuain-design-system/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/cesuain/cesuain-design-system/releases/tag/v1.0.0
+[0.1.0]: https://github.com/cesuain/cesuain-design-system/commit/80f799c

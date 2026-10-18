@@ -11,7 +11,7 @@ export type SegmentedControlProps = ComponentProps<"nav"> & {
 
 /**
  * Pill-shaped switch whose options are real links, so it works without JavaScript and is
- * crawlable. Used on the site for the language switcher. For in-page state use `ToggleGroup`.
+ * crawlable, which suits a language switcher. For in-page state use `ToggleGroup`.
  */
 export function SegmentedControl({ className, size = "sm", ...props }: SegmentedControlProps) {
   return (

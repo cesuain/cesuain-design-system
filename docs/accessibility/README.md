@@ -31,7 +31,7 @@ Rule exceptions are scoped and commented at the point of use. There is currently
 
 ## What is not verified
 
-- **No manual audit yet.** There has been no screen reader testing (VoiceOver, NVDA, JAWS), no Windows High Contrast / forced-colors review, and no 200%/400% zoom and reflow audit. Do these before claiming conformance for a product built on the system.
+- **Manual review scope.** The automated suite does not cover screen reader output (VoiceOver, NVDA, JAWS), Windows High Contrast / forced-colors mode, or 200%/400% zoom and reflow. Review these in the product that ships the components before claiming conformance.
 - Keyboard behaviour is tested for the flows covered by the tests above, not exhaustively for every component and option.
 - Content-level criteria (alt text, headings, link text, form instructions) depend on how products use the components.
 

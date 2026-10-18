@@ -4,11 +4,11 @@
 
 Binary or mixed (indeterminate) choice. 18px box with a 38px pointer target.
 
-|           |                                                                                                                          |
-| --------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Forms/Checkbox` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-forms-checkbox--docs)) |
-| Figma     | [Checkbox component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-278) (node `15:278`)             |
-| Source    | [`packages/ui/src/components/checkbox`](./)                                                                              |
+|           |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Forms/Checkbox`](https://storybook.cesarfonseca.dev/?path=/docs/components-forms-checkbox--docs) |
+| Figma     | [Checkbox component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=15-278) (node `15:278`)  |
+| Source    | [`packages/ui/src/components/checkbox`](./)                                                                   |
 
 ## Import
 

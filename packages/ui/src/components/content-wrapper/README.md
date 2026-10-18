@@ -4,11 +4,11 @@
 
 Typography for long-form content you don't control (Markdown, CMS): headings, links, lists, quotes, code and images styled at a readable measure (size.content.prose).
 
-|           |                                                                                                                                          |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Layout/Content Wrapper` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-layout-content-wrapper--docs)) |
-| Figma     | [Content Wrapper component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-745) (node `26:745`)                      |
-| Source    | [`packages/ui/src/components/content-wrapper`](./)                                                                                       |
+|           |                                                                                                                               |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Layout/Content Wrapper`](https://storybook.cesarfonseca.dev/?path=/docs/components-layout-content-wrapper--docs) |
+| Figma     | [Content Wrapper component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=26-745) (node `26:745`)           |
+| Source    | [`packages/ui/src/components/content-wrapper`](./)                                                                            |
 
 ## Import
 

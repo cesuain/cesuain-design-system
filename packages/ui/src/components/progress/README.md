@@ -4,11 +4,11 @@
 
 Determinate or indeterminate (value=null) progress bar. Needs an accessible name via aria-label or aria-labelledby. Indeterminate motion respects prefers-reduced-motion.
 
-|           |                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Feedback/Progress` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-feedback-progress--docs)) |
-| Figma     | [Progress component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-531) (node `20:531`)                   |
-| Source    | [`packages/ui/src/components/progress`](./)                                                                                    |
+|           |                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Feedback/Progress`](https://storybook.cesarfonseca.dev/?path=/docs/components-feedback-progress--docs) |
+| Figma     | [Progress component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=20-531) (node `20:531`)        |
+| Source    | [`packages/ui/src/components/progress`](./)                                                                         |
 
 ## Import
 

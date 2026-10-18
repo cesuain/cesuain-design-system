@@ -4,11 +4,11 @@
 
 Desktop-style persistent menu bar (role=menubar). Arrow keys move between menus; menus use the shared Menu Item rows.
 
-|           |                                                                                                                                  |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Storybook | `Components/Navigation/Menubar` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-navigation-menubar--docs)) |
-| Figma     | [Menubar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-567) (node `18:567`)                      |
-| Source    | [`packages/ui/src/components/menubar`](./)                                                                                       |
+|           |                                                                                                                       |
+| --------- | --------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Navigation/Menubar`](https://storybook.cesarfonseca.dev/?path=/docs/components-navigation-menubar--docs) |
+| Figma     | [Menubar component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=18-567) (node `18:567`)           |
+| Source    | [`packages/ui/src/components/menubar`](./)                                                                            |
 
 ## Import
 

@@ -8,11 +8,11 @@ The file is the design counterpart of `@cesuain/tokens` and `@cesuain/ui`. It wa
 
 The file has three pages. The Figma Starter plan allows only three pages per file, so related content is grouped into large boards rather than one page per component.
 
-| Page                      | Contents                                                                                                                                |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 00 — Cover                | [Cover](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=5-138): name, version (0.1.0), status (In development), maintainer. |
-| 01 — Foundations & Tokens | One board per foundation, rendered from the variables and styles.                                                                       |
-| 02 — Components           | One board per category; each holds a native component set per component.                                                                |
+| Page                      | Contents                                                                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 00 — Cover                | [Cover](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=5-138): name, version (1.0.0), status (Stable), maintainer. |
+| 01 — Foundations & Tokens | One board per foundation, rendered from the variables and styles.                                                               |
+| 02 — Components           | One board per category; each holds a native component set per component.                                                        |
 
 ### Foundation boards
 
@@ -66,7 +66,7 @@ Counts: 164 primitives, 53 theme colors per theme, 41 semantic dimensions. All v
 
 Code is the source of truth. **Nothing synchronizes automatically.** Edits made in Figma do not flow back to code, and code changes do not reach Figma until someone runs the steps below.
 
-1. Change tokens in `packages/tokens/src` and run `pnpm tokens:build`. This regenerates `packages/tokens/json/figma-variables.json`: collections and variables (with aliases, scopes, descriptions and the CSS variable used as WEB code syntax), text styles and effect styles. The JSON describes **Theme** as one collection with Dark and Light modes; on the Starter plan it is applied as two collections (see Limitations).
+1. Change tokens in `packages/tokens/src` and run `pnpm tokens:build`. This regenerates `packages/tokens/json/figma-variables.json`: collections and variables (with aliases, scopes, descriptions and the CSS variable used as WEB code syntax), text styles and effect styles. The JSON describes **Theme** as one collection with Dark and Light modes; on the Starter plan it is applied as two collections (see Plan constraints).
 2. With the Figma MCP server connected, ask an agent to apply `figma-variables.json` to the file. It updates existing variables and styles by name and creates missing ones, and must not delete anything it cannot match.
 3. When a component's API changes, update its component set: variants mirror the cva variants in `*.variants.ts` or the component file.
 4. Run `pnpm docs:generate` if node IDs or component names changed, then update `component-map.json` from the IDs the Figma API returned.
@@ -74,12 +74,12 @@ Code is the source of truth. **Nothing synchronizes automatically.** Edits made 
 
 `pnpm docs:check` verifies that every component directory has an entry in `component-map.json` with a well-formed node ID and the right Storybook title. It cannot verify that the node still exists in Figma, which needs Figma access.
 
-## Limitations
+## Plan constraints
 
-- **Starter plan:** three pages per file, and one mode per variable collection. The light theme therefore lives in a separate **Theme (Light)** collection instead of a second mode of **Theme**. To preview a component in light mode, rebind or swap the collection. Moving to a paid plan would allow merging them into one two-mode collection.
+- **Starter plan:** three pages per file, and one mode per variable collection. The light theme therefore lives in a separate **Theme (Light)** collection instead of a second mode of **Theme**. To preview a component in light mode, rebind or swap the collection. A paid plan allows merging them into one two-mode collection.
 - **Motion tokens** (durations, easings) are not exported as Figma variables, because Figma variables have no duration or easing type. They are documented on the Motion board.
 - **Composite typography and shadows** are styles, not variables, as Figma requires.
 - **Gradient stops** are bound to the `gradient/*` variables. Paint opacity on bound colors is set explicitly; Figma resets it when a variable is first bound.
 - **No file thumbnail.** Setting the file thumbnail is not supported by the MCP Plugin API, so the cover is not set as the thumbnail.
-- **No Code Connect mappings.** Component descriptions and this index link Figma to code instead.
-- **Interactive prototypes are not built.** States are shown as variants.
+- **Code links.** Component descriptions and this index link Figma to code; Code Connect is not used.
+- **States as variants.** Interaction states are documented as variants rather than prototype flows.

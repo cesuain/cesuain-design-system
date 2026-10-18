@@ -2,13 +2,13 @@
 
 # Card
 
-Container for a unit of content. surface is the site default (layered gradient), glass for content over imagery, solid for dense UIs, gradient border for featured items. interactive adds hover lift.
+Container for a unit of content. surface is the default (layered gradient), glass for content over imagery, solid for dense UIs, gradient border for featured items. interactive adds hover lift.
 
-|           |                                                                                                                                |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Storybook | `Components/Data Display/Card` (local: [localhost:6006](http://localhost:6006/?path=/docs/components-data-display-card--docs)) |
-| Figma     | [Card component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-572) (node `24:572`)                       |
-| Source    | [`packages/ui/src/components/card`](./)                                                                                        |
+|           |                                                                                                                     |
+| --------- | ------------------------------------------------------------------------------------------------------------------- |
+| Storybook | [`Components/Data Display/Card`](https://storybook.cesarfonseca.dev/?path=/docs/components-data-display-card--docs) |
+| Figma     | [Card component set](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=24-572) (node `24:572`)            |
+| Source    | [`packages/ui/src/components/card`](./)                                                                             |
 
 ## Import
 
