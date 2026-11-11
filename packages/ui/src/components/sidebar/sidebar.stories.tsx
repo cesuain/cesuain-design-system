@@ -176,7 +176,7 @@ function AppShell(props: Pick<SidebarProps, "variant" | "collapsible">) {
       <SidebarInset>
         <header className="flex h-14 items-center gap-2 border-b border-border px-4">
           <SidebarTrigger />
-          <Separator orientation="vertical" className="h-4" />
+          <Separator orientation="vertical" className="h-4 self-center" />
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
