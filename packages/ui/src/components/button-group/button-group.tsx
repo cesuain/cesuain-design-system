@@ -13,7 +13,7 @@ export const buttonGroupVariants = cva(
         horizontal:
           "[&>*:not(:first-child)]:rounded-l-none [&>*:not(:last-child)]:rounded-r-none [&>[data-variant=outline]:not(:first-child)]:border-l-0",
         vertical:
-          "flex-col [&>*:not(:first-child)]:rounded-t-none [&>*:not(:last-child)]:rounded-b-none [&>[data-variant=outline]:not(:first-child)]:border-t-0",
+          "flex-col [&>*:first-child]:rounded-t-item [&>*:last-child]:rounded-b-item [&>*:not(:first-child)]:rounded-t-none [&>*:not(:last-child)]:rounded-b-none [&>[data-variant=outline]:not(:first-child)]:border-t-0",
       },
     },
     defaultVariants: { orientation: "horizontal" },

@@ -29,8 +29,8 @@ export const SplitButton: Story = {
   render: (args) => (
     <ButtonGroup {...args}>
       <Button>Publish</Button>
-      <ButtonGroupSeparator className="bg-primary-foreground/20" />
-      <IconButton variant="default" label="More publish options" icon={<ChevronDown />} />
+      <ButtonGroupSeparator className="bg-[color-mix(in_oklab,var(--color-primary-foreground)_20%,var(--color-primary))]" />
+      <IconButton variant="default" size="lg" label="More publish options" icon={<ChevronDown />} />
     </ButtonGroup>
   ),
 };
