@@ -4,6 +4,14 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-10
+
+### Fixed
+
+- `ButtonGroup` vertical orientation rounds its first and last items with the `item` radius instead of the pill `control` radius.
+- Button Group Split Button story: the chevron matches the button height and the divider is a solid line instead of a see-through gap.
+- Sidebar story: the header separator is centred vertically next to the breadcrumb.
+
 ## [1.0.0] - 2026-10-18
 
 The stable release. The token names, component APIs and stylesheet entry point are now covered by SemVer: only a major release removes or renames them. [cesarfonseca.dev](https://cesarfonseca.dev) runs on this release.
@@ -49,6 +57,7 @@ First published release of `@cesuain/tokens` and `@cesuain/ui`.
   - Playwright smoke tests against the static Storybook.
   - GitHub Actions CI.
 
-[Unreleased]: https://github.com/cesuain/cesuain-design-system/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/cesuain/cesuain-design-system/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/cesuain/cesuain-design-system/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/cesuain/cesuain-design-system/releases/tag/v1.0.0
 [0.1.0]: https://github.com/cesuain/cesuain-design-system/commit/80f799c

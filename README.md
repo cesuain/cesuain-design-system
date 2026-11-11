@@ -4,7 +4,7 @@
 
 |           |                                                                                                                                                                    |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Version   | **1.0.0** (stable)                                                                                                                                                 |
+| Version   | **1.0.1** (stable)                                                                                                                                                 |
 | Packages  | [`@cesuain/tokens`](https://www.npmjs.com/package/@cesuain/tokens) · [`@cesuain/ui`](https://www.npmjs.com/package/@cesuain/ui) · `@cesuain/docs` (Storybook site) |
 | Storybook | [storybook.cesarfonseca.dev](https://storybook.cesarfonseca.dev)                                                                                                   |
 | Figma     | [Cesuain Design System](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb)                                                                                       |
