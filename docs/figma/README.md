@@ -10,7 +10,7 @@ The file has three pages. The Figma Starter plan allows only three pages per fil
 
 | Page                      | Contents                                                                                                                        |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| 00 — Cover                | [Cover](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=5-138): name, version (1.0.0), status (Stable), maintainer. |
+| 00 — Cover                | [Cover](https://www.figma.com/design/WujcogDvZk4Ds73gHwmvDb?node-id=5-138): name, version (1.0.1), status (Stable), maintainer. |
 | 01 — Foundations & Tokens | One board per foundation, rendered from the variables and styles.                                                               |
 | 02 — Components           | One board per category; each holds a native component set per component.                                                        |
 

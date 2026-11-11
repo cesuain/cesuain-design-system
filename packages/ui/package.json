@@ -1,6 +1,6 @@
 {
   "name": "@cesuain/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components for the Cesuain Design System, built on shadcn/ui, Radix UI and Tailwind CSS v4.",
   "license": "MIT",
   "keywords": [
